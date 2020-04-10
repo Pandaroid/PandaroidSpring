@@ -3,4 +3,9 @@ com/pandaroid/springframework/annotation/PandaroidRequestMapping.class
 com/pandaroid/springframework/annotation/PandaroidController.class
 com/pandaroid/springframework/annotation/PandaroidService.class
 com/pandaroid/springframework/annotation/PandaroidRequestParam.class
+com/pandaroid/demo/service/IQueryService.class
+com/pandaroid/demo/service/impl/QueryService.class
+com/pandaroid/demo/action/MyAction.class
 com/pandaroid/springframework/webmvc/servlet/PandaroidDispatcherServlet.class
+com/pandaroid/demo/service/IModifyService.class
+com/pandaroid/demo/service/impl/ModifyService.class
