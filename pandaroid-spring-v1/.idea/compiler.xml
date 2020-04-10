@@ -9,5 +9,8 @@
         <module name="pandaroid-spring-v1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pandaroid-spring-v1" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
