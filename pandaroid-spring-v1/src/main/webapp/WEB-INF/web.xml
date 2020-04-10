@@ -7,7 +7,7 @@
     <display-name>Pandaroid Web Application</display-name>
     <servlet>
         <servlet-name>pandaroid-mvc</servlet-name>
-        <servlet-class>com.pandaroid.spring.framework.webmvc.servlet.PandaroidDispatcherServlet</servlet-class>
+        <servlet-class>com.pandaroid.springframework.webmvc.servlet.PandaroidDispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath:application.properties</param-value>

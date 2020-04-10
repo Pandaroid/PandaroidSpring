@@ -1,4 +1,4 @@
-package com.pandaroid.spring.framework.webmvc.servlet;
+package com.pandaroid.springframework.webmvc.servlet;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
@@ -20,6 +20,6 @@ public class PandaroidDispatcherServlet extends HttpServlet {
 
     @Override
     public void init(ServletConfig config) throws ServletException {
-
+        System.out.println("[PandaroidDispatcherServlet] init");
     }
 }
