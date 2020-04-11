@@ -1,9 +1,9 @@
-package com.pandaroid.demo.service.impl;
+package com.pandaroid.demo.service.impl.same;
 
 import com.pandaroid.demo.service.IModifyService;
 import com.pandaroid.springframework.annotation.PandaroidService;
 
-@PandaroidService
+@PandaroidService("sameModifyService")
 public class ModifyService implements IModifyService {
 
     public String add(String name,String addr) {

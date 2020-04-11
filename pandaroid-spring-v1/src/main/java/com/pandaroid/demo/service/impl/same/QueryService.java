@@ -1,4 +1,4 @@
-package com.pandaroid.demo.service.impl;
+package com.pandaroid.demo.service.impl.same;
 
 import com.pandaroid.demo.service.IQueryService;
 import com.pandaroid.springframework.annotation.PandaroidService;
@@ -6,7 +6,7 @@ import com.pandaroid.springframework.annotation.PandaroidService;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@PandaroidService
+@PandaroidService("sameQueryService")
 public class QueryService implements IQueryService {
     public String query(String name) {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
