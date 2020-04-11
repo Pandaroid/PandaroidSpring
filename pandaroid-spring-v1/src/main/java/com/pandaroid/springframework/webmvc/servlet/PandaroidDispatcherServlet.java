@@ -1,5 +1,9 @@
 package com.pandaroid.springframework.webmvc.servlet;
 
+import com.pandaroid.springframework.annotation.PandaroidController;
+import com.pandaroid.springframework.annotation.PandaroidService;
+import com.sun.xml.internal.ws.util.ASCIIUtility;
+import com.sun.xml.internal.ws.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,9 +16,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Properties;
+import java.util.*;
 
 public class PandaroidDispatcherServlet extends HttpServlet {
     /**
@@ -70,12 +72,68 @@ public class PandaroidDispatcherServlet extends HttpServlet {
 
     }
 
+    /**
+     * ioc : IoC 容器，默认 key 是类名首字母小写 beanName ，value 是对应的实例对象 instance
+     */
+    private Map<String, Object> ioc = new HashMap<String, Object>();
     private void doInitIoc() {
         // 如果 classNames 中什么都没有，则不做 IoC
         if(classNames.isEmpty()) {
             return ;
         }
-        // 迭代 classNames ，反射实例化，分 beanName 、className 、interfaceName 存入 IoC 容器中
+        // 迭代 classNames ，反射实例化，分 PandaroidController 、PandaroidService 存入 IoC 容器中
+        for(String className : classNames) {
+            try {
+                Class<?> clazz = Class.forName(className);
+                // 如果没有标记为 PandaroidController 或 PandaroidService ，则不需要 IoC 反射实例化
+                // PandaroidController 和 PandaroidService 在下面进行 IoC 实例化，放入 IoC 容器 ioc 中
+                String beanName = toLowerFirstCase(clazz.getSimpleName());
+                Object instance = clazz.newInstance();
+                if(clazz.isAnnotationPresent(PandaroidController.class)) {
+                    // 因为 PandaroidController 不用 DI 到其他 Bean 中，所以这里直接实例化保存入 IoC 容器 ioc 中即可
+                    ioc.put(beanName, instance);
+                    continue;
+                }
+                if(clazz.isAnnotationPresent(PandaroidService.class)) {
+                    // PandaroidService 需要 DI 到其他 Bean 中，如：其他 PandaroidController 或 PandaroidService
+                    // 所以，PandaroidService 需要分三种情况处理：
+                    // 1. 用户自定义的 PandaroidService 名称：解决在不同 package 下出现相同的类名。让用户可以自己定义一个全局唯一的名字
+                    String customeBeanName = clazz.getAnnotation(PandaroidService.class).value();
+                    // 如果 customeBeanName 不为空，则用 customeBeanName 做 beanName
+                    if(null != customeBeanName && !("".equals(customeBeanName.trim()))) {
+                        beanName = customeBeanName;
+                    }
+                    // 2. 默认的类名首字母小写
+                    ioc.put(beanName, instance);
+                    // 3. 该 Service 的 Interface 名：一个接口如果有多个实现类呢？注入哪一个？如果只有一个就默认选择那一个，如果有多个则抛异常
+                    // 首先获取 clazz 的所有接口，进行反射
+                    for(Class<?> clazzInterface : clazz.getInterfaces()) {
+                        if(ioc.containsKey(clazzInterface.getName())) {
+                            throw new Exception("The IoC key [" + clazzInterface.getName() + "] already exists! Please check the duplicated one(s)!");
+                        }
+                        ioc.put(clazzInterface.getName(), instance);
+                    }
+                    // continue;
+                }
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    private String toLowerFirstCase(String simpleName) {
+        char[] chars = simpleName.toCharArray();
+        char aUpper = 'A';
+        char zUpper = 'Z';
+        char aLower = 'a';
+        // 首字母在 A 和 Z 之间的大写字母，进行首字母小写转换
+        if(chars[0] >= aUpper && chars[0] <= zUpper) {
+            // 首字母 +（小写 - 大写）差值，就可以从大写字母转为小写字母
+            chars[0] += (aLower - aUpper);
+        }
+        // 转回 String
+        return String.valueOf(chars);
     }
 
     private List<String> classNames = new ArrayList<String>();
