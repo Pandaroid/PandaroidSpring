@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d14f656-b5fc-4df5-9826-c1e23e50f6e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pandaroid/demo/service/impl/same/ModifyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pandaroid/demo/service/impl/same/QueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PandaroidSpringTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pandaroid/demo/service/impl/ModifyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pandaroid/demo/service/impl/ModifyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pandaroid/demo/service/impl/QueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pandaroid/demo/service/impl/QueryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/webmvc/servlet/PandaroidDispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/webmvc/servlet/PandaroidDispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pandaroid/demo/service/impl/ModifyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pandaroid/demo/service/impl/ModifyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pandaroid/demo/service/impl/QueryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pandaroid/demo/service/impl/QueryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pandaroid/springframework/webmvc/servlet/PandaroidDispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pandaroid/springframework/webmvc/servlet/PandaroidDispatcherServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -46,6 +53,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/pandaroid/demo/service/impl/same" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="PandaroidSpringTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PandaroidSpringTests" />
+      <module name="pandaroid-spring-v1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PandaroidSpringTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -57,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586535349882</updated>
       <workItem from="1586535354357" duration="2337000" />
-      <workItem from="1586574081071" duration="5035000" />
+      <workItem from="1586574081071" duration="10067000" />
     </task>
     <servers />
   </component>
@@ -68,22 +89,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="695" key="GridCell.Tab.0.bottom" timestamp="1586538402592">
+    <state width="1878" height="695" key="GridCell.Tab.0.bottom" timestamp="1586593816804">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="695" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586538402592" />
-    <state width="1878" height="695" key="GridCell.Tab.0.center" timestamp="1586538402591">
+    <state width="1878" height="695" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586593816804" />
+    <state width="1878" height="695" key="GridCell.Tab.0.center" timestamp="1586593816803">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="695" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586538402591" />
-    <state width="1878" height="695" key="GridCell.Tab.0.left" timestamp="1586538402590">
+    <state width="1878" height="695" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586593816803" />
+    <state width="1878" height="695" key="GridCell.Tab.0.left" timestamp="1586593816802">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="695" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586538402590" />
-    <state width="1878" height="695" key="GridCell.Tab.0.right" timestamp="1586538402592">
+    <state width="1878" height="695" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586593816802" />
+    <state width="1878" height="695" key="GridCell.Tab.0.right" timestamp="1586593816804">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="695" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586538402592" />
+    <state width="1878" height="695" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586593816804" />
+    <state x="498" y="202" key="Maven.ArtifactSearchDialog" timestamp="1586593172458">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="498" y="202" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586593172458" />
     <state x="448" y="121" key="SettingsEditor" timestamp="1586535691223">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

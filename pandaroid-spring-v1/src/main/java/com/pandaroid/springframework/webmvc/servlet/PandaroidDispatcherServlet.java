@@ -1,9 +1,10 @@
 package com.pandaroid.springframework.webmvc.servlet;
 
+import com.pandaroid.springframework.annotation.PandaroidAutowired;
 import com.pandaroid.springframework.annotation.PandaroidController;
+import com.pandaroid.springframework.annotation.PandaroidRequestMapping;
 import com.pandaroid.springframework.annotation.PandaroidService;
-import com.sun.xml.internal.ws.util.ASCIIUtility;
-import com.sun.xml.internal.ws.util.StringUtils;
+import com.sun.deploy.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,6 +16,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.net.URL;
 import java.util.*;
 
@@ -57,19 +60,100 @@ public class PandaroidDispatcherServlet extends HttpServlet {
         // AOP 应该在 DI 之前
         // 因为 AOP 以后是生成新的代理对象，然后进行 DI 全新的代理对象，而不是原本的实例对象
         // 这里 DI 注入给的目标对象是代理对象，被 DI 注入给目标对象属性的 IoC 中的对象也应是代理对象
+        // 4. 依赖注入 DI
         System.out.println("[PandaroidDispatcherServlet init] 4. 依赖注入 DI");
         doDiAutowired();
+        // 5. 初始化 MVC HandlerMappting
         System.out.println("[PandaroidDispatcherServlet init] 5. 初始化 MVC HandlerMapping");
         doInitHandlerMapping();
         System.out.println("[PandaroidDispatcherServlet init] init 完毕。Started Pandaroid Spring");
     }
 
+    /**
+     * 实际 Spring 是以 ArrayList 保存 handlerMapping
+     * 原因：涉及到正则匹配 url ，用 Map 就没有优势了，还是用 ArrayList 更合适
+     * 我们也可以看到其他如 Golang 、Node.js 的 Web 框架中，对于 router 也有类似的涉及：按顺序正则匹配第一个的
+     */
+    private Map<String, Method> handlerMapping = new HashMap<String, Method>();
     private void doInitHandlerMapping() {
-
+        if(ioc.isEmpty()) {
+            return ;
+        }
+        // 迭代 IoC 容器中的 Bean ，处理 PandaroidController 注解的 Action 其中的 PandaroidRequestMapping 注解
+        for (Map.Entry<String, Object> iocEntry : ioc.entrySet()) {
+            Class<?> iocBeanClazz = iocEntry.getValue().getClass();
+            // 如果当前 Bean 不是 PandaroidController ，则不用处理
+            if(!iocBeanClazz.isAnnotationPresent(PandaroidController.class)) {
+                continue;
+            }
+            // 当前 Bean 是 PandaroidController ，处理 PandaroidRequestMapping
+            // 先处理定义在 Class 上的 PandaroidRequestMapping
+            String beanClazzUrl = "";
+            if(iocBeanClazz.isAnnotationPresent(PandaroidRequestMapping.class)) {
+                beanClazzUrl = iocBeanClazz.getAnnotation(PandaroidRequestMapping.class).value();
+            }
+            // 再处理定义在 method 上的 PandaroidRequestMapping
+            Method[] beanMethods = iocBeanClazz.getMethods();
+            // 没有 beanMethods ，则相当于没有定义具体的 handler ，则没有 handlerMapping
+            if(null == beanMethods || beanMethods.length == 0) {
+                continue;
+            }
+            // 有 beanMethods ，迭代处理带 PandaroidRequestMapping 的项
+            for (Method beanMethod : beanMethods) {
+                // 没有注解 PandaroidRequestMapping 的方法，不用处理
+                if(!beanMethod.isAnnotationPresent(PandaroidRequestMapping.class)) {
+                    continue;
+                }
+                // 注解了 PandaroidRequestMapping 的方法，取 value 看 url ，跟前面的 beanClazzUrl 拼接完整的 url
+                String beanMethodUrl = beanMethod.getAnnotation(PandaroidRequestMapping.class).value();
+                // 如果 beanMethodUrl 为空，则没有具体的 url 对应处理，跳过（或者抛出异常？）
+                if(null == beanMethodUrl || "".equals(beanMethodUrl.trim())) {
+                    continue;
+                }
+                // beanMethodUrl 不为空，则进行完整 url 拼接
+                String hmUrl = beanClazzUrl + "/" + beanMethodUrl;
+                // 这里正则处理，将 hmUrl 中多个 / 处理为单个 /
+                hmUrl = hmUrl.replaceAll("/+", "/");
+                // 以 hmUrl 为 key ，以 beanMethod 为 value ，存入 HandlerMapping
+                // 处理的时候，根据请求 url 取出对应的 beanMethod ，进行 invoke
+                handlerMapping.put(hmUrl, beanMethod);
+            }
+        }
     }
 
     private void doDiAutowired() {
-
+        if(ioc.isEmpty()) {
+            return ;
+        }
+        // 从 IoC 容器中取出每一个 Bean（iocEntry.getValue()），然后看每一个 Bean 的 Field（iocBeanField）是否注解了 PandaroidAutowired ，
+        // 根据该注解从 IoC 容器中获取相应的 Bean 进行注入
+        for (Map.Entry<String, Object> iocEntry : ioc.entrySet()) {
+            for (Field iocBeanField : iocEntry.getValue().getClass().getDeclaredFields()) {
+                // 如果没有注解 PandaroidAutowired ，则不需要注入，直接跳过看下一个 iocBeanField
+                if(!iocBeanField.isAnnotationPresent(PandaroidAutowired.class)) {
+                    continue;
+                }
+                // 有注解 PandaroidAutowired ，需要得到应当 DI 的 beanName
+                // 先看注解 PandaroidAutowired 是否指定了 beanName ，如自定义的 beanName（PandaroidService 自定义 beanName）
+                String beanName = iocBeanField.getAnnotation(PandaroidAutowired.class).value();
+                // 若注解 PandaroidAutowired 未指定 beanName ，则取当前 iocBeanField 类型 Type（Class 名（或 Interface 名））做 beanName
+                if(null == beanName || "".equals(beanName.trim())) {
+                    beanName = iocBeanField.getType().getName();
+                }
+                // trim 一下，这里 beanName 已经可以确定不为 null
+                beanName = beanName.trim();
+                System.out.println("[PandaroidDispatcherServlet doDiAutowired] beanName: " + beanName);
+                // DI 注入 Bean
+                iocBeanField.setAccessible(true);
+                try {
+                    // ioc.get(beanName) 获取到 IoC 容器中 beanName 对应的 Bean 实例
+                    // 如果 beanName 是接口的全限定名，则 IoC 容器中在 doInitIoc() 中也是以接口的全限定名作为 key 放入的具体实例，所以这里能拿出来
+                    iocBeanField.set(iocEntry.getValue(), ioc.get(beanName));
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 
     /**
@@ -101,7 +185,7 @@ public class PandaroidDispatcherServlet extends HttpServlet {
                     String customeBeanName = clazz.getAnnotation(PandaroidService.class).value();
                     // 如果 customeBeanName 不为空，则用 customeBeanName 做 beanName
                     if(null != customeBeanName && !("".equals(customeBeanName.trim()))) {
-                        beanName = customeBeanName;
+                        beanName = customeBeanName.trim();
                     }
                     // 2. 默认的类名首字母小写
                     ioc.put(beanName, instance);
