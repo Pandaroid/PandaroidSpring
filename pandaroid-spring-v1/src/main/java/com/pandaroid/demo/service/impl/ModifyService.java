@@ -6,14 +6,17 @@ import com.pandaroid.springframework.annotation.PandaroidService;
 @PandaroidService
 public class ModifyService implements IModifyService {
 
-    public String add(String name,String addr) {
+    @Override
+    public String add(String name, String addr) {
         return "modifyService add,name=" + name + ",addr=" + addr;
     }
 
-    public String edit(Integer id,String name) {
+    @Override
+    public String edit(Integer id, String name) {
         return "modifyService edit,id=" + id + ",name=" + name;
     }
 
+    @Override
     public String remove(Integer id) {
         return "modifyService id=" + id;
     }

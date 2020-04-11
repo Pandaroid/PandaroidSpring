@@ -1,10 +1,6 @@
 package com.pandaroid.springframework.webmvc.servlet;
 
-import com.pandaroid.springframework.annotation.PandaroidAutowired;
-import com.pandaroid.springframework.annotation.PandaroidController;
-import com.pandaroid.springframework.annotation.PandaroidRequestMapping;
-import com.pandaroid.springframework.annotation.PandaroidService;
-import com.sun.deploy.util.StringUtils;
+import com.pandaroid.springframework.annotation.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,7 +13,9 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.lang.reflect.Parameter;
 import java.net.URL;
 import java.util.*;
 
@@ -33,14 +31,88 @@ public class PandaroidDispatcherServlet extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         System.out.println("[PandaroidDispatcherServlet doPost] Web 容器接收请求，进行委派 doDispatch");
         // 根据 url 从 handlerMapping 中找到一个对应的 method 并通过 resp 返回
-        doDispatch(req, resp);
+        try {
+            doDispatch(req, resp);
+        } catch (IOException e) {
+            e.printStackTrace();
+            resp.getWriter().write("500 Internal Server Error!!! Exception Detail: " + Arrays.toString(e.getStackTrace()));
+        }
     }
 
-    private void doDispatch(HttpServletRequest req, HttpServletResponse resp) {
-
+    /**
+     * 委派处理请求，进行响应
+     * http://localhost/web/add*.json?name=wangpei&addr=Pandaroid
+     * http://localhost/web/query.json?name=wangpei
+     * http://localhost/web/edit.json?name=wangpei&id=333
+     * @param req
+     * @param resp
+     * @throws IOException
+     */
+    private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        // 从 req 中取出 url
+        String url = req.getRequestURI();
+        String contextPath = req.getContextPath();
+        System.out.println("[PandaroidDispatcherServlet doDispatch] url: " + url);
+        System.out.println("[PandaroidDispatcherServlet doDispatch] contextPath: " + contextPath);
+        String mvcUrl = url.replace(contextPath, "").replaceAll("/+", "/");
+        System.out.println("[PandaroidDispatcherServlet doDispatch] mvcUrl: " + mvcUrl);
+        // url 跟 handlerMapping 中进行匹配
+        // 如果没有配置，那么 404
+        if(!handlerMapping.containsKey(mvcUrl)) {
+            resp.getWriter().write("404 Not Found!!!");
+            return ;
+        }
+        Method beanMethod = handlerMapping.get(mvcUrl);
+        // 匹配到的 beanMethod invoke
+        // 这里还需要对 Parameters 的注解 PandaroidRequestParam 进行处理
+        // 获取 Parameters beanMethod.getParameters() ，然后获取带注解的参数，根据注解进行参数填充
+        Map<String, String[]> reqParameterMap = req.getParameterMap();
+        Parameter[] beanMethodParameters = beanMethod.getParameters();
+        // 首先组织 Parameters
+        ArrayList<Object> beanMethodInvokeParameters = new ArrayList<>(beanMethodParameters.length);
+        // Object[] beanMethodInvokeParameters = new Object[]{req, resp};
+        beanMethodInvokeParameters.add(req);
+        beanMethodInvokeParameters.add(resp);
+        // 迭代 beanMethodParameters ，看是否注解 PandaroidRequestParam
+        for (Parameter beanMethodParameter : beanMethodParameters) {
+            // 没有 PandaroidRequestParam 注解，不用处理
+            if(!beanMethodParameter.isAnnotationPresent(PandaroidRequestParam.class)) {
+                continue;
+            }
+            // 有 PandaroidRequestParam 注解，取出 value 作为请求参数名（即 reqParameterMap 的 key），从 reqParameterMap 中获取请求参数值
+            String reqParamName = beanMethodParameter.getAnnotation(PandaroidRequestParam.class).value();
+            String[] reqParamValues = reqParameterMap.get(reqParamName);
+            // 将 reqParamValue 作为 args Object[] 数组的下一个值
+            // 这里暂时只处理单个参数，不处理 Array 类型参数
+            String reqParamStrValue = reqParamValues[0];
+            Object reqParamValue = reqParamStrValue;
+            System.out.println("[PandaroidDispatcherServlet doDispatch] beanMethodParameter.getType(): " + beanMethodParameter.getType());
+            System.out.println("[PandaroidDispatcherServlet doDispatch] beanMethodParameter.getType().equals(Integer.class): " + beanMethodParameter.getType().equals(Integer.class));
+            // 简单的对类型进行转化
+            if(beanMethodParameter.getType().equals(Integer.class)) {
+                reqParamValue = Integer.valueOf(reqParamStrValue);
+            }
+            // 存入参数数组
+            beanMethodInvokeParameters.add(reqParamValue);
+        }
+        // 暴力访问调用 beanMethod.invoke()
+        beanMethod.setAccessible(true);
+        // 这里获取 beanName ，通过当前 beanMethod 找到它被声明的 Class ，然后获取到 SimpleName（与初始化 IoC 的时候 PandaroidController 的 key 一致）
+        String beanName = toLowerFirstCase(beanMethod.getDeclaringClass().getSimpleName());
+        Object[] beanMethodInvokeParametersObjects = beanMethodInvokeParameters.toArray();
+        System.out.println("[PandaroidDispatcherServlet doDispatch] beanName: " + beanName);
+        System.out.println("[PandaroidDispatcherServlet doDispatch] beanMethodInvokeParametersObjects: " + Arrays.toString(beanMethodInvokeParametersObjects));
+        try {
+            beanMethod.invoke(ioc.get(beanName), beanMethodInvokeParametersObjects);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
+        // resp 返回结果
     }
 
     @Override
@@ -93,6 +165,8 @@ public class PandaroidDispatcherServlet extends HttpServlet {
                 beanClazzUrl = iocBeanClazz.getAnnotation(PandaroidRequestMapping.class).value();
             }
             // 再处理定义在 method 上的 PandaroidRequestMapping
+            // getMethods @return ：the array of {@code Method} objects representing the public methods of this class
+            // 这里使用 getMethods ，只获取 public 的方法来进行处理
             Method[] beanMethods = iocBeanClazz.getMethods();
             // 没有 beanMethods ，则相当于没有定义具体的 handler ，则没有 handlerMapping
             if(null == beanMethods || beanMethods.length == 0) {
@@ -111,12 +185,15 @@ public class PandaroidDispatcherServlet extends HttpServlet {
                     continue;
                 }
                 // beanMethodUrl 不为空，则进行完整 url 拼接
-                String hmUrl = beanClazzUrl + "/" + beanMethodUrl;
-                // 这里正则处理，将 hmUrl 中多个 / 处理为单个 /
-                hmUrl = hmUrl.replaceAll("/+", "/");
-                // 以 hmUrl 为 key ，以 beanMethod 为 value ，存入 HandlerMapping
+                String handlerMappingUrl = "/" + beanClazzUrl + "/" + beanMethodUrl;
+                // 这里正则处理，将 handlerMappingUrl 中多个 / 处理为单个 /
+                handlerMappingUrl = handlerMappingUrl.replaceAll("/+", "/");
+                // 以 handlerMappingUrl 为 key ，以 beanMethod 为 value ，存入 HandlerMapping
                 // 处理的时候，根据请求 url 取出对应的 beanMethod ，进行 invoke
-                handlerMapping.put(hmUrl, beanMethod);
+                handlerMapping.put(handlerMappingUrl, beanMethod);
+                // 打印
+                System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMapping.put(handlerMappingUrl, beanMethod) handlerMappingUrl: " + handlerMappingUrl);
+                System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMapping.put(handlerMappingUrl, beanMethod) beanMethod: " + beanMethod);
             }
         }
     }
@@ -169,9 +246,14 @@ public class PandaroidDispatcherServlet extends HttpServlet {
         for(String className : classNames) {
             try {
                 Class<?> clazz = Class.forName(className);
+                System.out.println("[PandaroidDispatcherServlet doInitIoc] clazz: " + clazz);
                 // 如果没有标记为 PandaroidController 或 PandaroidService ，则不需要 IoC 反射实例化
+                if(!clazz.isAnnotationPresent(PandaroidController.class) && !clazz.isAnnotationPresent(PandaroidService.class)) {
+                    continue;
+                }
                 // PandaroidController 和 PandaroidService 在下面进行 IoC 实例化，放入 IoC 容器 ioc 中
                 String beanName = toLowerFirstCase(clazz.getSimpleName());
+                System.out.println("[PandaroidDispatcherServlet doInitIoc] beanName: " + beanName);
                 Object instance = clazz.newInstance();
                 if(clazz.isAnnotationPresent(PandaroidController.class)) {
                     // 因为 PandaroidController 不用 DI 到其他 Bean 中，所以这里直接实例化保存入 IoC 容器 ioc 中即可
