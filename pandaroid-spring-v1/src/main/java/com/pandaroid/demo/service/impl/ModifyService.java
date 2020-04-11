@@ -18,7 +18,7 @@ public class ModifyService implements IModifyService {
 
     @Override
     public String remove(Integer id) {
-        return "modifyService id=" + id;
+        return "modifyService remove id=" + id;
     }
 
 }
