@@ -1,6 +1,7 @@
 package com.pandaroid.springframework.webmvc.servlet;
 
 import com.pandaroid.springframework.annotation.*;
+import com.pandaroid.springframework.context.PandaroidApplicationContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +20,11 @@ import java.lang.reflect.Parameter;
 import java.net.URL;
 import java.util.*;
 
+
+/**
+ * 职责：通过委派模式，负责任务调度、请求分发
+ * @author pandaroid
+ */
 public class PandaroidDispatcherServlet extends HttpServlet {
     /**
      * System.out.println 实际不用于输出日志，一般用 slf4j 、logback 输出到文件、定制格式和日志等级、异步输出日志等，以达到更佳的性能
@@ -54,7 +60,7 @@ public class PandaroidDispatcherServlet extends HttpServlet {
      */
     private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         // 从 req 中取出 url
-        String url = req.getRequestURI();
+        /*String url = req.getRequestURI();
         String contextPath = req.getContextPath();
         System.out.println("[PandaroidDispatcherServlet doDispatch] url: " + url);
         System.out.println("[PandaroidDispatcherServlet doDispatch] contextPath: " + contextPath);
@@ -98,7 +104,7 @@ public class PandaroidDispatcherServlet extends HttpServlet {
                 if(null != reqParamCustomeName && !("".equals(reqParamCustomeName.trim()))) {
                     reqParamName = reqParamCustomeName;
                 }
-            }*/
+            }*-/
             // 没有 PandaroidRequestParam 注解，直接跳过不处理
             if(!beanMethodParameter.isAnnotationPresent(PandaroidRequestParam.class)) {
                 continue;
@@ -134,16 +140,20 @@ public class PandaroidDispatcherServlet extends HttpServlet {
             e.printStackTrace();
         } catch (InvocationTargetException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 
+    private PandaroidApplicationContext applicationContext;
     @Override
-    public void init(ServletConfig config) throws ServletException {
+    public void init(ServletConfig config) {
         // 1. 加载配置文件
         String contextConfigLocation = config.getInitParameter("contextConfigLocation");
         System.out.println("[PandaroidDispatcherServlet init] 1. 加载配置文件 contextConfigLocation：" + contextConfigLocation);
         logger.info("[PandaroidDispatcherServlet init] 1. 加载配置文件 contextConfigLocation：{}", contextConfigLocation);
-        doLoadConfig(contextConfigLocation);
+        // 初始化 PandaroidApplicationContext ，Spring 的核心 IoC 容器，Bean 工厂
+        // 其构造方法应该有几个参数？
+        applicationContext = new PandaroidApplicationContext(contextConfigLocation);
+        /*doLoadConfig(contextConfigLocation);
         // 2. 扫描 scanPackage
         String scanPackage = contextConfig.getProperty("scanPackage");
         System.out.println("[PandaroidDispatcherServlet init] 2. 扫描 scan-package 下相关的类。scanPackage：" + scanPackage);
@@ -159,7 +169,7 @@ public class PandaroidDispatcherServlet extends HttpServlet {
         doDiAutowired();
         // 5. 初始化 MVC HandlerMappting
         System.out.println("[PandaroidDispatcherServlet init] 5. 初始化 MVC HandlerMapping");
-        doInitHandlerMapping();
+        doInitHandlerMapping();*/
         System.out.println("[PandaroidDispatcherServlet init] init 完毕。Started Pandaroid Spring");
     }
 
@@ -168,7 +178,7 @@ public class PandaroidDispatcherServlet extends HttpServlet {
      * 原因：涉及到正则匹配 url ，用 Map 就没有优势了，还是用 ArrayList 更合适
      * 我们也可以看到其他如 Golang 、Node.js 的 Web 框架中，对于 router 也有类似的涉及：按顺序正则匹配第一个的
      */
-    private Map<String, Method> handlerMapping = new HashMap<String, Method>();
+    /*private Map<String, Method> handlerMapping = new HashMap<String, Method>();
     private void doInitHandlerMapping() {
         if(ioc.isEmpty()) {
             return ;
@@ -218,9 +228,9 @@ public class PandaroidDispatcherServlet extends HttpServlet {
                 System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMapping.put(handlerMappingUrl, beanMethod) beanMethod: " + beanMethod);
             }
         }
-    }
+    }*/
 
-    private void doDiAutowired() {
+    /*private void doDiAutowired() {
         if(ioc.isEmpty()) {
             return ;
         }
@@ -253,12 +263,12 @@ public class PandaroidDispatcherServlet extends HttpServlet {
                 }
             }
         }
-    }
+    }*/
 
     /**
      * ioc : IoC 容器，默认 key 是类名首字母小写 beanName ，value 是对应的实例对象 instance
      */
-    private Map<String, Object> ioc = new HashMap<String, Object>();
+    /*private Map<String, Object> ioc = new HashMap<String, Object>();
     private void doInitIoc() {
         // 如果 classNames 中什么都没有，则不做 IoC
         if(classNames.isEmpty()) {
@@ -308,68 +318,6 @@ public class PandaroidDispatcherServlet extends HttpServlet {
                 e.printStackTrace();
             }
         }
-    }
+    }*/
 
-    private String toLowerFirstCase(String simpleName) {
-        char[] chars = simpleName.toCharArray();
-        char aUpper = 'A';
-        char zUpper = 'Z';
-        char aLower = 'a';
-        // 首字母在 A 和 Z 之间的大写字母，进行首字母小写转换
-        if(chars[0] >= aUpper && chars[0] <= zUpper) {
-            // 首字母 +（小写 - 大写）差值，就可以从大写字母转为小写字母
-            chars[0] += (aLower - aUpper);
-        }
-        // 转回 String
-        return String.valueOf(chars);
-    }
-
-    private List<String> classNames = new ArrayList<String>();
-    private void doScanPackageClasses(String scanPackage) {
-        String scanPackageFilePath = File.separator + scanPackage.replaceAll("\\.", File.separator);
-        System.out.println("[PandaroidDispatcherServlet doScanPackageClasses] scanPackageFilePath: " + scanPackageFilePath);
-        URL url = this.getClass().getClassLoader().getResource(scanPackageFilePath);
-        String urlFile = url.getFile();
-        System.out.println("[PandaroidDispatcherServlet doScanPackageClasses] urlFile: " + urlFile);
-        File classPath = new File(urlFile);
-        for(File file : classPath.listFiles()) {
-            // 下一级目录，递归
-            if(file.isDirectory()) {
-                doScanPackageClasses(scanPackage + "." + file.getName());
-                continue;
-            }
-            // 非目录，普通文件，如果是非 .class 文件？应该忽略吧
-            if(!file.getName().endsWith(".class")) {
-                continue;
-            }
-            // 非目录，并且是 .class 文件，进行缓存
-            String className = file.getName().replace(".class", "");
-            // 前面加上 scanPackage ，避免 className 重复
-            className = scanPackage + "." + className;
-            System.out.println("[PandaroidDispatcherServlet doScanPackageClasses] className: " + className);
-            // 可以通过 Class.forName(className) 反射出一个 Class 的实例
-            // 在初始化 IoC 容器的时候进行实例化，所以这里先缓存
-            classNames.add(className);
-        }
-    }
-
-    private Properties contextConfig = new Properties();
-    private void doLoadConfig(String contextConfigLocation) {
-        InputStream is = this.getClass().getClassLoader().getResourceAsStream(contextConfigLocation.replaceAll("classpath:", ""));
-        System.out.println("[PandaroidDispatcherServlet doLoadConfig] is: " + is);
-        try {
-            contextConfig.load(is);
-            System.out.println("[PandaroidDispatcherServlet doLoadConfig] contextConfig: " + contextConfig);
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if(is != null) {
-                try {
-                    is.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-    }
 }
