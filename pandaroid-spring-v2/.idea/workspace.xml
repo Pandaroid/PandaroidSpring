@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d14f656-b5fc-4df5-9826-c1e23e50f6e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/beans/config/PandaroidBeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/beans/support/PandaroidBeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/context/PandaroidApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandaroid-spring-v1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pandaroid-spring-v2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/webmvc/servlet/PandaroidDispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/webmvc/servlet/PandaroidDispatcherServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pandaroid/springframework/webmvc/servlet/PandaroidDispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pandaroid/springframework/webmvc/servlet/PandaroidDispatcherServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +43,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/pandaroid/demo/service/impl/same" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
@@ -56,7 +65,54 @@
   <component name="RunManager" selected="Maven.Unnamed">
     <configuration name="PandaroidSpringTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PandaroidSpringTests" />
-      <module name="pandaroid-spring-v1" />
+      <module name="pandaroid-spring-v2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="pandaroid-spring-v2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="pandaroid-spring-v2" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,6 +164,7 @@
       <workItem from="1586617100945" duration="2654000" />
       <workItem from="1586622668241" duration="476000" />
       <workItem from="1586661080271" duration="200000" />
+      <workItem from="1586666174248" duration="10194000" />
     </task>
     <servers />
   </component>
@@ -118,30 +175,34 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586619375666">
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586672143788">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586619375666" />
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586672143788" />
+    <state x="773" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1586688945179">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="773" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1586688945179" />
     <state width="985" height="646" key="DebuggerActiveHint" timestamp="1586618999817">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="985" height="646" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1586618999817" />
-    <state width="1878" height="381" key="GridCell.Tab.0.bottom" timestamp="1586623891212">
+    <state width="1878" height="381" key="GridCell.Tab.0.bottom" timestamp="1586682942099">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="381" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586623891212" />
-    <state width="1878" height="381" key="GridCell.Tab.0.center" timestamp="1586623891211">
+    <state width="1878" height="381" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586682942099" />
+    <state width="1878" height="381" key="GridCell.Tab.0.center" timestamp="1586682942098">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="381" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586623891211" />
-    <state width="1878" height="381" key="GridCell.Tab.0.left" timestamp="1586623891211">
+    <state width="1878" height="381" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586682942098" />
+    <state width="1878" height="381" key="GridCell.Tab.0.left" timestamp="1586682942096">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="381" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586623891211" />
-    <state width="1878" height="381" key="GridCell.Tab.0.right" timestamp="1586623891212">
+    <state width="1878" height="381" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586682942096" />
+    <state width="1878" height="381" key="GridCell.Tab.0.right" timestamp="1586682942099">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="381" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586623891212" />
+    <state width="1878" height="381" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586682942099" />
     <state width="1878" height="370" key="GridCell.Tab.1.bottom" timestamp="1586621130868">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -166,9 +227,24 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="498" y="202" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586593172458" />
-    <state x="448" y="121" key="SettingsEditor" timestamp="1586535691223">
+    <state x="448" y="121" key="SettingsEditor" timestamp="1586681618425">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586535691223" />
+    <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586681618425" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1586667680607">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586667680607" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/beans/support/PandaroidBeanDefinitionReader.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
