@@ -54,8 +54,9 @@ public class PandaroidDispatcherServlet extends HttpServlet {
      * http://localhost/web/query.json?name=wangpei
      * http://localhost/web/edit.json?name=wangpei&id=333
      * http://localhost/web/remove.json?id=222
-     * 增加 HandlerMapping 正则匹配以后：
+     * 增加 HandlerMapping 正则匹配以后（/web* 和 /add* 两段都可以正则匹配）：
      * http://localhost/web/addPandaroid.json?name=wangpei&addr=Pandaroid
+     * http://localhost/web3344/addPandaroid.json?name=wangpei&addr=Pandaroid
      * @param req
      * @param resp
      * @throws IOException
@@ -238,8 +239,7 @@ public class PandaroidDispatcherServlet extends HttpServlet {
                     continue;
                 }
                 // beanMethodUrl 不为空，则进行完整 url 拼接
-                String beanMethodUrlRegex = beanMethodUrl.replaceAll("\\*", ".*");
-                String handlerMappingUrlRegex = "/" + beanClazzUrl + "/" + beanMethodUrlRegex;
+                String handlerMappingUrlRegex = ("/" + beanClazzUrl + "/" + beanMethodUrl).replaceAll("\\*", ".*");
                 // 这里正则处理，将 handlerMappingUrl 中多个 / 处理为单个 /
                 handlerMappingUrlRegex = handlerMappingUrlRegex.replaceAll("/+", "/");
                 // 以 handlerMappingUrl 为 key ，以 beanMethod 为 value ，存入 HandlerMapping

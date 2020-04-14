@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @PandaroidController
-@PandaroidRequestMapping("/web")
+@PandaroidRequestMapping("/web*")
 public class MyAction {
     @PandaroidAutowired
     IModifyService modifyService;
