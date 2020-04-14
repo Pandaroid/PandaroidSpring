@@ -11,6 +11,7 @@ com/pandaroid/springframework/annotation/PandaroidService.class
 com/pandaroid/springframework/beans/PandaroidBeanWrapper.class
 com/pandaroid/springframework/annotation/PandaroidRequestParam.class
 com/pandaroid/springframework/context/PandaroidApplicationContext.class
+com/pandaroid/springframework/web/servlet/PandaroidHandlerMapping.class
 com/pandaroid/springframework/web/servlet/PandaroidDispatcherServlet.class
 com/pandaroid/demo/service/ISameModifyService.class
 com/pandaroid/demo/service/ISameQueryService.class

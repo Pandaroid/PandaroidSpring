@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 /**
  * @author pandaroid
  */
-public class PandaroidHandlerMappting {
+public class PandaroidHandlerMapping {
     /**
      * url ，后续考虑正则匹配
      */
@@ -18,6 +18,12 @@ public class PandaroidHandlerMappting {
      * method 对应的实例对象
      */
     private Object controller;
+
+    public PandaroidHandlerMapping(String url, Object controller, Method method) {
+        this.url = url;
+        this.controller = controller;
+        this.method = method;
+    }
 
     public String getUrl() {
         return url;

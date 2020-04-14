@@ -16,10 +16,7 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 
 /**
@@ -60,20 +57,14 @@ public class PandaroidDispatcherServlet extends HttpServlet {
      * @throws IOException
      */
     private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        // 从 req 中取出 url
-        String url = req.getRequestURI();
-        String contextPath = req.getContextPath();
-        System.out.println("[PandaroidDispatcherServlet doDispatch] url: " + url);
-        System.out.println("[PandaroidDispatcherServlet doDispatch] contextPath: " + contextPath);
-        String mvcUrl = url.replace(contextPath, "").replaceAll("/+", "/");
-        System.out.println("[PandaroidDispatcherServlet doDispatch] mvcUrl: " + mvcUrl);
-        // url 跟 handlerMapping 中进行匹配
+        // 先获取到 req 对应的 HandlerMapping
+        PandaroidHandlerMapping handlerMapping = doGetHandlerMapping(req);
         // 如果没有配置，那么 404
-        if(!handlerMapping.containsKey(mvcUrl)) {
+        if(null == handlerMapping) {
             resp.getWriter().write("404 Not Found!!!");
             return ;
         }
-        Method beanMethod = handlerMapping.get(mvcUrl);
+        Method beanMethod = handlerMapping.getMethod();
         // 匹配到的 beanMethod invoke
         // 这里还需要对 Parameters 的注解 PandaroidRequestParam 进行处理
         // 获取 Parameters beanMethod.getParameters() ，然后获取带注解的参数，根据注解进行参数填充
@@ -130,18 +121,39 @@ public class PandaroidDispatcherServlet extends HttpServlet {
         // 暴力访问调用 beanMethod.invoke()
         beanMethod.setAccessible(true);
         // 这里获取 beanName ，通过当前 beanMethod 找到它被声明的 Class ，然后获取到 SimpleName（与初始化 IoC 的时候 PandaroidController 的 key 一致）
-        String beanName = applicationContext.toLowerFirstCase(beanMethod.getDeclaringClass().getSimpleName());
+        // String beanName = applicationContext.toLowerFirstCase(beanMethod.getDeclaringClass().getSimpleName());
         Object[] beanMethodInvokeParametersObjects = beanMethodInvokeParameters.toArray();
-        System.out.println("[PandaroidDispatcherServlet doDispatch] beanName: " + beanName);
-        System.out.println("[PandaroidDispatcherServlet doDispatch] beanMethodInvokeParametersObjects: " + Arrays.toString(beanMethodInvokeParametersObjects));
+        // System.out.println("[PandaroidDispatcherServlet doDispatch] beanName: " + beanName);
+        // System.out.println("[PandaroidDispatcherServlet doDispatch] beanMethodInvokeParametersObjects: " + Arrays.toString(beanMethodInvokeParametersObjects));
         try {
             // beanMethod 中通过 resp 返回结果
-            beanMethod.invoke(applicationContext.getBean(beanName), beanMethodInvokeParametersObjects);
+            beanMethod.invoke(handlerMapping.getController(), beanMethodInvokeParametersObjects);
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
+    }
+
+    private PandaroidHandlerMapping doGetHandlerMapping(HttpServletRequest req) {
+        if(handlerMappings.isEmpty()) {
+            return null;
+        }
+        // 不为空，匹配
+        // 从 req 中取出 url
+        String url = req.getRequestURI();
+        String contextPath = req.getContextPath();
+        System.out.println("[PandaroidDispatcherServlet doDispatch] url: " + url);
+        System.out.println("[PandaroidDispatcherServlet doDispatch] contextPath: " + contextPath);
+        String mvcUrl = url.replace(contextPath, "").replaceAll("/+", "/");
+        System.out.println("[PandaroidDispatcherServlet doDispatch] mvcUrl: " + mvcUrl);
+        // url 跟 handlerMappings 中进行匹配
+        for (PandaroidHandlerMapping handlerMapping : handlerMappings) {
+            if(handlerMapping.getUrl().equals(mvcUrl)) {
+                return handlerMapping;
+            }
+        }
+        return null;
     }
 
     private PandaroidApplicationContext applicationContext;
@@ -179,7 +191,8 @@ public class PandaroidDispatcherServlet extends HttpServlet {
      * 原因：涉及到正则匹配 url ，用 Map 就没有优势了，还是用 ArrayList 更合适
      * 我们也可以看到其他如 Golang 、Node.js 的 Web 框架中，对于 router 也有类似的涉及：按顺序正则匹配第一个的
      */
-    private Map<String, Method> handlerMapping = new HashMap<String, Method>();
+    // private Map<String, Method> handlerMapping = new HashMap<String, Method>();
+    private List<PandaroidHandlerMapping> handlerMappings = new ArrayList<>();
     private void doInitHandlerMapping() {
         // applicationContext.getBeanDefinitionCount() 获得 IoC 容器中已经初始化的 BeanDefinition 的个数
         if(applicationContext.getBeanDefinitionCount() == 0) {
@@ -225,10 +238,12 @@ public class PandaroidDispatcherServlet extends HttpServlet {
                 handlerMappingUrl = handlerMappingUrl.replaceAll("/+", "/");
                 // 以 handlerMappingUrl 为 key ，以 beanMethod 为 value ，存入 HandlerMapping
                 // 处理的时候，根据请求 url 取出对应的 beanMethod ，进行 invoke
-                handlerMapping.put(handlerMappingUrl, beanMethod);
+                // handlerMapping.put(handlerMappingUrl, beanMethod);
+                handlerMappings.add(new PandaroidHandlerMapping(handlerMappingUrl, beanInstance, beanMethod));
                 // 打印
-                System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMapping.put(handlerMappingUrl, beanMethod) handlerMappingUrl: " + handlerMappingUrl);
-                System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMapping.put(handlerMappingUrl, beanMethod) beanMethod: " + beanMethod);
+                System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMappings.add handlerMappingUrl: " + handlerMappingUrl);
+                System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMappings.add beanInstance: " + beanInstance);
+                System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMappings.add beanMethod: " + beanMethod);
             }
         }
     }

@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d14f656-b5fc-4df5-9826-c1e23e50f6e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/web/servlet/PandaroidHandlerMappting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pandaroid-spring-v2-IoC&amp;DI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pandaroid-spring-v2-IoC&amp;DI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pandaroid-spring-v2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pandaroid-spring-v3-MVC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/webmvc/servlet/PandaroidDispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/web/servlet/PandaroidDispatcherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pandaroid/springframework/webmvc/servlet/PandaroidDispatcherServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/web/servlet/PandaroidDispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/web/servlet/PandaroidDispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/web/servlet/PandaroidHandlerMappting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pandaroid/springframework/web/servlet/PandaroidHandlerMapping.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +115,7 @@
       <workItem from="1586827498067" duration="10203000" />
       <workItem from="1586862637813" duration="2029000" />
       <workItem from="1586882502240" duration="10000" />
+      <workItem from="1586882744833" duration="1334000" />
     </task>
     <servers />
   </component>
@@ -135,10 +130,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586672143788" />
-    <state x="773" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1586882368429">
+    <state x="773" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1586882839148">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="773" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1586882368429" />
+    <state x="773" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1586882839148" />
     <state width="985" height="646" key="DebuggerActiveHint" timestamp="1586860898748">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
