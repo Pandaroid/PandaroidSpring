@@ -11,6 +11,7 @@ import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * 职责：IoC（完成 Bean 创建）、DI
@@ -62,17 +63,22 @@ public class PandaroidApplicationContext {
     private void doRegistBeanDefinitions(List<PandaroidBeanDefinition> beanDefinitions) throws Exception {
         for (PandaroidBeanDefinition beanDefinition : beanDefinitions) {
             // 检查：如果 beanDefinitionMap 中已经存在了，则抛出异常
-            if(beanDefinitionMap.containsKey(beanDefinition.getFactoryBeanName())) {
-                throw new Exception("[PandaroidApplicationContext doRegistBeanDefinitions] Duplicated key exists!!! beanDefinition.getFactoryBeanName(): " + beanDefinition.getFactoryBeanName());
+            String factoryBeanName = beanDefinition.getFactoryBeanName();
+            if(beanDefinitionMap.containsKey(factoryBeanName)) {
+                throw new Exception("[PandaroidApplicationContext doRegistBeanDefinitions] Duplicated key exists!!! factoryBeanName: " + factoryBeanName);
             }
             // 每个 beanDefinition 用于 getBean 中 IoC 和 DI 时，可以通过 beanName（自定义、首字母小写 SimpleName 、接口全限定类名）找到 beanDefinition
-            beanDefinitionMap.put(beanDefinition.getFactoryBeanName(), beanDefinition);
+            beanDefinitionMap.put(factoryBeanName, beanDefinition);
             // 检查：如果 beanDefinitionMap 中已经存在了，则抛出异常
-            if(beanDefinitionMap.containsKey(beanDefinition.getBeanClassName())) {
-                throw new Exception("[PandaroidApplicationContext doRegistBeanDefinitions] Duplicated key exists!!! beanDefinition.getBeanClassName(): " + beanDefinition.getBeanClassName());
+            String beanClassName = beanDefinition.getBeanClassName();
+            if(beanDefinitionMap.containsKey(beanClassName)) {
+                // 这里 continue 是因为如果是接口对应的实现类的，是多个 beanName 对应同一个 beanDefinition
+                // 上面 beanName 不会重复，正常情况下，但是这里是同样的 Bean 实例的 BeanClassName ，就会发生重复，所以 continue 忽略即可，或者放行覆盖（没有覆盖的必要，都是一样的效果）
+                continue;
+                // throw new Exception("[PandaroidApplicationContext doRegistBeanDefinitions] Duplicated key exists!!! beanClassName: " + beanClassName);
             }
             // 也可以通过 Bean 的全限定类名找到 beanDefinition
-            beanDefinitionMap.put(beanDefinition.getBeanClassName(), beanDefinition);
+            beanDefinitionMap.put(beanClassName, beanDefinition);
             // 以上，多个 key 可以索引到同一个单例的 BeanDefinition
         }
     }
@@ -220,5 +226,17 @@ public class PandaroidApplicationContext {
 
     public Object getBean(Class beanClass) {
         return getBean(beanClass.getName());
+    }
+
+    public String toLowerFirstCase(String simpleName) {
+        return beanDefinitionReader.toLowerFirstCase(simpleName);
+    }
+
+    public int getBeanDefinitionCount() {
+        return beanDefinitionMap.size();
+    }
+
+    public String[] getBeanDefinitionNames() {
+        return beanDefinitionMap.keySet().toArray(new String[getBeanDefinitionCount()]);
     }
 }

@@ -78,7 +78,7 @@ public class PandaroidBeanDefinitionReader {
         return beanDefinition;
     }
 
-    private String toLowerFirstCase(String simpleName) {
+    public String toLowerFirstCase(String simpleName) {
         char[] chars = simpleName.toCharArray();
         char aUpper = 'A';
         char zUpper = 'Z';

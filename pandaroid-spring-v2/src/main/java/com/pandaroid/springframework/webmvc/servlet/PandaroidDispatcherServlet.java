@@ -1,6 +1,8 @@
 package com.pandaroid.springframework.webmvc.servlet;
 
-import com.pandaroid.springframework.annotation.*;
+import com.pandaroid.springframework.annotation.PandaroidController;
+import com.pandaroid.springframework.annotation.PandaroidRequestMapping;
+import com.pandaroid.springframework.annotation.PandaroidRequestParam;
 import com.pandaroid.springframework.context.PandaroidApplicationContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,15 +12,14 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
-import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
-import java.net.URL;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**
@@ -60,7 +61,7 @@ public class PandaroidDispatcherServlet extends HttpServlet {
      */
     private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         // 从 req 中取出 url
-        /*String url = req.getRequestURI();
+        String url = req.getRequestURI();
         String contextPath = req.getContextPath();
         System.out.println("[PandaroidDispatcherServlet doDispatch] url: " + url);
         System.out.println("[PandaroidDispatcherServlet doDispatch] contextPath: " + contextPath);
@@ -104,7 +105,7 @@ public class PandaroidDispatcherServlet extends HttpServlet {
                 if(null != reqParamCustomeName && !("".equals(reqParamCustomeName.trim()))) {
                     reqParamName = reqParamCustomeName;
                 }
-            }*-/
+            }*/
             // 没有 PandaroidRequestParam 注解，直接跳过不处理
             if(!beanMethodParameter.isAnnotationPresent(PandaroidRequestParam.class)) {
                 continue;
@@ -129,18 +130,18 @@ public class PandaroidDispatcherServlet extends HttpServlet {
         // 暴力访问调用 beanMethod.invoke()
         beanMethod.setAccessible(true);
         // 这里获取 beanName ，通过当前 beanMethod 找到它被声明的 Class ，然后获取到 SimpleName（与初始化 IoC 的时候 PandaroidController 的 key 一致）
-        String beanName = toLowerFirstCase(beanMethod.getDeclaringClass().getSimpleName());
+        String beanName = applicationContext.toLowerFirstCase(beanMethod.getDeclaringClass().getSimpleName());
         Object[] beanMethodInvokeParametersObjects = beanMethodInvokeParameters.toArray();
         System.out.println("[PandaroidDispatcherServlet doDispatch] beanName: " + beanName);
         System.out.println("[PandaroidDispatcherServlet doDispatch] beanMethodInvokeParametersObjects: " + Arrays.toString(beanMethodInvokeParametersObjects));
         try {
             // beanMethod 中通过 resp 返回结果
-            beanMethod.invoke(ioc.get(beanName), beanMethodInvokeParametersObjects);
+            beanMethod.invoke(applicationContext.getBean(beanName), beanMethodInvokeParametersObjects);
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (InvocationTargetException e) {
             e.printStackTrace();
-        }*/
+        }
     }
 
     private PandaroidApplicationContext applicationContext;
@@ -166,10 +167,10 @@ public class PandaroidDispatcherServlet extends HttpServlet {
         // 这里 DI 注入给的目标对象是代理对象，被 DI 注入给目标对象属性的 IoC 中的对象也应是代理对象
         // 4. 依赖注入 DI
         System.out.println("[PandaroidDispatcherServlet init] 4. 依赖注入 DI");
-        doDiAutowired();
+        doDiAutowired();*/
         // 5. 初始化 MVC HandlerMappting
         System.out.println("[PandaroidDispatcherServlet init] 5. 初始化 MVC HandlerMapping");
-        doInitHandlerMapping();*/
+        doInitHandlerMapping();
         System.out.println("[PandaroidDispatcherServlet init] init 完毕。Started Pandaroid Spring");
     }
 
@@ -178,14 +179,16 @@ public class PandaroidDispatcherServlet extends HttpServlet {
      * 原因：涉及到正则匹配 url ，用 Map 就没有优势了，还是用 ArrayList 更合适
      * 我们也可以看到其他如 Golang 、Node.js 的 Web 框架中，对于 router 也有类似的涉及：按顺序正则匹配第一个的
      */
-    /*private Map<String, Method> handlerMapping = new HashMap<String, Method>();
+    private Map<String, Method> handlerMapping = new HashMap<String, Method>();
     private void doInitHandlerMapping() {
-        if(ioc.isEmpty()) {
+        // applicationContext.getBeanDefinitionCount() 获得 IoC 容器中已经初始化的 BeanDefinition 的个数
+        if(applicationContext.getBeanDefinitionCount() == 0) {
             return ;
         }
         // 迭代 IoC 容器中的 Bean ，处理 PandaroidController 注解的 Action 其中的 PandaroidRequestMapping 注解
-        for (Map.Entry<String, Object> iocEntry : ioc.entrySet()) {
-            Class<?> iocBeanClazz = iocEntry.getValue().getClass();
+        for (String beanDefinitionName : applicationContext.getBeanDefinitionNames()) {
+            Object beanInstance = applicationContext.getBean(beanDefinitionName);
+            Class<?> iocBeanClazz = beanInstance.getClass();
             // 如果当前 Bean 不是 PandaroidController ，则不用处理
             if(!iocBeanClazz.isAnnotationPresent(PandaroidController.class)) {
                 continue;
@@ -228,7 +231,7 @@ public class PandaroidDispatcherServlet extends HttpServlet {
                 System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMapping.put(handlerMappingUrl, beanMethod) beanMethod: " + beanMethod);
             }
         }
-    }*/
+    }
 
     /*private void doDiAutowired() {
         if(ioc.isEmpty()) {
