@@ -1,5 +1,7 @@
 package com.pandaroid.springframework.beans.support;
 
+import com.pandaroid.springframework.annotation.PandaroidController;
+import com.pandaroid.springframework.annotation.PandaroidService;
 import com.pandaroid.springframework.beans.config.PandaroidBeanDefinition;
 
 import java.io.File;
@@ -30,17 +32,34 @@ public class PandaroidBeanDefinitionReader {
         for (String beanClassName : registryBeanClasses) {
             try {
                 Class<?> beanClass = Class.forName(beanClassName);
-                // 保存类对应的 className（全限定类名）、beanName
+                // 这里还是要按之前的思路，检查注解
+                // PandaroidController 注解或 PandaroidService 注解才加载 BeanDefinition
+                if(!beanClass.isAnnotationPresent(PandaroidController.class) && !beanClass.isAnnotationPresent(PandaroidService.class)) {
+                    continue;
+                }
+                // 保存类对应的 beanClassName（全限定类名）、beanName
                 // 后面 getBean 的时候，就可以通过 beanName 得到 BeanDefinition ，获取到 className 去反射实例化 Bean
                 // className 就是 beanClassName
-                // beanName 分以下几种情况：
-                // 1. 默认是以简单类名 Class getSimpleName() 的首字母小写作为 beanName
+                // PandaroidController 直接放 SimpleName 首字母小写做 beanName
                 String beanName = toLowerFirstCase(beanClass.getSimpleName());
                 System.out.println("[PandaroidBeanDefinitionReader loadBeanDefinitions] beanName: " + beanName);
                 System.out.println("[PandaroidBeanDefinitionReader loadBeanDefinitions] beanClassName: " + beanClassName);
                 System.out.println("[PandaroidBeanDefinitionReader loadBeanDefinitions] beanClass.getName(): " + beanClass.getName());
+                if(beanClass.isAnnotationPresent(PandaroidController.class)) {
+                    beanDefinitions.add(doCreateBeanDefinition(beanName, beanClassName));
+                    continue;
+                }
+                // PandaroidService 分三种情况（SimpleName 首字母小写、自定义、接口）
+                // beanName 分以下三种情况：
+                // 1. 如果用户于注解 PandaroidService 自定义了 beanName ，则以用户自定义的为 beanName
+                //    解决在不同 package 下出现相同的类名。让用户可以自己定义一个全局唯一的名字
+                String customeBeanName = beanClass.getAnnotation(PandaroidService.class).value();
+                // 如果 customeBeanName 不为空，则用 customeBeanName 做 beanName
+                if(null != customeBeanName && !("".equals(customeBeanName.trim()))) {
+                    beanName = customeBeanName.trim();
+                }
+                // 2. 默认是以简单类名 Class getSimpleName() 的首字母小写作为 beanName
                 beanDefinitions.add(doCreateBeanDefinition(beanName, beanClassName));
-                // 2. 如果用户于注解 PandaroidService 自定义了 beanName ，则以用户自定义的为 beanName
                 // 3. 如果是接口，则以接口的全限定名作为其唯一实现类的 Bean 实例的一个 beanName（Spring 5 中可以通过注解 @Primary 、@Qualifier 、@Resource 等调整优先级，当多个 Bean 冲突的情况下）
                 for (Class<?> beanClassInterface : beanClass.getInterfaces()) {
                     beanDefinitions.add(doCreateBeanDefinition(beanClassInterface.getName(), beanClassName));
