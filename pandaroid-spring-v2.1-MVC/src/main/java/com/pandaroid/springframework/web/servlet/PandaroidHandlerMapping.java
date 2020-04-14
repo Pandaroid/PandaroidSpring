@@ -1,6 +1,7 @@
 package com.pandaroid.springframework.web.servlet;
 
 import java.lang.reflect.Method;
+import java.util.regex.Pattern;
 
 /**
  * @author pandaroid
@@ -9,7 +10,7 @@ public class PandaroidHandlerMapping {
     /**
      * url ，后续考虑正则匹配
      */
-    private String url;
+    private Pattern pattern;
     /**
      * method ，调用的 controller 相应的方法
      */
@@ -19,18 +20,18 @@ public class PandaroidHandlerMapping {
      */
     private Object controller;
 
-    public PandaroidHandlerMapping(String url, Object controller, Method method) {
-        this.url = url;
+    public PandaroidHandlerMapping(Pattern pattern, Object controller, Method method) {
+        this.pattern = pattern;
         this.controller = controller;
         this.method = method;
     }
 
-    public String getUrl() {
-        return url;
+    public Pattern getPattern() {
+        return pattern;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
+    public void setPattern(Pattern pattern) {
+        this.pattern = pattern;
     }
 
     public Method getMethod() {

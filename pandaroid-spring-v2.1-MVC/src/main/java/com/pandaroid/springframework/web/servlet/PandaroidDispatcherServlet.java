@@ -17,6 +17,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 /**
@@ -52,6 +54,8 @@ public class PandaroidDispatcherServlet extends HttpServlet {
      * http://localhost/web/query.json?name=wangpei
      * http://localhost/web/edit.json?name=wangpei&id=333
      * http://localhost/web/remove.json?id=222
+     * 增加 HandlerMapping 正则匹配以后：
+     * http://localhost/web/addPandaroid.json?name=wangpei&addr=Pandaroid
      * @param req
      * @param resp
      * @throws IOException
@@ -149,7 +153,8 @@ public class PandaroidDispatcherServlet extends HttpServlet {
         System.out.println("[PandaroidDispatcherServlet doDispatch] mvcUrl: " + mvcUrl);
         // url 跟 handlerMappings 中进行匹配
         for (PandaroidHandlerMapping handlerMapping : handlerMappings) {
-            if(handlerMapping.getUrl().equals(mvcUrl)) {
+            Matcher matcher = handlerMapping.getPattern().matcher(mvcUrl);
+            if(matcher.matches()) {
                 return handlerMapping;
             }
         }
@@ -233,15 +238,18 @@ public class PandaroidDispatcherServlet extends HttpServlet {
                     continue;
                 }
                 // beanMethodUrl 不为空，则进行完整 url 拼接
-                String handlerMappingUrl = "/" + beanClazzUrl + "/" + beanMethodUrl;
+                String beanMethodUrlRegex = beanMethodUrl.replaceAll("\\*", ".*");
+                String handlerMappingUrlRegex = "/" + beanClazzUrl + "/" + beanMethodUrlRegex;
                 // 这里正则处理，将 handlerMappingUrl 中多个 / 处理为单个 /
-                handlerMappingUrl = handlerMappingUrl.replaceAll("/+", "/");
+                handlerMappingUrlRegex = handlerMappingUrlRegex.replaceAll("/+", "/");
                 // 以 handlerMappingUrl 为 key ，以 beanMethod 为 value ，存入 HandlerMapping
                 // 处理的时候，根据请求 url 取出对应的 beanMethod ，进行 invoke
                 // handlerMapping.put(handlerMappingUrl, beanMethod);
-                handlerMappings.add(new PandaroidHandlerMapping(handlerMappingUrl, beanInstance, beanMethod));
+                Pattern handlerMappingUrlRegexPattern = Pattern.compile(handlerMappingUrlRegex);
+                handlerMappings.add(new PandaroidHandlerMapping(handlerMappingUrlRegexPattern, beanInstance, beanMethod));
                 // 打印
-                System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMappings.add handlerMappingUrl: " + handlerMappingUrl);
+                System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMappings.add handlerMappingUrlRegex: " + handlerMappingUrlRegex);
+                System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMappings.add handlerMappingUrlRegexPattern: " + handlerMappingUrlRegexPattern);
                 System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMappings.add beanInstance: " + beanInstance);
                 System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMappings.add beanMethod: " + beanMethod);
             }
