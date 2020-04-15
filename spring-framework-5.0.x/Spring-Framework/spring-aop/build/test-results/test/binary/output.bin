@@ -1,0 +1,11 @@
+*StopWatch '': running time = 171100801 ns
+.---------------------------------------------
+ns         %     Task name
+.---------------------------------------------
+G093413814  055%  100000 invocations on proxy, not hitting introduction
+C077014739  045%  100000 invocations on proxy, hitting introduction
+.000672248  000%  100000 invocations on target
+
+ž¨?org.springframework.aop.aspectj.DeclareParentsAdvisor@31dfecaf
+¸·UInvoked with transaction @org.springframework.aop.aspectj.annotation.Transactional()
+¸º„got 'Supercalifragalisticexpialidocious' at 'execution(void org.springframework.beans.testfixture.beans.ITestBean.setName(String))'

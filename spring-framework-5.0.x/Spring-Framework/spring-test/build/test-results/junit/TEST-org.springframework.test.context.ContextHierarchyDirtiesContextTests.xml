@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.ContextHierarchyDirtiesContextTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:25:25" hostname="PandaroiddeiMac.local" time="0.093">
+  <properties/>
+  <testcase name="classLevelDirtiesContextWithCurrentLevelHierarchyMode()" classname="org.springframework.test.context.ContextHierarchyDirtiesContextTests" time="0.045"/>
+  <testcase name="classLevelDirtiesContextWithExhaustiveHierarchyMode()" classname="org.springframework.test.context.ContextHierarchyDirtiesContextTests" time="0.025"/>
+  <testcase name="methodLevelDirtiesContextWithCurrentLevelHierarchyMode()" classname="org.springframework.test.context.ContextHierarchyDirtiesContextTests" time="0.014"/>
+  <testcase name="methodLevelDirtiesContextWithExhaustiveHierarchyMode()" classname="org.springframework.test.context.ContextHierarchyDirtiesContextTests" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

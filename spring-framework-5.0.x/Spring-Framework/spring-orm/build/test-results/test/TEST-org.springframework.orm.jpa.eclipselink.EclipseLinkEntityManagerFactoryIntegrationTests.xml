@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:20:29" hostname="PandaroiddeiMac.local" time="9.962">
+  <properties/>
+  <testcase name="testJdbcTx2()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="4.132"/>
+  <testcase name="testEntityManagerProxyRejectsProgrammaticTxManagement()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.006"/>
+  <testcase name="testQueryNoPersons()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.446"/>
+  <testcase name="testEntityManagerFactoryImplementsEntityManagerFactoryInfo()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.004"/>
+  <testcase name="testMultipleResults()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.013"/>
+  <testcase name="testStateClean()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.001"/>
+  <testcase name="testGetReferenceWhenNoRow()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.031"/>
+  <testcase name="testInstantiateAndSaveWithSharedEmProxy()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.046"/>
+  <testcase name="testQueryNoPersonsSharedNotTransactional()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.01"/>
+  <testcase name="testJdbcTx1_1()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.003"/>
+  <testcase name="testJdbcTx1_2()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.042"/>
+  <testcase name="testJdbcTx1_3()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.004"/>
+  <testcase name="testCanSerializeProxies()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="5.177"/>
+  <testcase name="testQueryNoPersonsShared()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.004"/>
+  <testcase name="testQueryNoPersonsNotTransactional()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.003"/>
+  <testcase name="testEntityManagerProxyIsProxy()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.003"/>
+  <testcase name="testBogusQuery()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.008"/>
+  <testcase name="testLazyLoading()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.015"/>
+  <testcase name="testCanCastSharedEntityManagerProxyToEclipseLinkEntityManager()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.001"/>
+  <testcase name="testCanCastNativeEntityManagerFactoryToEclipseLinkEntityManagerFactoryImpl()" classname="org.springframework.orm.jpa.eclipselink.EclipseLinkEntityManagerFactoryIntegrationTests" time="0.001"/>
+  <system-out><![CDATA[[EL Info]: 2020-04-15 22:20:32.718--ServerSession(1548487474)--EclipseLink, version: Eclipse Persistence Services - 2.7.6.v20200131-b7c997804f
+[EL Warning]: metadata: 2020-04-15 22:20:33.742--ServerSession(1548487474)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+[EL Info]: connection: 2020-04-15 22:20:33.769--ServerSession(1548487474)--/file:/Users/pandaroid/Dev/GitRepos/MyGitHub/PandaroidSpring/spring-framework-5.0.x/Spring-Framework/spring-orm/build/classes/java/test/_Person login successful
+[EL Fine]: sql: 2020-04-15 22:20:33.891--ServerSession(1548487474)--Connection(751845501)--CREATE TABLE PERSON (ID INTEGER NOT NULL, FIRST_NAME VARCHAR(255), LAST_NAME VARCHAR(255), DRIVERS_LICENSE_ID INTEGER, PRIMARY KEY (ID))
+[EL Fine]: sql: 2020-04-15 22:20:33.893--ServerSession(1548487474)--Connection(1748012138)--CREATE TABLE DRIVERS_LICENSE (ID INTEGER NOT NULL, SERIAL_NUMBER VARCHAR(255), PRIMARY KEY (ID))
+[EL Fine]: sql: 2020-04-15 22:20:33.895--ServerSession(1548487474)--Connection(729268660)--ALTER TABLE PERSON ADD CONSTRAINT FK_PERSON_DRIVERS_LICENSE_ID FOREIGN KEY (DRIVERS_LICENSE_ID) REFERENCES DRIVERS_LICENSE (ID)
+[EL Fine]: sql: 2020-04-15 22:20:33.908--ServerSession(1548487474)--Connection(401303441)--CREATE TABLE SEQUENCE (SEQ_NAME VARCHAR(50) NOT NULL, SEQ_COUNT NUMERIC(38), PRIMARY KEY (SEQ_NAME))
+[EL Fine]: sql: 2020-04-15 22:20:33.909--ServerSession(1548487474)--Connection(1839824736)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+[EL Fine]: sql: 2020-04-15 22:20:33.912--ServerSession(1548487474)--Connection(1497541736)--INSERT INTO SEQUENCE(SEQ_NAME, SEQ_COUNT) values ('SEQ_GEN', 0)
+[EL Fine]: sql: 2020-04-15 22:20:34.506--ServerSession(1548487474)--Connection(1506556145)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2020-04-15 22:20:34.508--ServerSession(1548487474)--Connection(1982931934)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2020-04-15 22:20:34.587--ClientSession(668178467)--Connection(373163692)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2020-04-15 22:20:34.613--ClientSession(67604186)--Connection(844140443)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON WHERE (ID = ?)
+	bind => [666]
+[EL Fine]: sql: 2020-04-15 22:20:34.664--ClientSession(1404704763)--Connection(365030930)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+	bind => [50, SEQ_GEN]
+[EL Fine]: sql: 2020-04-15 22:20:34.667--ClientSession(1404704763)--Connection(365030930)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+	bind => [SEQ_GEN]
+[EL Fine]: sql: 2020-04-15 22:20:34.674--ClientSession(1404704763)--Connection(365030930)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [1, Tony, Blair, null]
+[EL Fine]: sql: 2020-04-15 22:20:34.684--ServerSession(1548487474)--Connection(1397992252)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2020-04-15 22:20:34.686--ServerSession(1548487474)--Connection(410752605)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2020-04-15 22:20:39.918--ClientSession(176409814)--Connection(2081270501)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2020-04-15 22:20:39.919--ClientSession(176409814)--Connection(2081270501)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2020-04-15 22:20:39.922--ServerSession(1548487474)--Connection(1589557804)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2020-04-15 22:20:39.923--ServerSession(1548487474)--Connection(662229318)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2020-04-15 22:20:39.926--ClientSession(1540337852)--Connection(180831663)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2020-04-15 22:20:39.938--ClientSession(1948932543)--Connection(1465000788)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+	bind => [50, SEQ_GEN]
+[EL Fine]: sql: 2020-04-15 22:20:39.938--ClientSession(1948932543)--Connection(1465000788)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+	bind => [SEQ_GEN]
+[EL Fine]: sql: 2020-04-15 22:20:39.939--ClientSession(1948932543)--Connection(1465000788)--INSERT INTO DRIVERS_LICENSE (ID, SERIAL_NUMBER) VALUES (?, ?)
+	bind => [0, 8439DK]
+[EL Fine]: sql: 2020-04-15 22:20:39.94--ClientSession(1948932543)--Connection(1465000788)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [1, Tony, Blair, 0]
+[EL Info]: connection: 2020-04-15 22:20:39.957--ServerSession(1548487474)--/file:/Users/pandaroid/Dev/GitRepos/MyGitHub/PandaroidSpring/spring-framework-5.0.x/Spring-Framework/spring-orm/build/classes/java/test/_Person logout successful
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

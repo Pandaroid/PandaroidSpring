@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.log.LogSupportTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:40:30" hostname="PandaroiddeiMac.local" time="0.01">
+  <properties/>
+  <testcase name="logMessageWithSupplier()" classname="org.springframework.core.log.LogSupportTests" time="0.008"/>
+  <testcase name="logMessageWithFormat1()" classname="org.springframework.core.log.LogSupportTests" time="0.0"/>
+  <testcase name="logMessageWithFormat2()" classname="org.springframework.core.log.LogSupportTests" time="0.0"/>
+  <testcase name="logMessageWithFormat3()" classname="org.springframework.core.log.LogSupportTests" time="0.0"/>
+  <testcase name="logMessageWithFormat4()" classname="org.springframework.core.log.LogSupportTests" time="0.0"/>
+  <testcase name="logMessageWithFormatX()" classname="org.springframework.core.log.LogSupportTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

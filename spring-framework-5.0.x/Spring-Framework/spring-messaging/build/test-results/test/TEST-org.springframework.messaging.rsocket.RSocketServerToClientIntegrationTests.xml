@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.rsocket.RSocketServerToClientIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:22:56" hostname="PandaroiddeiMac.local" time="0.88">
+  <properties/>
+  <testcase name="echoAsync()" classname="org.springframework.messaging.rsocket.RSocketServerToClientIntegrationTests" time="0.539"/>
+  <testcase name="echo()" classname="org.springframework.messaging.rsocket.RSocketServerToClientIntegrationTests" time="0.031"/>
+  <testcase name="echoChannel()" classname="org.springframework.messaging.rsocket.RSocketServerToClientIntegrationTests" time="0.175"/>
+  <testcase name="echoStream()" classname="org.springframework.messaging.rsocket.RSocketServerToClientIntegrationTests" time="0.134"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException
+]]></system-err>
+</testsuite>

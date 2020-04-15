@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.interceptor.TransactionAttributeSourceTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:22:32" hostname="PandaroiddeiMac.local" time="0.003">
+  <properties/>
+  <testcase name="matchAlwaysTransactionAttributeSource()" classname="org.springframework.transaction.interceptor.TransactionAttributeSourceTests" time="0.001"/>
+  <testcase name="nameMatchTransactionAttributeSourceMostSpecificMethodNameIsDefinitelyMatched()" classname="org.springframework.transaction.interceptor.TransactionAttributeSourceTests" time="0.0"/>
+  <testcase name="nameMatchTransactionAttributeSourceWithEmptyMethodName()" classname="org.springframework.transaction.interceptor.TransactionAttributeSourceTests" time="0.0"/>
+  <testcase name="nameMatchTransactionAttributeSourceWithStarAtEndOfMethodName()" classname="org.springframework.transaction.interceptor.TransactionAttributeSourceTests" time="0.001"/>
+  <testcase name="nameMatchTransactionAttributeSourceWithStarAtStartOfMethodName()" classname="org.springframework.transaction.interceptor.TransactionAttributeSourceTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:44:33" hostname="PandaroiddeiMac.local" time="0.805">
+  <properties/>
+  <testcase name="testPatternMessage()" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.025"/>
+  <testcase name="testMapValueConstraint()" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.209"/>
+  <testcase name="testListElementConstraint()" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.041"/>
+  <testcase name="testNoStringArgumentValue()" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.007"/>
+  <testcase name="testWithList()" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.149"/>
+  <testcase name="testApplyMessageSourceResolvableToStringArgumentValueWithUnresolvedLogicalFieldName()" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.003"/>
+  <testcase name="testMapEntryConstraint()" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.014"/>
+  <testcase name="testWithSet()" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.049"/>
+  <testcase name="testApplyMessageSourceResolvableToStringArgumentValueWithAlwaysUseMessageFormat()" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.007"/>
+  <testcase name="testUnwrap()" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.0"/>
+  <testcase name="testApplyMessageSourceResolvableToStringArgumentValueWithResolvedLogicalFieldName()" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

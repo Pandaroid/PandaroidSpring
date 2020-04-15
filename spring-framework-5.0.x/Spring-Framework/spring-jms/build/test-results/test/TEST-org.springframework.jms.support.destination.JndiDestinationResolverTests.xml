@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.support.destination.JndiDestinationResolverTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-14T12:52:07" hostname="bamboo-21" time="0.021">
+  <properties/>
+  <testcase name="testDoesNotDelegateToFallbackIfNotResolvedInJndi()" classname="org.springframework.jms.support.destination.JndiDestinationResolverTests" time="0.001"/>
+  <testcase name="testHitsCacheSecondTimeThrough()" classname="org.springframework.jms.support.destination.JndiDestinationResolverTests" time="0.001"/>
+  <testcase name="testDelegatesToFallbackIfNotResolvedInJndi()" classname="org.springframework.jms.support.destination.JndiDestinationResolverTests" time="0.002"/>
+  <testcase name="testDoesNotUseCacheIfCachingIsTurnedOff()" classname="org.springframework.jms.support.destination.JndiDestinationResolverTests" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:43:09" hostname="PandaroiddeiMac.local" time="0.273">
+  <properties/>
+  <testcase name="configWithSetWithProviderImplementation()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.008"/>
+  <testcase name="aliasesAreRespectedWhenConfiguredViaNameAttribute()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.006"/>
+  <testcase name="configWithFactoryBeanReturnType()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.008"/>
+  <testcase name="customBeanNameIsRespectedWhenConfiguredViaNameAttribute()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.032"/>
+  <testcase name="configurationWithNullReference()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.033"/>
+  <testcase name="configurationWithAdaptivePrototypes()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.036"/>
+  <testcase name="configurationWithAdaptiveResourcePrototypes()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.021"/>
+  <testcase name="testFinalBeanMethod()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.004"/>
+  <testcase name="aliasesAreRespectedWhenConfiguredViaValueAttribute()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.007"/>
+  <testcase name="configWithBeanWithProviderImplementation()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.006"/>
+  <testcase name="configWithObjectReturnType()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.002"/>
+  <testcase name="configurationWithPostProcessor()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.008"/>
+  <testcase name="configurationWithFunctionalRegistration()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.012"/>
+  <testcase name="configurationWithPrototypeScopedBeans()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.002"/>
+  <testcase name="customBeanNameIsRespectedWhenConfiguredViaValueAttribute()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.01"/>
+  <testcase name="simplestPossibleConfig()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.005"/>
+  <testcase name="configurationWithApplicationListener()" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

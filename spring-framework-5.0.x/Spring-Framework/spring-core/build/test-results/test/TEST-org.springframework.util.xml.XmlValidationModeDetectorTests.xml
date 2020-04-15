@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.util.xml.XmlValidationModeDetectorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:40:33" hostname="PandaroiddeiMac.local" time="0.008">
+  <properties/>
+  <testcase name="dtdDetection(String)[1]" classname="org.springframework.util.xml.XmlValidationModeDetectorTests" time="0.001"/>
+  <testcase name="dtdDetection(String)[2]" classname="org.springframework.util.xml.XmlValidationModeDetectorTests" time="0.001"/>
+  <testcase name="dtdDetection(String)[3]" classname="org.springframework.util.xml.XmlValidationModeDetectorTests" time="0.001"/>
+  <testcase name="dtdDetection(String)[4]" classname="org.springframework.util.xml.XmlValidationModeDetectorTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

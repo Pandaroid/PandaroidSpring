@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.Spr15275Tests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:43:19" hostname="PandaroiddeiMac.local" time="0.106">
+  <properties/>
+  <testcase name="testWithAbstractFactoryBeanForInterface()" classname="org.springframework.context.annotation.Spr15275Tests" time="0.011"/>
+  <testcase name="testWithFactoryBean()" classname="org.springframework.context.annotation.Spr15275Tests" time="0.01"/>
+  <testcase name="testWithAbstractFactoryBean()" classname="org.springframework.context.annotation.Spr15275Tests" time="0.013"/>
+  <testcase name="testWithFinalFactoryBean()" classname="org.springframework.context.annotation.Spr15275Tests" time="0.031"/>
+  <testcase name="testWithAbstractFactoryBeanAsReturnType()" classname="org.springframework.context.annotation.Spr15275Tests" time="0.007"/>
+  <testcase name="testWithFinalFactoryBeanAsReturnType()" classname="org.springframework.context.annotation.Spr15275Tests" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

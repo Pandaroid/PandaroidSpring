@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" tests="25" skipped="1" failures="0" errors="0" timestamp="2020-04-15T13:41:07" hostname="PandaroiddeiMac.local" time="0.449">
+  <properties/>
+  <testcase name="testNamedPointcutAspectWithFQN()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.008"/>
+  <testcase name="testRejectsPerCflowAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.001"/>
+  <testcase name="testBindingWithMultipleArgsDifferentlyOrdered()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.027"/>
+  <testcase name="testNamedPointcutAspectWithoutFQN()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.001"/>
+  <testcase name="testAspectMethodThrowsExceptionLegalOnSignature()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.006"/>
+  <testcase name="testBindingWithSingleArg()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.005"/>
+  <testcase name="testDeclarePrecedenceNotSupported()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.003"/>
+  <testcase name="testNamedPointcutFromAspectLibraryWithBinding()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.004"/>
+  <testcase name="testIntroductionOnTargetImplementingInterface()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.017"/>
+  <testcase name="testPerTypeWithinAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.086"/>
+  <testcase name="testIntroductionBasedOnAnnotationMatch_SPR5307()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.008"/>
+  <testcase name="testIntroductionOnTargetExcludedByTypePattern()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.014"/>
+  <testcase name="testNamedPointcutFromAspectLibrary()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.007"/>
+  <testcase name="testIntroductionWithArgumentBinding()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testIntroductionOnTargetNotImplementingInterface()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.016"/>
+  <testcase name="testMultiplePerTargetAspectsWithOrderAnnotation()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.12"/>
+  <testcase name="testRejectsPerCflowBelowAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.0"/>
+  <testcase name="testAfterAdviceTypes()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.014"/>
+  <testcase name="testFailureWithoutExplicitDeclarePrecedence()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.002"/>
+  <testcase name="testPerThisAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.024"/>
+  <testcase name="testIntroductionAdvisorExcludedFromTargetImplementingInterface()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.004"/>
+  <testcase name="testTwoAdvicesOnOneAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.003"/>
+  <testcase name="testPerTargetAspect()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.02"/>
+  <testcase name="testAspectMethodThrowsExceptionIllegalOnSignature()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.001"/>
+  <testcase name="testMultiplePerTargetAspects()" classname="org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactoryTests" time="0.044"/>
+  <system-out><![CDATA[org.springframework.aop.aspectj.DeclareParentsAdvisor@31dfecaf
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

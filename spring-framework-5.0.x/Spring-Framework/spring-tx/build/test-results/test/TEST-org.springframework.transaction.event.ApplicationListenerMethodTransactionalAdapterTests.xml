@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.event.ApplicationListenerMethodTransactionalAdapterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:22:31" hostname="PandaroiddeiMac.local" time="0.014">
+  <properties/>
+  <testcase name="phaseSet()" classname="org.springframework.transaction.event.ApplicationListenerMethodTransactionalAdapterTests" time="0.005"/>
+  <testcase name="valueSet()" classname="org.springframework.transaction.event.ApplicationListenerMethodTransactionalAdapterTests" time="0.006"/>
+  <testcase name="defaultPhase()" classname="org.springframework.transaction.event.ApplicationListenerMethodTransactionalAdapterTests" time="0.001"/>
+  <testcase name="phaseAndClassesSet()" classname="org.springframework.transaction.event.ApplicationListenerMethodTransactionalAdapterTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

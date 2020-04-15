@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.support.GenericXmlContextLoaderResourceLocationsTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:25:28" hostname="PandaroiddeiMac.local" time="0.013">
+  <properties/>
+  <testcase name="assertContextConfigurationLocations(String, String[])[1]" classname="org.springframework.test.context.support.GenericXmlContextLoaderResourceLocationsTests" time="0.002"/>
+  <testcase name="assertContextConfigurationLocations(String, String[])[2]" classname="org.springframework.test.context.support.GenericXmlContextLoaderResourceLocationsTests" time="0.007"/>
+  <testcase name="assertContextConfigurationLocations(String, String[])[3]" classname="org.springframework.test.context.support.GenericXmlContextLoaderResourceLocationsTests" time="0.0"/>
+  <testcase name="assertContextConfigurationLocations(String, String[])[4]" classname="org.springframework.test.context.support.GenericXmlContextLoaderResourceLocationsTests" time="0.001"/>
+  <testcase name="assertContextConfigurationLocations(String, String[])[5]" classname="org.springframework.test.context.support.GenericXmlContextLoaderResourceLocationsTests" time="0.0"/>
+  <testcase name="assertContextConfigurationLocations(String, String[])[6]" classname="org.springframework.test.context.support.GenericXmlContextLoaderResourceLocationsTests" time="0.003"/>
+  <testcase name="assertContextConfigurationLocations(String, String[])[7]" classname="org.springframework.test.context.support.GenericXmlContextLoaderResourceLocationsTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

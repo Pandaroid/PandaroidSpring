@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.expression.spel.SpelExceptionTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:39:46" hostname="PandaroiddeiMac.local" time="0.04">
+  <properties/>
+  <testcase name="spelExpressionListWithVariables()" classname="org.springframework.expression.spel.SpelExceptionTests" time="0.004"/>
+  <testcase name="spelExpressionMapNullVariables()" classname="org.springframework.expression.spel.SpelExceptionTests" time="0.001"/>
+  <testcase name="spelExpressionListNullVariables()" classname="org.springframework.expression.spel.SpelExceptionTests" time="0.0"/>
+  <testcase name="spelExpressionListIndexAccessWithVariables()" classname="org.springframework.expression.spel.SpelExceptionTests" time="0.014"/>
+  <testcase name="spelExpressionListIndexAccessNullVariables()" classname="org.springframework.expression.spel.SpelExceptionTests" time="0.001"/>
+  <testcase name="spelExpressionMapIndexAccessNullVariables()" classname="org.springframework.expression.spel.SpelExceptionTests" time="0.0"/>
+  <testcase name="spelExpressionArrayWithVariables()" classname="org.springframework.expression.spel.SpelExceptionTests" time="0.004"/>
+  <testcase name="spelExpressionArrayIndexAccessNullVariables()" classname="org.springframework.expression.spel.SpelExceptionTests" time="0.002"/>
+  <testcase name="spelExpressionMapWithVariables()" classname="org.springframework.expression.spel.SpelExceptionTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

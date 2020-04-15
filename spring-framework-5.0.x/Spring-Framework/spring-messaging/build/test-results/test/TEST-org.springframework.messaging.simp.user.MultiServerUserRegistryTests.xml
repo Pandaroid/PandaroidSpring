@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:20:56" hostname="PandaroiddeiMac.local" time="40.104">
+  <properties/>
+  <testcase name="getUserFromRemoteRegistry()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="5.031"/>
+  <testcase name="getUserFromLocalRegistry()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="0.01"/>
+  <testcase name="purgeExpiredRegistries()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="5.015"/>
+  <testcase name="findSubscriptionsFromRemoteRegistry()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="5.019"/>
+  <testcase name="getSessionsWhenUserIsConnectedToMultipleServers()" classname="org.springframework.messaging.simp.user.MultiServerUserRegistryTests" time="5.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

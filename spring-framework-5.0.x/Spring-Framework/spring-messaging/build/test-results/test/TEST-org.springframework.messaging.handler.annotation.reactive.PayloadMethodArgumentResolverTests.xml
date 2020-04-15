@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolverTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:20:21" hostname="PandaroiddeiMac.local" time="0.199">
+  <properties/>
+  <testcase name="emptyBodyWhenNotRequired()" classname="org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolverTests" time="0.037"/>
+  <testcase name="stringFlux()" classname="org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolverTests" time="0.038"/>
+  <testcase name="stringMono()" classname="org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolverTests" time="0.099"/>
+  <testcase name="string()" classname="org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="emptyBodyWhenRequired()" classname="org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="validateStringFlux()" classname="org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolverTests" time="0.015"/>
+  <testcase name="validateStringMono()" classname="org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="supportsParameter()" classname="org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolverTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

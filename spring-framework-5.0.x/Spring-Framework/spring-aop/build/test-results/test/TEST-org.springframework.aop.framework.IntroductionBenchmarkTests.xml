@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.framework.IntroductionBenchmarkTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:41:05" hostname="PandaroiddeiMac.local" time="0.186">
+  <properties/>
+  <testcase name="timeManyInvocations()" classname="org.springframework.aop.framework.IntroductionBenchmarkTests" time="0.186"/>
+  <system-out><![CDATA[StopWatch '': running time = 171100801 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+093413814  055%  100000 invocations on proxy, not hitting introduction
+077014739  045%  100000 invocations on proxy, hitting introduction
+000672248  000%  100000 invocations on target
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

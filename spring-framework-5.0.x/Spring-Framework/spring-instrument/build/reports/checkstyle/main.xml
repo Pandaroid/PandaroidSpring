@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.22">
+<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM-JOB1/spring-instrument/src/main/java/org/springframework/instrument/InstrumentationSavingAgent.java">
+</file>
+</checkstyle>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.support.PersistenceInjectionIntegrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:20:47" hostname="PandaroiddeiMac.local" time="0.185">
+  <properties/>
+  <testcase name="testDefaultPersistenceContextSetterInjection()" classname="org.springframework.orm.jpa.support.PersistenceInjectionIntegrationTests" time="0.179"/>
+  <testcase name="testSetterInjectionOfNamedPersistenceContext()" classname="org.springframework.orm.jpa.support.PersistenceInjectionIntegrationTests" time="0.006"/>
+  <system-out><![CDATA[[EL Info]: 2020-04-15 22:20:47.959--ServerSession(2002982523)--EclipseLink, version: Eclipse Persistence Services - 2.7.6.v20200131-b7c997804f
+[EL Warning]: metadata: 2020-04-15 22:20:47.96--ServerSession(2002982523)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+[EL Info]: connection: 2020-04-15 22:20:47.961--ServerSession(2002982523)--/file:/Users/pandaroid/Dev/GitRepos/MyGitHub/PandaroidSpring/spring-framework-5.0.x/Spring-Framework/spring-orm/build/classes/java/test/_Person login successful
+[EL Fine]: sql: 2020-04-15 22:20:47.964--ServerSession(2002982523)--Connection(124849179)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+[EL Info]: connection: 2020-04-15 22:20:47.991--ServerSession(2002982523)--/file:/Users/pandaroid/Dev/GitRepos/MyGitHub/PandaroidSpring/spring-framework-5.0.x/Spring-Framework/spring-orm/build/classes/java/test/_Person logout successful
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

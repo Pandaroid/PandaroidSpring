@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.fasterxml:aalto-xml:1.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml/aalto-xml/1.2.2/c99d6ab984ef5c61114733becc06cb584e28a0c7/aalto-xml-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml/aalto-xml/1.2.2/2423dd747335a004165ff3773609c43fdbb3050a/aalto-xml-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

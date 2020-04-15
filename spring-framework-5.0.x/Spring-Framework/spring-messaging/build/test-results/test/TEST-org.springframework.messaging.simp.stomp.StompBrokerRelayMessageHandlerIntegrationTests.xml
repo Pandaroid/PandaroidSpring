@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:22:24" hostname="PandaroiddeiMac.local" time="31.37">
+  <properties/>
+  <testcase name="messageDeliveryExceptionIfSystemSessionForwardFails()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.087"/>
+  <testcase name="publishSubscribe()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.028"/>
+  <testcase name="brokerAvailabilityEventWhenStopped()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.104"/>
+  <testcase name="relayReconnectsIfBrokerComesBackUp()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="11.023"/>
+  <testcase name="brokerBecomingUnavailableTriggersErrorFrame()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.106"/>
+  <testcase name="disconnectWithReceipt()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.022"/>
+  <system-out><![CDATA[22:22:24.758 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+22:22:24.759 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:2) is starting
+22:22:24.760 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:64258
+22:22:24.760 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64258 Started
+22:22:24.760 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:2) started
+22:22:24.760 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+22:22:24.817 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:2) is shutting down
+22:22:26.770 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64258 Stopped
+22:22:26.771 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:2) uptime 2.013 seconds
+22:22:26.771 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:2) is shutdown
+22:22:28.844 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+22:22:28.845 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:3) is starting
+22:22:28.845 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:64132
+22:22:28.845 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64132 Started
+22:22:28.846 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:3) started
+22:22:28.846 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+22:22:31.064 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:3) is shutting down
+22:22:32.870 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64132 Stopped
+22:22:32.870 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:3) uptime 4.026 seconds
+22:22:32.871 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:3) is shutdown
+22:22:32.872 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+22:22:32.872 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:4) is starting
+22:22:32.873 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:65157
+22:22:32.873 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65157 Started
+22:22:32.873 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:4) started
+22:22:32.873 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+22:22:32.881 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:4) is shutting down
+22:22:34.884 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65157 Stopped
+22:22:34.885 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:4) uptime 2.013 seconds
+22:22:34.885 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:4) is shutdown
+22:22:36.976 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+22:22:36.977 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:5) is starting
+22:22:36.977 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62515
+22:22:36.978 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62515 Started
+22:22:36.978 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:5) started
+22:22:36.978 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+22:22:37.003 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:5) is shutting down
+22:22:38.998 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62515 Stopped
+22:22:38.999 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:5) uptime 2.022 seconds
+22:22:38.999 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:5) is shutdown
+22:22:38.999 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+22:22:39.000 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:6) is starting
+22:22:39.000 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62515
+22:22:39.001 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62515 Started
+22:22:39.002 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:6) started
+22:22:39.002 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+22:22:46.161 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:6) is shutting down
+22:22:47.997 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62515 Stopped
+22:22:47.997 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:6) uptime 8.998 seconds
+22:22:47.997 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:6) is shutdown
+22:22:48.000 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+22:22:48.002 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:7) is starting
+22:22:48.003 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62640
+22:22:48.003 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62640 Started
+22:22:48.004 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:7) started
+22:22:48.004 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+22:22:48.018 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:7) is shutting down
+22:22:50.023 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62640 Stopped
+22:22:50.023 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:7) uptime 2.023 seconds
+22:22:50.023 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:7) is shutdown
+22:22:52.105 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+22:22:52.105 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:8) is starting
+22:22:52.106 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62675
+22:22:52.106 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62675 Started
+22:22:52.106 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:8) started
+22:22:52.106 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+22:22:54.200 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:8) is shutting down
+22:22:56.125 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62675 Stopped
+22:22:56.126 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:8) uptime 4.021 seconds
+22:22:56.126 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:PandaroiddeiMac.local-59483-1586960541889-0:8) is shutdown
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

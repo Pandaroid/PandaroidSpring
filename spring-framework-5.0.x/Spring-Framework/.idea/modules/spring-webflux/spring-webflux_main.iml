@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spring-webflux:main" external.linked.project.path="$MODULE_DIR$/../../../spring-webflux" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="org.springframework" external.system.module.type="sourceSet" external.system.module.version="5.2.6.BUILD-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files -Xjsr305=strict -Werror" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../spring-webflux/build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-reactor/1.3.5/1c1ec9f5f52fe633908b22bf0cabefc154c05bde/kotlinx-coroutines-reactor-1.3.5.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.3.5.BUILD-SNAPSHOT/fa978d980228e52edcd3aed233d271e3210de19/reactor-core-3.3.5.BUILD-SNAPSHOT.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-reactive/1.3.5/e07ebba2d47ffe161c7b31ca0daf4792d7c482d6/kotlinx-coroutines-reactive-1.3.5.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0/reactive-streams-1.0.3.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.71/fca74670d8e6906a3241b3cf3732409ca77b2508/kotlin-reflect-1.3.71.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.5/b245208f2b844c02dbb506312d4859bde93bce8d/kotlinx-coroutines-core-1.3.5.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.71/898273189ad22779da6bed88ded39b14cb5fd432/kotlin-stdlib-1.3.71.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.71/e71c3fef58e26affeb03d675e91fd8abdd44aa7b/kotlin-stdlib-common-1.3.71.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.4.27.v20200227/7ce17636389ca30c00a3096f9115c49a2daf6953/websocket-server-9.4.27.v20200227.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.4.27.v20200227/e2e2f367580d5d231e6e8cb096f67cb55f264eee/websocket-servlet-9.4.27.v20200227.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.4.27.v20200227/c6354d1e53c41f839ae56f4d8622c866a1ad8487/jetty-servlet-9.4.27.v20200227.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.4.27.v20200227/aead56f2a1ac49d720a192cb7c1568e61e34ddae/jetty-security-9.4.27.v20200227.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.27.v20200227/4ef690ce1277e3767d457f87621f2c436a001881/jetty-server-9.4.27.v20200227.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/4.0.1/a27082684a2ff0bf397666c3943496c44541d1ca/javax.servlet-api-4.0.1.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.1/eeeb68631711256418dfbb47b11c731b6c8f6235/javax.websocket-api-1.1.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.webjars/webjars-locator-core/0.44/aac1cc3c9c042663d5e5ed0d924902a709699811/webjars-locator-core-0.44.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.30/86d70d335c7821178f62b554aa3a4bc538a94f1a/freemarker-2.3.30.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.10.3/aae92628b5447fa25af79871ca98668da6edd439/jackson-databind-2.10.3.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/2.10.3/ff397547ff168e77279a1cd549e2ca4923c991aa/jackson-dataformat-smile-2.10.3.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava-reactive-streams/1.2.1/dac56d021c092c34662943dae3ab1432542005/rxjava-reactive-streams-1.2.1.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.3.8/8c192792ad2e65a90867ab418ac49703f44d2baf/rxjava-1.3.8.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.projectreactor.netty/reactor-netty/0.9.7.BUILD-SNAPSHOT/777b47486a115dbdb42685eb7c6204ad808f2eb1/reactor-netty-0.9.7.BUILD-SNAPSHOT.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-websocket/9.0.33/a1cee29fae4f9da1aee6063ab72a02a80d110b59/tomcat-websocket-9.0.33.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-websockets-jsr/2.0.30.Final/bdf0ff483e269fd279fb07c78076d5cc1610a175/undertow-websockets-jsr-2.0.30.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.12/4023a2a80b64c25926911faf350b50cd2a29220f/httpclient-4.5.12.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.11.4/99a6a669e55f3d587ac8eb61857f7b81d0bbd7f7/protobuf-java-util-3.11.4.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.github.classgraph/classgraph/4.8.64/1c8d4f001a73375b24273b833c33e066c1005144/classgraph-4.8.64.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.10.3/f7ee7b55c7d292ac72fbaa7648c089f069c938d2/jackson-core-2.10.3.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.10.3/f63b3b1da563767d04d2e4d3fc1ae0cdeffebe7/jackson-annotations-2.10.3.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.48.Final/f7a0e40d0eea9a60c05f705a128473f08a3de1dc/netty-codec-http2-4.1.48.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.48.Final/79910203db6a542189c9aaa9ec187bf5ee16248a/netty-handler-proxy-4.1.48.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.48.Final/8b18499a51367d291efd1f200a4e865370d38738/netty-codec-http-4.1.48.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.48.Final/d459919c87dc1a2bf400b39053761ecc11c2e436/netty-handler-4.1.48.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.48.Final/2b25233dda8b986297076a7d62552c1ec2f41ed8/netty-transport-native-epoll-4.1.48.Final-linux-x86_64.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-util/9.0.33/c0a2780baec463aa5b5732a9e545fe8c574e44e8/tomcat-util-9.0.33.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/9.0.33/f6941166d20593ca1c11ccd3d7f31b0ac1ab3dc6/tomcat-juli-9.0.33.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.4.27.v20200227/c1550c22521f00c3e7f78a2125a3974a6731e444/websocket-client-9.4.27.v20200227.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.4.27.v20200227/39fb73f15c122b6955ac8856a36da1f4c674d960/websocket-common-9.4.27.v20200227.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-client/9.4.27.v20200227/f7a5fe01a085560cd48c49ac71541ae4835399f7/jetty-client-9.4.27.v20200227.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.4.27.v20200227/722ba6ef20eb58c55868f1ce85411e6af13be98e/jetty-http-9.4.27.v20200227.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-servlet/2.0.30.Final/df649780c25237a9714ce0d48f6ffe8ac27d5594/undertow-servlet-2.0.30.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-core/2.0.30.Final/1152e3565a99e2942fc423132330b4dbde6736d9/undertow-core-2.0.30.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.13/853b96d3afbb7bf8cc303fe27ee96836a10c1834/httpcore-4.4.13.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.11.4/7ec0925cc3aef0335bbc7d57edfd42b0f86f8267/protobuf-java-3.11.4.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/28.1-android/c2526f8fad32a65a6d7032dd8e9524eb276b108b/guava-28.1-android.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.3.4/dac170e4594de319655ffb62f41cbd6dbb5e601e/error_prone_annotations-2.3.4.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.6/9180733b7df8542621dc12e21e87557e8c99b8cb/gson-2.8.6.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.48.Final/42b55c9ca8672ebb7160cadf3c70ffc11638f021/netty-codec-socks-4.1.48.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.48.Final/3142078325d745228da9d6d1f6f9931c63aaba16/netty-codec-4.1.48.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.48.Final/fb0a76d5d201b59ec2b3721c66eda737b3176f30/netty-transport-native-unix-common-4.1.48.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.48.Final/d285e8d9af5be1fc146b91a1b0d211e7a6a7e7d4/netty-transport-4.1.48.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.48.Final/7fd3ebb659c628e0158c9c2c971f4d0734d7f4f0/netty-buffer-4.1.48.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.48.Final/612ad2acc848ce46496095683eea621094763b80/netty-resolver-4.1.48.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.48.Final/ec27d04fd5e7b65ac171cd64734f9e4f1fc2a286/netty-common-4.1.48.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.4.27.v20200227/6b54f2a41be1268cf3bf5ee6b75a00ecd8c1f746/websocket-api-9.4.27.v20200227.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.4.27.v20200227/e85e7c4f298efb36b80cc53d635f2da776aa54c2/jetty-io-9.4.27.v20200227.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.4.27.v20200227/7d1542ccd6094010b0907d38884c79094ab58c1e/jetty-xml-9.4.27.v20200227.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.4.27.v20200227/44087a126227af5196e3e327a5e11aad1b28852c/jetty-util-9.4.27.v20200227.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.4.0.Final/b225692a59f7dc3a789d2c85edc06041914e97e7/jboss-logging-3.4.0.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-nio/3.3.8.Final/8dafaf230666e526c53e544ab6a9d6ecfcbab4ee/xnio-nio-3.3.8.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-api/3.3.8.Final/7942ba8330c91a12006c912e040d25a77a58c525/xnio-api-3.3.8.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.servlet/jboss-servlet-api_4.0_spec/1.0.0.Final/322892a664ab868bd3ec8561028111f1f928a3f0/jboss-servlet-api_4.0_spec-1.0.0.Final.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-compat-qual/2.5.5/435dc33e3019c9f019e15f01aa111de9d6b2b79c/checker-compat-qual-2.5.5.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar:/Users/pandaroid/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.18/f7aa683ea79dc6681ee9fb95756c999acbb62f5d/animal-sniffer-annotations-1.18.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="spring-webflux" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.71/7f5522e7a9d1736fabfdb4335630f64504ce8f20/kotlin-script-runtime-1.3.71.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.3.71/80b8eb0986d1391e6a1dcf9aba968d59165dc4f/kotlin-scripting-common-1.3.71.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.3.71/ee1ba4f199415255ea6ea55cc5dc41856b2729fd/kotlin-scripting-jvm-1.3.71.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.71/e71c3fef58e26affeb03d675e91fd8abdd44aa7b/kotlin-stdlib-common-1.3.71.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.71/898273189ad22779da6bed88ded39b14cb5fd432/kotlin-stdlib-1.3.71.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.5/b245208f2b844c02dbb506312d4859bde93bce8d/kotlinx-coroutines-core-1.3.5.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../spring-webflux/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring-webflux/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-webflux/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-webflux/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spring-webflux/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-cglib-repack-3.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-objenesis-repack-3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="spring-web_main" />
+    <orderEntry type="module" module-name="spring-beans_main" />
+    <orderEntry type="module" module-name="spring-core_main" />
+    <orderEntry type="module" module-name="kotlin-coroutines_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-core:3.3.5.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="module" module-name="spring-jcl_main" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.3.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.71" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.71" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-reactive:1.3.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.71" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="module" module-name="spring-context-support_main" />
+    <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-server:9.4.27.v20200227" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: javax.websocket:javax.websocket-api:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.webjars:webjars-locator-core:0.44" level="project" />
+    <orderEntry type="library" name="Gradle: org.freemarker:freemarker:2.3.30" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.10.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.10.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxjava-reactive-streams:1.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxjava:1.3.8" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor.netty:reactor-netty:0.9.7.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-websocket:9.0.33" level="project" />
+    <orderEntry type="library" name="Gradle: io.undertow:undertow-websockets-jsr:2.0.30.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.12" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java-util:3.11.4" level="project" />
+    <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="module" module-name="spring-expression_main" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.4.27.v20200227" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-servlet:9.4.27.v20200227" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.4.27.v20200227" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.4.27.v20200227" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-http:9.4.27.v20200227" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.classgraph:classgraph:4.8.64" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.10.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.10.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.48.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler-proxy:4.1.48.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.48.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.48.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.48.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-util:9.0.33" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-juli:9.0.33" level="project" />
+    <orderEntry type="library" name="Gradle: io.undertow:undertow-servlet:2.0.30.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.undertow:undertow-core:2.0.30.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.13" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.11.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:28.1-android" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.3.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.4.27.v20200227" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-security:9.4.27.v20200227" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-client:9.4.27.v20200227" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.4.27.v20200227" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-xml:9.4.27.v20200227" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.4.27.v20200227" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.48.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.48.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.48.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.48.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-socks:4.1.48.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.48.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.48.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.4.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.xnio:xnio-nio:3.3.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.xnio:xnio-api:3.3.8.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Gradle: org.checkerframework:checker-compat-qual:2.5.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.j2objc:j2objc-annotations:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.18" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-server:9.4.27.v20200227" level="project" />
+  </component>
+</module>

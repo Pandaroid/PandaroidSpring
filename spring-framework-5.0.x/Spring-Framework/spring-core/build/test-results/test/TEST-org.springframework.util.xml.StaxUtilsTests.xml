@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.util.xml.StaxUtilsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:40:32" hostname="PandaroiddeiMac.local" time="0.178">
+  <properties/>
+  <testcase name="isStaxSourceInvalid()" classname="org.springframework.util.xml.StaxUtilsTests" time="0.03"/>
+  <testcase name="isStaxResultJaxp14()" classname="org.springframework.util.xml.StaxUtilsTests" time="0.053"/>
+  <testcase name="isStaxResult()" classname="org.springframework.util.xml.StaxUtilsTests" time="0.002"/>
+  <testcase name="isStaxSource()" classname="org.springframework.util.xml.StaxUtilsTests" time="0.088"/>
+  <testcase name="isStaxResultInvalid()" classname="org.springframework.util.xml.StaxUtilsTests" time="0.0"/>
+  <testcase name="isStaxSourceJaxp14()" classname="org.springframework.util.xml.StaxUtilsTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

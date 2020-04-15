@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:25:15" hostname="PandaroiddeiMac.local" time="7.107">
+  <properties/>
+  <testcase name="runTestsInParallel()[1]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="1.252"/>
+  <testcase name="runTestsInParallel()[2]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="1.033"/>
+  <testcase name="runTestsInParallel()[3]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.895"/>
+  <testcase name="runTestsInParallel()[4]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.792"/>
+  <testcase name="runTestsInParallel()[5]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.757"/>
+  <testcase name="runTestsInParallel()[6]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.577"/>
+  <testcase name="runTestsInParallel()[7]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.539"/>
+  <testcase name="runTestsInParallel()[8]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.46"/>
+  <testcase name="runTestsInParallel()[9]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.397"/>
+  <testcase name="runTestsInParallel()[10]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.402"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

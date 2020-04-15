@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:20:19" hostname="PandaroiddeiMac.local" time="0.337">
+  <properties/>
+  <testcase name="fluxStringReturnValue()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.149"/>
+  <testcase name="stringReturnValue()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.002"/>
+  <testcase name="noEncoder()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.042"/>
+  <testcase name="fluxObjectReturnValue()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="voidReturnValue()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.122"/>
+  <testcase name="objectReturnValue()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

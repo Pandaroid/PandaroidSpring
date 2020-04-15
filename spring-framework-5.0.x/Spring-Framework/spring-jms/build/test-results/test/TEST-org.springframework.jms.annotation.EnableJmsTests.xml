@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.annotation.EnableJmsTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-04-14T12:52:10" hostname="bamboo-21" time="0.917">
+  <properties/>
+  <testcase name="jmsListeners()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.368"/>
+  <testcase name="unknownFactory()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.018"/>
+  <testcase name="sampleConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.064"/>
+  <testcase name="customConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.058"/>
+  <testcase name="composedJmsListeners()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.032"/>
+  <testcase name="containerCanBeStarterViaTheRegistry()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.038"/>
+  <testcase name="jmsHandlerMethodFactoryConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.063"/>
+  <testcase name="explicitContainerFactory()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.028"/>
+  <testcase name="fullConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.052"/>
+  <testcase name="lazyComponent()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.033"/>
+  <testcase name="defaultContainerFactory()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.012"/>
+  <testcase name="fullConfigurableConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.047"/>
+  <testcase name="jmsListenerIsRepeatable()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.025"/>
+  <testcase name="containerAreStartedByDefault()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,5 @@
+³´n21:41:28.922 [Test worker] WARN  o.s.b.f.c.YamlMapFactoryBean - Could not load map from non-existent: planned
+³ºø21:41:28.971 [Test worker] WARN  o.s.b.f.c.YamlMapFactoryBean - Could not load map from file [/Users/pandaroid/Dev/GitRepos/MyGitHub/PandaroidSpring/spring-framework-5.0.x/Spring-Framework/spring-beans/non-exsitent-file.yml]: non-exsitent-file.yml
+©¹Ù21:41:29.281 [Test worker] WARN  o.s.b.f.c.YamlPropertiesFactoryBean - Could not load map from class path resource [no-such-file.yml]: class path resource [no-such-file.yml] cannot be opened because it does not exist
+¹ºû21:41:32.962 [Test worker] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'spring-destroy': java.security.AccessControlException: access denied ("java.util.PropertyPermission" "security.destroy" "write")
+¹Ãƒ21:41:33.068 [Test worker] WARN  o.s.b.f.s.DisposableBeanAdapter - Destroy method 'destroy' on bean with name 'custom-destroy' threw an exception: java.security.AccessControlException: access denied ("java.util.PropertyPermission" "security.destroy" "write")

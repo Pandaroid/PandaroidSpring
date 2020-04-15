@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:25:36" hostname="PandaroiddeiMac.local" time="0.62">
+  <properties/>
+  <testcase name="multipartRequestWithFileListNotPresent()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.049"/>
+  <testcase name="multipartRequestWithFileListNoMultipart()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.026"/>
+  <testcase name="multipartRequestWithFileArray()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.069"/>
+  <testcase name="multipartRequestWithOptionalFile()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.032"/>
+  <testcase name="multipartRequestWithOptionalFileNotPresent()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.058"/>
+  <testcase name="multipartRequestWithSingleFileNotPresent()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.029"/>
+  <testcase name="multipartRequestWithOptionalFileListNotPresent()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.031"/>
+  <testcase name="multipartRequestWithSingleFile()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.04"/>
+  <testcase name="multipartRequestWithServletParts()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.029"/>
+  <testcase name="multipartRequestWithOptionalFileArray()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.031"/>
+  <testcase name="multipartRequestWithFileArrayNoMultipart()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.029"/>
+  <testcase name="multipartRequestWrapped()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.036"/>
+  <testcase name="multipartRequestWithFileArrayNotPresent()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.028"/>
+  <testcase name="multipartRequestWithFileList()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.034"/>
+  <testcase name="multipartRequestWithOptionalFileList()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.027"/>
+  <testcase name="multipartRequestWithOptionalFileArrayNotPresent()" classname="org.springframework.test.web.servlet.samples.standalone.MultipartControllerTests" time="0.039"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

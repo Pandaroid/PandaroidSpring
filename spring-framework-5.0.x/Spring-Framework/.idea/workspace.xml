@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb208804-8915-4794-91d0-057566396a10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.6.4/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/noVersion/buildSrc.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/java/main/org/springframework/build/api/ApiDiffPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/java/main/org/springframework/build/compile/CompilerConventionsPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/java/main/org/springframework/build/optional/OptionalDependenciesPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/pluginDescriptors/org.springframework.build.api-diff.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/pluginDescriptors/org.springframework.build.compile.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/pluginDescriptors/org.springframework.build.optional-dependencies.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/pluginUnderTestMetadata/plugin-under-test-metadata.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/reports/task-properties/report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/resources/main/META-INF/gradle-plugins/org.springframework.build.api-diff.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/resources/main/META-INF/gradle-plugins/org.springframework.build.compile.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/resources/main/META-INF/gradle-plugins/org.springframework.build.optional-dependencies.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oxm/build/classes/jaxb/org/springframework/oxm/jaxb/test/FlightType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oxm/build/classes/jaxb/org/springframework/oxm/jaxb/test/Flights.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oxm/build/classes/jaxb/org/springframework/oxm/jaxb/test/ObjectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oxm/build/classes/jaxb/org/springframework/oxm/jaxb/test/package-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/Command line suite/Command line test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/Command line suite/Command line test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithAfterEachTestMethodModeTestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndDefaultModeTestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithDirtyMethodsTestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$CleanTestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$InheritedClassLevelDirtiesContextWithAfterEachTestMethodModeTestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$InheritedClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$InheritedClassLevelDirtiesContextWithCleanMethodsAndDefaultModeTestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$InheritedClassLevelDirtiesContextWithDirtyMethodsTestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/Command line test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test/test-output/testng.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-web/src/testFixtures/java/org/springframework/web/testfixture/method/ResolvableMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-web/src/testFixtures/java/org/springframework/web/testfixture/method/ResolvableMethod.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1aZYuRixmZFcU3sMWGO0do9NCP2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb208804-8915-4794-91d0-057566396a10" name="Default Changelist" comment="" />
+      <created>1586944804175</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586944804175</updated>
+      <workItem from="1586944805664" duration="4622000" />
+      <workItem from="1586951902045" duration="2320000" />
+      <workItem from="1586957398890" duration="1961000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="548" y="282" key="IDE.errors.dialog" timestamp="1586945048667">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="548" y="282" key="IDE.errors.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586945048667" />
+    <state x="448" y="121" key="SettingsEditor" timestamp="1586957438899">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586957438899" />
+    <state x="667" y="280" width="628" height="520" key="find.popup" timestamp="1586948258346">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="667" y="280" width="628" height="520" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586948258346" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1586948174726">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586948174726" />
+  </component>
+</project>

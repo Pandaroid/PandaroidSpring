@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.converter.MessageConverterTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:20:25" hostname="PandaroiddeiMac.local" time="0.016">
+  <properties/>
+  <testcase name="supportsMimeTypeNotSpecified()" classname="org.springframework.messaging.converter.MessageConverterTests" time="0.0"/>
+  <testcase name="setStrictContentTypeMatchWithNoSupportedMimeTypes()" classname="org.springframework.messaging.converter.MessageConverterTests" time="0.001"/>
+  <testcase name="toMessageWithMutableMessageHeaders()" classname="org.springframework.messaging.converter.MessageConverterTests" time="0.011"/>
+  <testcase name="supportsMimeTypeNoneConfigured()" classname="org.springframework.messaging.converter.MessageConverterTests" time="0.0"/>
+  <testcase name="supportsMimeTypeNotSupported()" classname="org.springframework.messaging.converter.MessageConverterTests" time="0.0"/>
+  <testcase name="canConvertFromStrictContentTypeMatch()" classname="org.springframework.messaging.converter.MessageConverterTests" time="0.001"/>
+  <testcase name="toMessageWithHeaders()" classname="org.springframework.messaging.converter.MessageConverterTests" time="0.0"/>
+  <testcase name="supportsTargetClass()" classname="org.springframework.messaging.converter.MessageConverterTests" time="0.0"/>
+  <testcase name="toMessageContentTypeHeader()" classname="org.springframework.messaging.converter.MessageConverterTests" time="0.0"/>
+  <testcase name="supportsMimeType()" classname="org.springframework.messaging.converter.MessageConverterTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

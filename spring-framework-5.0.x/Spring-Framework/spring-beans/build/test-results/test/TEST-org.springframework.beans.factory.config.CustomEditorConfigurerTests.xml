@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.config.CustomEditorConfigurerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:41:29" hostname="PandaroiddeiMac.local" time="0.008">
+  <properties/>
+  <testcase name="testCustomEditorConfigurerWithPropertyEditorRegistrar()" classname="org.springframework.beans.factory.config.CustomEditorConfigurerTests" time="0.007"/>
+  <testcase name="testCustomEditorConfigurerWithEditorAsClass()" classname="org.springframework.beans.factory.config.CustomEditorConfigurerTests" time="0.001"/>
+  <testcase name="testCustomEditorConfigurerWithRequiredTypeArray()" classname="org.springframework.beans.factory.config.CustomEditorConfigurerTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.format.datetime.standard.InstantFormatterTests" tests="30" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:44:08" hostname="PandaroiddeiMac.local" time="0.022">
+  <properties/>
+  <testcase name="should_parse_an_ISO_formatted_string_representation_of_an_Instant(String)[1]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.001"/>
+  <testcase name="should_parse_an_ISO_formatted_string_representation_of_an_Instant(String)[2]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.001"/>
+  <testcase name="should_parse_an_ISO_formatted_string_representation_of_an_Instant(String)[3]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_parse_an_ISO_formatted_string_representation_of_an_Instant(String)[4]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_parse_an_ISO_formatted_string_representation_of_an_Instant(String)[5]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_parse_an_ISO_formatted_string_representation_of_an_Instant(String)[6]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.001"/>
+  <testcase name="should_parse_an_ISO_formatted_string_representation_of_an_Instant(String)[7]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_parse_an_ISO_formatted_string_representation_of_an_Instant(String)[8]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_parse_an_ISO_formatted_string_representation_of_an_Instant(String)[9]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_parse_an_ISO_formatted_string_representation_of_an_Instant(String)[10]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_serialize_an_Instant_using_ISO_format_and_ignoring_Locale(Instant)[1]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_serialize_an_Instant_using_ISO_format_and_ignoring_Locale(Instant)[2]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_serialize_an_Instant_using_ISO_format_and_ignoring_Locale(Instant)[3]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_serialize_an_Instant_using_ISO_format_and_ignoring_Locale(Instant)[4]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_serialize_an_Instant_using_ISO_format_and_ignoring_Locale(Instant)[5]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_serialize_an_Instant_using_ISO_format_and_ignoring_Locale(Instant)[6]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.001"/>
+  <testcase name="should_serialize_an_Instant_using_ISO_format_and_ignoring_Locale(Instant)[7]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_serialize_an_Instant_using_ISO_format_and_ignoring_Locale(Instant)[8]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_serialize_an_Instant_using_ISO_format_and_ignoring_Locale(Instant)[9]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_serialize_an_Instant_using_ISO_format_and_ignoring_Locale(Instant)[10]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_parse_an_RFC1123_formatted_string_representation_of_an_Instant(String)[1]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.001"/>
+  <testcase name="should_parse_an_RFC1123_formatted_string_representation_of_an_Instant(String)[2]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.001"/>
+  <testcase name="should_parse_an_RFC1123_formatted_string_representation_of_an_Instant(String)[3]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_parse_an_RFC1123_formatted_string_representation_of_an_Instant(String)[4]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_parse_an_RFC1123_formatted_string_representation_of_an_Instant(String)[5]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.001"/>
+  <testcase name="should_parse_an_RFC1123_formatted_string_representation_of_an_Instant(String)[6]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_parse_an_RFC1123_formatted_string_representation_of_an_Instant(String)[7]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.001"/>
+  <testcase name="should_parse_an_RFC1123_formatted_string_representation_of_an_Instant(String)[8]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_parse_an_RFC1123_formatted_string_representation_of_an_Instant(String)[9]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.0"/>
+  <testcase name="should_parse_an_RFC1123_formatted_string_representation_of_an_Instant(String)[10]" classname="org.springframework.format.datetime.standard.InstantFormatterTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

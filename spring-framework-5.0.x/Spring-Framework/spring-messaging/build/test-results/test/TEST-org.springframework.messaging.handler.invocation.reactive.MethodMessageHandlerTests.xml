@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:20:14" hostname="PandaroiddeiMac.local" time="1.662">
+  <properties/>
+  <testcase name="handleException()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="1.619"/>
+  <testcase name="duplicateMapping()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="0.002"/>
+  <testcase name="registeredMappings()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="0.004"/>
+  <testcase name="bestMatch()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="0.022"/>
+  <testcase name="argumentResolution()" classname="org.springframework.messaging.handler.invocation.reactive.MethodMessageHandlerTests" time="0.014"/>
+  <system-out><![CDATA[22:20:16.308 [Test worker] WARN  o.s.m.h.i.r.MethodMessageHandlerTests$TestMethodMessageHandler - No ApplicationContext for auto-detection of beans with message handling methods.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

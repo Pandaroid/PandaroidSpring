@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.util.ClassUtilsTests" tests="76" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:40:31" hostname="PandaroiddeiMac.local" time="0.368">
+  <properties/>
+  <testcase name="determineCommonAncestor()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="getShortName()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="getShortNameForObjectArrayClass()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="getQualifiedName()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="getMethodCountForName()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[1]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[2]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[3]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[4]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[5]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[6]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[7]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[8]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[9]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[10]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[11]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[12]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[13]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[14]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[15]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="resolvePrimitiveClassName(String, Class)[16]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="getMethodIfAvailable()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="getQualifiedNameForMultiDimensionalObjectArrayClass()" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="isAssignable()" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="getQualifiedNameForMultiDimensionalPrimitiveArrayClass()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="forNameWithPrimitiveArraysInternalName()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="getQualifiedNameForObjectArrayClass()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPresent()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="argsStaticMethod()" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="getClassFileName()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="forName()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="forNameWithPrimitiveArrays()" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="hasMethod()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="classNamesToString()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="getShortNameForInnerClass()" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="isPrimitiveOrWrapperWithPrimitive(Class)[1]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveOrWrapperWithPrimitive(Class)[2]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="isPrimitiveOrWrapperWithPrimitive(Class)[3]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="isPrimitiveOrWrapperWithPrimitive(Class)[4]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveOrWrapperWithPrimitive(Class)[5]" classname="org.springframework.util.ClassUtilsTests" time="0.011"/>
+  <testcase name="isPrimitiveOrWrapperWithPrimitive(Class)[6]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="isPrimitiveOrWrapperWithPrimitive(Class)[7]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="isPrimitiveOrWrapperWithPrimitive(Class)[8]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="isPrimitiveOrWrapperWithPrimitive(Class)[9]" classname="org.springframework.util.ClassUtilsTests" time="0.002"/>
+  <testcase name="forNameWithPrimitiveClasses()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveOrWrapperWithWrapper(Class)[1]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveOrWrapperWithWrapper(Class)[2]" classname="org.springframework.util.ClassUtilsTests" time="0.003"/>
+  <testcase name="isPrimitiveOrWrapperWithWrapper(Class)[3]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="isPrimitiveOrWrapperWithWrapper(Class)[4]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="isPrimitiveOrWrapperWithWrapper(Class)[5]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveOrWrapperWithWrapper(Class)[6]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveOrWrapperWithWrapper(Class)[7]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveOrWrapperWithWrapper(Class)[8]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveOrWrapperWithWrapper(Class)[9]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="noArgsStaticMethod()" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="getPackageName()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="addResourcePathToPackagePath()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isCacheSafe()" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="overloadedStaticMethod()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="getShortNameForPrimitiveArrayClass()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="countOverloadedMethods()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="getShortNameForMultiDimensionalPrimitiveArrayClass()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="getShortNameForMultiDimensionalObjectArrayClass()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="getAllInterfaces()" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="classPackageAsResourcePath()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="getShortNameAsProperty()" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="getQualifiedNameForPrimitiveArrayClass()" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="isPrimitiveWrapper(Class)[1]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="isPrimitiveWrapper(Class)[2]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveWrapper(Class)[3]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveWrapper(Class)[4]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <testcase name="isPrimitiveWrapper(Class)[5]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveWrapper(Class)[6]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveWrapper(Class)[7]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveWrapper(Class)[8]" classname="org.springframework.util.ClassUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveWrapper(Class)[9]" classname="org.springframework.util.ClassUtilsTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

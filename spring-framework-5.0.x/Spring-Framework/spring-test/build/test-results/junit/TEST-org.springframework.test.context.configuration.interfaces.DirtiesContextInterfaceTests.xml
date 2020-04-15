@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.configuration.interfaces.DirtiesContextInterfaceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:21:26" hostname="PandaroiddeiMac.local" time="3.969">
+  <properties/>
+  <testcase name="verifyDirtiesContextBehavior()" classname="org.springframework.test.context.configuration.interfaces.DirtiesContextInterfaceTests" time="3.969"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

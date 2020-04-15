@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.util.xml.XMLEventStreamReaderTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:40:33" hostname="PandaroiddeiMac.local" time="0.011">
+  <properties/>
+  <testcase name="readCorrect()" classname="org.springframework.util.xml.XMLEventStreamReaderTests" time="0.01"/>
+  <testcase name="readAll()" classname="org.springframework.util.xml.XMLEventStreamReaderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:21:36" hostname="PandaroiddeiMac.local" time="35.059">
+  <properties/>
+  <testcase name="brokerUnavailableEvent()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="5.009"/>
+  <testcase name="broadcastRegistry()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="10.022"/>
+  <testcase name="handleMessageFromOwnBroadcast()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="5.01"/>
+  <testcase name="handleMessage()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="10.015"/>
+  <testcase name="brokerAvailableEvent()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="5.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

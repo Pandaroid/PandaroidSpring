@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.resultmatchers.UrlAssertionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:25:37" hostname="PandaroiddeiMac.local" time="0.124">
+  <properties/>
+  <testcase name="testRedirectPattern()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.UrlAssertionTests" time="0.034"/>
+  <testcase name="testForward()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.UrlAssertionTests" time="0.028"/>
+  <testcase name="testRedirect()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.UrlAssertionTests" time="0.034"/>
+  <testcase name="testForwardPattern()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.UrlAssertionTests" time="0.026"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

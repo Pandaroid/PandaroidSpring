@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.LocalVariableTableParameterNameDiscovererTests" tests="11" skipped="1" failures="0" errors="0" timestamp="2020-04-15T13:40:07" hostname="PandaroiddeiMac.local" time="0.045">
+  <properties/>
+  <testcase name="generifiedClass()" classname="org.springframework.core.LocalVariableTableParameterNameDiscovererTests" time="0.021"/>
+  <testcase name="classesWithoutDebugSymbols()" classname="org.springframework.core.LocalVariableTableParameterNameDiscovererTests" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="consParameterNameDiscoveryNoArgs()" classname="org.springframework.core.LocalVariableTableParameterNameDiscovererTests" time="0.007"/>
+  <testcase name="overloadedStaticMethodInInnerClass()" classname="org.springframework.core.LocalVariableTableParameterNameDiscovererTests" time="0.001"/>
+  <testcase name="methodParameterNameDiscoveryWithArgs()" classname="org.springframework.core.LocalVariableTableParameterNameDiscovererTests" time="0.001"/>
+  <testcase name="overloadedMethod()" classname="org.springframework.core.LocalVariableTableParameterNameDiscovererTests" time="0.001"/>
+  <testcase name="overloadedMethodInInnerClass()" classname="org.springframework.core.LocalVariableTableParameterNameDiscovererTests" time="0.001"/>
+  <testcase name="overloadedStaticMethod()" classname="org.springframework.core.LocalVariableTableParameterNameDiscovererTests" time="0.001"/>
+  <testcase name="staticMethodParameterNameDiscoveryNoArgs()" classname="org.springframework.core.LocalVariableTableParameterNameDiscovererTests" time="0.001"/>
+  <testcase name="consParameterNameDiscoveryArgs()" classname="org.springframework.core.LocalVariableTableParameterNameDiscovererTests" time="0.001"/>
+  <testcase name="methodParameterNameDiscoveryNoArgs()" classname="org.springframework.core.LocalVariableTableParameterNameDiscovererTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

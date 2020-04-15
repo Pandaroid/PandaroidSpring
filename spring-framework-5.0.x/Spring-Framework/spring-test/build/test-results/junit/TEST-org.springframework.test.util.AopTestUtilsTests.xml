@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.util.AopTestUtilsTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:25:30" hostname="PandaroiddeiMac.local" time="0.03">
+  <properties/>
+  <testcase name="getUltimateTargetObjectWrappedInCglibProxyWrappedInJdkDynamicProxy()" classname="org.springframework.test.util.AopTestUtilsTests" time="0.019"/>
+  <testcase name="getTargetObjectForNull()" classname="org.springframework.test.util.AopTestUtilsTests" time="0.0"/>
+  <testcase name="getUltimateTargetObjectWrappedInDoubleJdkDynamicProxy()" classname="org.springframework.test.util.AopTestUtilsTests" time="0.001"/>
+  <testcase name="getTargetObjectWrappedInDoubleCglibProxy()" classname="org.springframework.test.util.AopTestUtilsTests" time="0.005"/>
+  <testcase name="getUltimateTargetObjectWrappedInDoubleCglibProxy()" classname="org.springframework.test.util.AopTestUtilsTests" time="0.0"/>
+  <testcase name="getTargetObjectForNonProxiedObject()" classname="org.springframework.test.util.AopTestUtilsTests" time="0.0"/>
+  <testcase name="getUltimateTargetObjectForNonProxiedObject()" classname="org.springframework.test.util.AopTestUtilsTests" time="0.0"/>
+  <testcase name="getTargetObjectWrappedInSingleJdkDynamicProxy()" classname="org.springframework.test.util.AopTestUtilsTests" time="0.001"/>
+  <testcase name="getUltimateTargetObjectWrappedInCglibProxyWrappedInDoubleJdkDynamicProxy()" classname="org.springframework.test.util.AopTestUtilsTests" time="0.001"/>
+  <testcase name="getUltimateTargetObjectForNull()" classname="org.springframework.test.util.AopTestUtilsTests" time="0.001"/>
+  <testcase name="getUltimateTargetObjectWrappedInSingleJdkDynamicProxy()" classname="org.springframework.test.util.AopTestUtilsTests" time="0.0"/>
+  <testcase name="getTargetObjectWrappedInSingleCglibProxy()" classname="org.springframework.test.util.AopTestUtilsTests" time="0.0"/>
+  <testcase name="getUltimateTargetObjectWrappedInSingleCglibProxy()" classname="org.springframework.test.util.AopTestUtilsTests" time="0.001"/>
+  <testcase name="getTargetObjectWrappedInDoubleJdkDynamicProxy()" classname="org.springframework.test.util.AopTestUtilsTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

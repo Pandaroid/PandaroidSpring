@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.util.XmlExpectationsHelperTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:25:30" hostname="PandaroiddeiMac.local" time="0.625">
+  <properties/>
+  <testcase name="assertXmlEqualForEqual()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="0.5"/>
+  <testcase name="assertXmlEqualExceptionForIncorrectValue()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="0.024"/>
+  <testcase name="assertXmlEqualForOutOfOrder()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="0.033"/>
+  <testcase name="assertXmlEqualExceptionForMoreEntries()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="0.028"/>
+  <testcase name="assertXmlEqualExceptionForLessEntries()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="0.039"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

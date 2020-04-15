@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.support.converter.MarshallingMessageConverterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-14T12:52:08" hostname="bamboo-21" time="0.071">
+  <properties/>
+  <testcase name="toBytesMessage()" classname="org.springframework.jms.support.converter.MarshallingMessageConverterTests" time="0.066"/>
+  <testcase name="toTextMessage()" classname="org.springframework.jms.support.converter.MarshallingMessageConverterTests" time="0.001"/>
+  <testcase name="fromBytesMessage()" classname="org.springframework.jms.support.converter.MarshallingMessageConverterTests" time="0.001"/>
+  <testcase name="fromTextMessage()" classname="org.springframework.jms.support.converter.MarshallingMessageConverterTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

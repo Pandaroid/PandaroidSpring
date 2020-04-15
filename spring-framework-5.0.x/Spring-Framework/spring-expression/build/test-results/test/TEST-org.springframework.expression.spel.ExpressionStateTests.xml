@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.expression.spel.ExpressionStateTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:39:44" hostname="PandaroiddeiMac.local" time="0.05">
+  <properties/>
+  <testcase name="testPopulatedNestedScopes()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.002"/>
+  <testcase name="testOperators()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.002"/>
+  <testcase name="testRootObjectConstructor()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.002"/>
+  <testcase name="testComparator()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.002"/>
+  <testcase name="testRootContextObject()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.003"/>
+  <testcase name="testLocalVariableNestedScopes()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.001"/>
+  <testcase name="testConstruction()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.001"/>
+  <testcase name="testTypeConversion()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.0"/>
+  <testcase name="testPopulatedNestedScopesMap()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.0"/>
+  <testcase name="testTypeLocator()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.002"/>
+  <testcase name="testVariables()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.0"/>
+  <testcase name="testNoVariableInterference()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.0"/>
+  <testcase name="testActiveContextObject()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.002"/>
+  <testcase name="testLocalVariables()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.001"/>
+  <testcase name="testPropertyAccessors()" classname="org.springframework.expression.spel.ExpressionStateTests" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

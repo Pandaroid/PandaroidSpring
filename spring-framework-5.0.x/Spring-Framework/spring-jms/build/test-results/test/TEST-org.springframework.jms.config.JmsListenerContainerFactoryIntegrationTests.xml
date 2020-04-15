@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-14T12:52:04" hostname="bamboo-21" time="0.44">
+  <properties/>
+  <testcase name="messagingMessageConverterCanBeUsed()" classname="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" time="0.254"/>
+  <testcase name="parameterAnnotationWithJdkProxy()" classname="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" time="0.023"/>
+  <testcase name="messageConverterUsedIfSet()" classname="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" time="0.002"/>
+  <testcase name="parameterAnnotationWithCglibProxy()" classname="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" time="0.149"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

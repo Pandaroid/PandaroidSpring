@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.core.namedparam.MapSqlParameterSourceExtensionsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:44:54" hostname="PandaroiddeiMac.local" time="0.003">
+  <properties/>
+  <testcase name="setter with value and type()" classname="org.springframework.jdbc.core.namedparam.MapSqlParameterSourceExtensionsTests" time="0.002"/>
+  <testcase name="setter with value, type and type name()" classname="org.springframework.jdbc.core.namedparam.MapSqlParameterSourceExtensionsTests" time="0.0"/>
+  <testcase name="setter with value()" classname="org.springframework.jdbc.core.namedparam.MapSqlParameterSourceExtensionsTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

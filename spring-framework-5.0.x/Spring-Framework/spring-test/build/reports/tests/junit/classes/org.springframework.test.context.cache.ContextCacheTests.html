@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ContextCacheTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ContextCacheTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.test.context.cache.html">org.springframework.test.context.cache</a> &gt; ContextCacheTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.345s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">removeContextHierarchyCacheLevel1()</td>
+<td class="success">0.024s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">removeContextHierarchyCacheLevel1WithExhaustiveMode()</td>
+<td class="success">0.087s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">removeContextHierarchyCacheLevel2()</td>
+<td class="success">0.029s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">removeContextHierarchyCacheLevel2WithExhaustiveMode()</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">removeContextHierarchyCacheLevel3Then2()</td>
+<td class="success">0.096s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">removeContextHierarchyCacheLevel3Then2WithExhaustiveMode()</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">verifyCacheBehaviorForContextHierarchies()</td>
+<td class="success">0.038s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">verifyCacheKeyIsBasedOnActiveProfiles()</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">verifyCacheKeyIsBasedOnContextLoader()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>22:25:14.420 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'mergedContextConfiguration' from target object [[DefaultTestContext@4b38495a testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3aTestCase, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7a8fe3f3 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3aTestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel3aTestCase$Level3aConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@75841c1e testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel2TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel2TestCase$Level2Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@2167986a testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel1TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel1TestCase$Level1Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]], attributes = map[[empty]]]] or target class [class org.springframework.test.context.support.DefaultTestContext]
+22:25:14.452 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'mergedContextConfiguration' from target object [[DefaultTestContext@698259c0 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3bTestCase, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1830d422 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3bTestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel3bTestCase$Level3bConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@150421c3 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel2TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel2TestCase$Level2Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@196c70ad testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel1TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel1TestCase$Level1Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]], attributes = map[[empty]]]] or target class [class org.springframework.test.context.support.DefaultTestContext]
+22:25:14.560 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'mergedContextConfiguration' from target object [[DefaultTestContext@6758bec9 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3aTestCase, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@285e4758 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3aTestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel3aTestCase$Level3aConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@42809f7b testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel2TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel2TestCase$Level2Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@3748ae14 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel1TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel1TestCase$Level1Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]], attributes = map[[empty]]]] or target class [class org.springframework.test.context.support.DefaultTestContext]
+22:25:14.587 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'mergedContextConfiguration' from target object [[DefaultTestContext@18a8f88a testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3aTestCase, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@610bdd3d testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3aTestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel3aTestCase$Level3aConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@7dbfbef5 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel2TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel2TestCase$Level2Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@62556fa3 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel1TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel1TestCase$Level1Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]], attributes = map[[empty]]]] or target class [class org.springframework.test.context.support.DefaultTestContext]
+22:25:14.588 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'mergedContextConfiguration' from target object [[DefaultTestContext@3d66a7cb testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3bTestCase, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@23b776f testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3bTestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel3bTestCase$Level3bConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@27339cb testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel2TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel2TestCase$Level2Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@4b927651 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel1TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel1TestCase$Level1Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]], attributes = map[[empty]]]] or target class [class org.springframework.test.context.support.DefaultTestContext]
+22:25:14.613 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'mergedContextConfiguration' from target object [[DefaultTestContext@62d2ab81 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3aTestCase, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@37aaf8d9 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3aTestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel3aTestCase$Level3aConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@76941046 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel2TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel2TestCase$Level2Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@7e595935 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel1TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel1TestCase$Level1Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]], attributes = map[[empty]]]] or target class [class org.springframework.test.context.support.DefaultTestContext]
+22:25:14.643 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'mergedContextConfiguration' from target object [[DefaultTestContext@6d9b19cc testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3aTestCase, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@59dfb95 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3aTestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel3aTestCase$Level3aConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@65eb39de testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel2TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel2TestCase$Level2Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@130bd220 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel1TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel1TestCase$Level1Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]], attributes = map[[empty]]]] or target class [class org.springframework.test.context.support.DefaultTestContext]
+22:25:14.672 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'mergedContextConfiguration' from target object [[DefaultTestContext@23691c8 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3aTestCase, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@70b6a18b testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel3aTestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel3aTestCase$Level3aConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@354a62e1 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel2TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel2TestCase$Level2Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [MergedContextConfiguration@3adbde8 testClass = ContextCacheTests.ClassHierarchyContextHierarchyLevel1TestCase, locations = '{}', classes = '{class org.springframework.test.context.cache.ContextCacheTests$ClassHierarchyContextHierarchyLevel1TestCase$Level1Config}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]], attributes = map[[empty]]]] or target class [class org.springframework.test.context.support.DefaultTestContext]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2020-4-15 22:26:38</p>
+</div>
+</div>
+</body>
+</html>

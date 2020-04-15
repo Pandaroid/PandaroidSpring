@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.support.Spr8954Tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:41:33" hostname="PandaroiddeiMac.local" time="0.031">
+  <properties/>
+  <testcase name="repro()" classname="org.springframework.beans.factory.support.Spr8954Tests" time="0.009"/>
+  <testcase name="findsFactoryBeanNameByTypeWithoutInstantiation()" classname="org.springframework.beans.factory.support.Spr8954Tests" time="0.0"/>
+  <testcase name="findsBeansByTypeIfNotInstantiated()" classname="org.springframework.beans.factory.support.Spr8954Tests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

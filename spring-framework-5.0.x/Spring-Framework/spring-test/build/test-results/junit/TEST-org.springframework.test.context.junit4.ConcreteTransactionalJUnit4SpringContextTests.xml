@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.junit4.ConcreteTransactionalJUnit4SpringContextTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:26:08" hostname="PandaroiddeiMac.local" time="0.016">
+  <properties/>
+  <testcase name="verifyResourceAnnotationWiredFields" classname="org.springframework.test.context.junit4.ConcreteTransactionalJUnit4SpringContextTests" time="0.001"/>
+  <testcase name="verifyResourceAnnotationWiredMethods" classname="org.springframework.test.context.junit4.ConcreteTransactionalJUnit4SpringContextTests" time="0.001"/>
+  <testcase name="verifyApplicationContext" classname="org.springframework.test.context.junit4.ConcreteTransactionalJUnit4SpringContextTests" time="0.001"/>
+  <testcase name="verifyBeanInitialized" classname="org.springframework.test.context.junit4.ConcreteTransactionalJUnit4SpringContextTests" time="0.002"/>
+  <testcase name="verifyBeanNameSet" classname="org.springframework.test.context.junit4.ConcreteTransactionalJUnit4SpringContextTests" time="0.001"/>
+  <testcase name="verifyAnnotationAutowiredFields" classname="org.springframework.test.context.junit4.ConcreteTransactionalJUnit4SpringContextTests" time="0.001"/>
+  <testcase name="modifyTestDataWithinTransaction" classname="org.springframework.test.context.junit4.ConcreteTransactionalJUnit4SpringContextTests" time="0.005"/>
+  <testcase name="verifyAnnotationAutowiredMethods" classname="org.springframework.test.context.junit4.ConcreteTransactionalJUnit4SpringContextTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:25:55" hostname="PandaroiddeiMac.local" time="0.011">
+  <properties/>
+  <testcase name="getResourcePathsWithInvalidPath()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.002"/>
+  <testcase name="registerContextAndGetContext()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.0"/>
+  <testcase name="getFilterRegistrations()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.0"/>
+  <testcase name="servletVersion()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.0"/>
+  <testcase name="getResourcePaths()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.001"/>
+  <testcase name="getServletRegistrations()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.0"/>
+  <testcase name="getServletRegistration()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.0"/>
+  <testcase name="setDefaultServletName()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.002"/>
+  <testcase name="getMimeTypeWithCustomConfiguredType()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.0"/>
+  <testcase name="getMimeType()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.0"/>
+  <testcase name="getResourcePathsWithSubdirectories()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.001"/>
+  <testcase name="registerAndUnregisterNamedDispatcher()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.001"/>
+  <testcase name="getResourcePathsWithNonDirectory()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.0"/>
+  <testcase name="getFilterRegistration()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.0"/>
+  <testcase name="getNamedDispatcherForDefaultServlet()" classname="org.springframework.mock.web.MockServletContextTests$MockServletContextWithDefaultResourceLoaderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

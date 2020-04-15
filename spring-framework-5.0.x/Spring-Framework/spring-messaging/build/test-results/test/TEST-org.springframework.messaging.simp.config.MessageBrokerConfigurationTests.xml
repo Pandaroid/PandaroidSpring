@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" tests="26" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:20:28" hostname="PandaroiddeiMac.local" time="22.189">
+  <properties/>
+  <testcase name="clientOutboundChannelUsedByAnnotatedMethod()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.353"/>
+  <testcase name="dotSeparatorWithBrokerDotConvention()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.162"/>
+  <testcase name="brokerChannelCustomized()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.052"/>
+  <testcase name="simpValidatorCustom()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.146"/>
+  <testcase name="userBroadcastsDisabledWithSimpleBroker()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.065"/>
+  <testcase name="clientOutboundChannelCustomized()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.057"/>
+  <testcase name="dotSeparatorWithBrokerSlashConvention()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.063"/>
+  <testcase name="configureMessageConvertersDefault()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.001"/>
+  <testcase name="brokerChannelUsedByAnnotatedMethod()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.029"/>
+  <testcase name="clientInboundChannelWithBrokerRelay()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="10.884"/>
+  <testcase name="brokerChannel()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.028"/>
+  <testcase name="simpValidatorDefault()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="customPathMatcher()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.01"/>
+  <testcase name="clientInboundChannelCustomized()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.012"/>
+  <testcase name="simpValidatorInjected()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.17"/>
+  <testcase name="configureMessageConvertersCustomAndDefault()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.001"/>
+  <testcase name="simpValidatorMvc()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.001"/>
+  <testcase name="customCacheLimit()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.019"/>
+  <testcase name="brokerChannelWithBrokerRelay()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="5.027"/>
+  <testcase name="threadPoolSizeDefault()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.02"/>
+  <testcase name="clientInboundChannel()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.017"/>
+  <testcase name="clientOutboundChannelUsedBySimpleBroker()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.014"/>
+  <testcase name="customUserRegistryOrder()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.011"/>
+  <testcase name="configureMessageConvertersCustom()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.001"/>
+  <testcase name="customArgumentAndReturnValueTypes()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.013"/>
+  <testcase name="userBroadcasts()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="5.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

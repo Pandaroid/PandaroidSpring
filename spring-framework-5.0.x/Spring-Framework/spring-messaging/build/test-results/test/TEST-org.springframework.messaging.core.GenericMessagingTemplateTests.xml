@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.core.GenericMessagingTemplateTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:20:23" hostname="PandaroiddeiMac.local" time="1.937">
+  <properties/>
+  <testcase name="sendAndReceiveVariableTimeoutCustomHeaders()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.921"/>
+  <testcase name="sendAndReceive()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.003"/>
+  <testcase name="sendAndReceiveVariableTimeout()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.505"/>
+  <testcase name="sendWithTimeout()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.001"/>
+  <testcase name="convertAndSendWithSimpMessageHeaders()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.0"/>
+  <testcase name="sendWithTimeoutMutable()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.001"/>
+  <testcase name="sendAndReceiveTimeout()" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.504"/>
+  <system-out><![CDATA[22:20:24.286 [ThreadPoolTaskExecutor-1] WARN  o.s.m.c.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout: GenericMessage [payload=response, headers={id=9253f5af-1cdd-9033-ebed-aed54b950a96, timestamp=1586960424286}]
+22:20:25.110 [ThreadPoolTaskExecutor-1] WARN  o.s.m.c.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout: GenericMessage [payload=response, headers={id=8fbe4d34-d610-5ed9-4cdf-eb43aea05dbc, timestamp=1586960425110}]
+22:20:25.617 [ThreadPoolTaskExecutor-1] WARN  o.s.m.c.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout: GenericMessage [payload=response, headers={id=d4022052-3475-db7e-1d12-d176597d134c, timestamp=1586960425617}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

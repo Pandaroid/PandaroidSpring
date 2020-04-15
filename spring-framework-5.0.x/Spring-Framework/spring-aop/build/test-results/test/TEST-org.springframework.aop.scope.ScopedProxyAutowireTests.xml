@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.scope.ScopedProxyAutowireTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:41:08" hostname="PandaroiddeiMac.local" time="0.076">
+  <properties/>
+  <testcase name="testScopedProxyInheritsAutowireCandidateFalse()" classname="org.springframework.aop.scope.ScopedProxyAutowireTests" time="0.044"/>
+  <testcase name="testScopedProxyReplacesAutowireCandidateTrue()" classname="org.springframework.aop.scope.ScopedProxyAutowireTests" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

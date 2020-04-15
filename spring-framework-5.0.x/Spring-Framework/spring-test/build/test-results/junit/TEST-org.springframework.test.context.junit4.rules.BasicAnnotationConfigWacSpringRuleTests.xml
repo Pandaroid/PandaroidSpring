@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.junit4.rules.BasicAnnotationConfigWacSpringRuleTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:26:08" hostname="PandaroiddeiMac.local" time="0.007">
+  <properties/>
+  <testcase name="fooEnigmaAutowired" classname="org.springframework.test.context.junit4.rules.BasicAnnotationConfigWacSpringRuleTests" time="0.005"/>
+  <testcase name="servletContextAwareBeanProcessed" classname="org.springframework.test.context.junit4.rules.BasicAnnotationConfigWacSpringRuleTests" time="0.0"/>
+  <testcase name="basicWacFeatures" classname="org.springframework.test.context.junit4.rules.BasicAnnotationConfigWacSpringRuleTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

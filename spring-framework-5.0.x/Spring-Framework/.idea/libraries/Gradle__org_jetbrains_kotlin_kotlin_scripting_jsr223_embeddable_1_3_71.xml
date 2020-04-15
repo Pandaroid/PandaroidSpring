@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlin:kotlin-scripting-jsr223-embeddable:1.3.71">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jsr223-embeddable/1.3.71/6c4777ef2583132a41d2f6c3b8be830ed560d725/kotlin-scripting-jsr223-embeddable-1.3.71.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jsr223-embeddable/1.3.71/eebda47f3d41dfdc5fd17f3ecd247a003562a8a2/kotlin-scripting-jsr223-embeddable-1.3.71-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

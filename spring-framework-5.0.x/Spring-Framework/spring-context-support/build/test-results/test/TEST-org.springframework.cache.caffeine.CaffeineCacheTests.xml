@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.caffeine.CaffeineCacheTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:42:37" hostname="PandaroiddeiMac.local" time="0.13">
+  <properties/>
+  <testcase name="testCacheGetCallableNotInvokedWithHitNull()" classname="org.springframework.cache.caffeine.CaffeineCacheTests" time="0.024"/>
+  <testcase name="testCacheGetSynchronized()" classname="org.springframework.cache.caffeine.CaffeineCacheTests" time="0.088"/>
+  <testcase name="testCachePutIfAbsent()" classname="org.springframework.cache.caffeine.CaffeineCacheTests" time="0.001"/>
+  <testcase name="testCacheClear()" classname="org.springframework.cache.caffeine.CaffeineCacheTests" time="0.001"/>
+  <testcase name="testCacheRemove()" classname="org.springframework.cache.caffeine.CaffeineCacheTests" time="0.001"/>
+  <testcase name="testCacheGetCallableNotInvokedWithHit()" classname="org.springframework.cache.caffeine.CaffeineCacheTests" time="0.001"/>
+  <testcase name="testCacheName()" classname="org.springframework.cache.caffeine.CaffeineCacheTests" time="0.001"/>
+  <testcase name="testCachePut()" classname="org.springframework.cache.caffeine.CaffeineCacheTests" time="0.0"/>
+  <testcase name="testCacheGetCallable()" classname="org.springframework.cache.caffeine.CaffeineCacheTests" time="0.001"/>
+  <testcase name="testNativeCache()" classname="org.springframework.cache.caffeine.CaffeineCacheTests" time="0.0"/>
+  <testcase name="testCacheGetCallableFail()" classname="org.springframework.cache.caffeine.CaffeineCacheTests" time="0.003"/>
+  <testcase name="testCacheGetCallableWithNull()" classname="org.springframework.cache.caffeine.CaffeineCacheTests" time="0.0"/>
+  <testcase name="testCachePutNullValueAllowNullFalse()" classname="org.springframework.cache.caffeine.CaffeineCacheTests" time="0.001"/>
+  <testcase name="testPutIfAbsentNullValue()" classname="org.springframework.cache.caffeine.CaffeineCacheTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

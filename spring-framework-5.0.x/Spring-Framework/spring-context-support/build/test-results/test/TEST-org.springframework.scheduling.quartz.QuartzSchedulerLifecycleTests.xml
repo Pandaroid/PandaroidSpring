@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.quartz.QuartzSchedulerLifecycleTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:42:54" hostname="PandaroiddeiMac.local" time="0.204">
+  <properties/>
+  <testcase name="destroyLazyInitSchedulerWithCustomShutdownOrderDoesNotHang()" classname="org.springframework.scheduling.quartz.QuartzSchedulerLifecycleTests" time="0.191"/>
+  <testcase name="destroyLazyInitSchedulerWithDefaultShutdownOrderDoesNotHang()" classname="org.springframework.scheduling.quartz.QuartzSchedulerLifecycleTests" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

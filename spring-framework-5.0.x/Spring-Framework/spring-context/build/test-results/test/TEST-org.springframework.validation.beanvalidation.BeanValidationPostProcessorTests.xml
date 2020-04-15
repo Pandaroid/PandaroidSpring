@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:44:09" hostname="PandaroiddeiMac.local" time="0.191">
+  <properties/>
+  <testcase name="testNotNullConstraintAfterInitializationWithProxy()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.104"/>
+  <testcase name="testSizeConstraintSatisfied()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.009"/>
+  <testcase name="testNotNullConstraintAfterInitialization()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.038"/>
+  <testcase name="testNotNullConstraintSatisfied()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.005"/>
+  <testcase name="testSizeConstraint()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.027"/>
+  <testcase name="testNotNullConstraint()" classname="org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests" time="0.006"/>
+  <system-out><![CDATA[21:44:09.563 [Test worker] WARN  o.s.c.s.GenericApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bean': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Bean state is invalid: stringValue - muss zwischen 2 und 2147483647 liegen
+21:44:09.569 [Test worker] WARN  o.s.c.s.GenericApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bean': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Bean state is invalid: testBean - darf nicht null sein
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

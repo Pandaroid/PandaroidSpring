@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.client.samples.matchers.ContentRequestMatchersIntegrationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:25:54" hostname="PandaroiddeiMac.local" time="0.06">
+  <properties/>
+  <testcase name="contentTypeNoMatch()" classname="org.springframework.test.web.client.samples.matchers.ContentRequestMatchersIntegrationTests" time="0.016"/>
+  <testcase name="contentAsBytes()" classname="org.springframework.test.web.client.samples.matchers.ContentRequestMatchersIntegrationTests" time="0.008"/>
+  <testcase name="contentType()" classname="org.springframework.test.web.client.samples.matchers.ContentRequestMatchersIntegrationTests" time="0.012"/>
+  <testcase name="contentStringStartsWith()" classname="org.springframework.test.web.client.samples.matchers.ContentRequestMatchersIntegrationTests" time="0.012"/>
+  <testcase name="contentAsString()" classname="org.springframework.test.web.client.samples.matchers.ContentRequestMatchersIntegrationTests" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

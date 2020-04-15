@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.reactive.server.StatusAssertionTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:25:53" hostname="PandaroiddeiMac.local" time="0.051">
+  <properties/>
+  <testcase name="isEqualTo()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.032"/>
+  <testcase name="reasonEquals()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.002"/>
+  <testcase name="statusSerius1xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.002"/>
+  <testcase name="statusSerius2xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
+  <testcase name="statusSerius3xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.0"/>
+  <testcase name="statusSerius4xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.003"/>
+  <testcase name="statusSerius5xx()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
+  <testcase name="matches()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.007"/>
+  <testcase name="isEqualToWithCustomStatus()" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

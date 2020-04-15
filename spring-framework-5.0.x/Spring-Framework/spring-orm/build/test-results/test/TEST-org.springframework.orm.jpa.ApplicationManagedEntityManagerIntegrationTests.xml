@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:20:48" hostname="PandaroiddeiMac.local" time="0.368">
+  <properties/>
+  <testcase name="testEntityManagerProxyAcceptsProgrammaticTxJoining()" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.196"/>
+  <testcase name="testStateClean()" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.002"/>
+  <testcase name="testCommitOccurs()" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.006"/>
+  <testcase name="testEntityManagerProxyIsProxy()" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.011"/>
+  <testcase name="testCannotFlushWithoutGettingTransaction()" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.064"/>
+  <testcase name="testRollbackOccurs()" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.032"/>
+  <testcase name="testReuseInNewTransaction()" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.01"/>
+  <testcase name="testInstantiateAndSave()" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.044"/>
+  <system-out><![CDATA[[EL Info]: 2020-04-15 22:20:49.169--ServerSession(1267072303)--EclipseLink, version: Eclipse Persistence Services - 2.7.6.v20200131-b7c997804f
+[EL Warning]: metadata: 2020-04-15 22:20:49.17--ServerSession(1267072303)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+[EL Info]: connection: 2020-04-15 22:20:49.17--ServerSession(1267072303)--/file:/Users/pandaroid/Dev/GitRepos/MyGitHub/PandaroidSpring/spring-framework-5.0.x/Spring-Framework/spring-orm/build/classes/java/test/_Person login successful
+[EL Fine]: sql: 2020-04-15 22:20:49.18--ServerSession(1267072303)--Connection(125625604)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+[EL Fine]: sql: 2020-04-15 22:20:49.188--ClientSession(854507)--Connection(1851019552)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+	bind => [50, SEQ_GEN]
+[EL Fine]: sql: 2020-04-15 22:20:49.189--ClientSession(854507)--Connection(1851019552)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+	bind => [SEQ_GEN]
+[EL Fine]: sql: 2020-04-15 22:20:49.19--ClientSession(854507)--Connection(98299532)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [101, Tony, Blair, null]
+[EL Fine]: sql: 2020-04-15 22:20:49.191--ClientSession(854507)--Connection(98299532)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-04-15 22:20:49.192--ServerSession(1267072303)--Connection(1545296816)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-04-15 22:20:49.194--ServerSession(1267072303)--Connection(565896926)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2020-04-15 22:20:49.267--ClientSession(1463488733)--Connection(1863448398)--DELETE FROM PERSON
+[EL Fine]: sql: 2020-04-15 22:20:49.297--ClientSession(98230294)--Connection(704422587)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [103, Tony, Blair, null]
+[EL Fine]: sql: 2020-04-15 22:20:49.298--ClientSession(98230294)--Connection(704422587)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-04-15 22:20:49.301--ServerSession(1267072303)--Connection(47585669)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-04-15 22:20:49.305--ClientSession(670668895)--Connection(66389601)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [104, Tony, Blair, null]
+[EL Fine]: sql: 2020-04-15 22:20:49.305--ClientSession(670668895)--Connection(66389601)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-04-15 22:20:49.307--ClientSession(1719895483)--Connection(1246124783)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [105, Tony, Blair, null]
+[EL Fine]: sql: 2020-04-15 22:20:49.308--ClientSession(1719895483)--Connection(1246124783)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-04-15 22:20:49.309--ServerSession(1267072303)--Connection(438154356)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-04-15 22:20:49.31--ClientSession(1719895483)--Connection(1742406095)--DELETE FROM PERSON
+[EL Fine]: sql: 2020-04-15 22:20:49.311--ClientSession(1719895483)--Connection(1742406095)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-04-15 22:20:49.354--ClientSession(1690178817)--Connection(1638521859)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [106, Tony, Blair, null]
+[EL Fine]: sql: 2020-04-15 22:20:49.356--ClientSession(1690178817)--Connection(1638521859)--SELECT COUNT(0) FROM person
+[EL Info]: connection: 2020-04-15 22:20:49.358--ServerSession(1267072303)--/file:/Users/pandaroid/Dev/GitRepos/MyGitHub/PandaroidSpring/spring-framework-5.0.x/Spring-Framework/spring-orm/build/classes/java/test/_Person logout successful
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

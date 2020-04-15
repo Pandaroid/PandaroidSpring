@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" tests="28" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:20:26" hostname="PandaroiddeiMac.local" time="0.696">
+  <properties/>
+  <testcase name="earlyPutWithExceptionVetoPut()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.04"/>
+  <testcase name="removeWithException()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.012"/>
+  <testcase name="cacheExceptionVetoed()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.086"/>
+  <testcase name="cacheWithCustomCacheResolver()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.022"/>
+  <testcase name="earlyRemove()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.009"/>
+  <testcase name="remove()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.014"/>
+  <testcase name="earlyPut()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.008"/>
+  <testcase name="putWithException()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.019"/>
+  <testcase name="removeWithExceptionVetoRemove()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.014"/>
+  <testcase name="cacheWithCustomKeyGenerator()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.017"/>
+  <testcase name="cacheNull()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.03"/>
+  <testcase name="cacheCheckedException()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.015"/>
+  <testcase name="earlyRemoveAll()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.01"/>
+  <testcase name="put()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.024"/>
+  <testcase name="earlyRemoveAllWithExceptionVetoRemove()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.012"/>
+  <testcase name="earlyPutWithException()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.039"/>
+  <testcase name="cache()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.019"/>
+  <testcase name="earlyRemoveAllWithException()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.012"/>
+  <testcase name="earlyRemoveWithException()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.008"/>
+  <testcase name="cacheAlwaysInvoke()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.015"/>
+  <testcase name="removeAllWithExceptionVetoRemove()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.009"/>
+  <testcase name="earlyRemoveWithExceptionVetoRemove()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.078"/>
+  <testcase name="removeAll()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.013"/>
+  <testcase name="removeAllWithException()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.02"/>
+  <testcase name="cacheWithPartialKey()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.015"/>
+  <testcase name="putWithExceptionVetoPut()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.014"/>
+  <testcase name="cacheException()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.025"/>
+  <testcase name="cacheExceptionRewriteCallStack()" classname="org.springframework.cache.aspectj.JCacheAspectJNamespaceConfigTests" time="0.031"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

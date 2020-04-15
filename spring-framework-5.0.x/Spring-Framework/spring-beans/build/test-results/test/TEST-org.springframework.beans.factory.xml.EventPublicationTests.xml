@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.xml.EventPublicationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:41:32" hostname="PandaroiddeiMac.local" time="0.03">
+  <properties/>
+  <testcase name="beanEventReceived()" classname="org.springframework.beans.factory.xml.EventPublicationTests" time="0.007"/>
+  <testcase name="importEventReceived()" classname="org.springframework.beans.factory.xml.EventPublicationTests" time="0.006"/>
+  <testcase name="aliasEventReceived()" classname="org.springframework.beans.factory.xml.EventPublicationTests" time="0.012"/>
+  <testcase name="defaultsEventReceived()" classname="org.springframework.beans.factory.xml.EventPublicationTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

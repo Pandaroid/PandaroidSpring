@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:44:50" hostname="PandaroiddeiMac.local" time="4.476">
+  <properties/>
+  <testcase name="queryForObject with nullable RowMapper-like function()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="3.982"/>
+  <testcase name="queryForObject with reified type parameters()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.01"/>
+  <testcase name="queryForObject with RowMapper-like function()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.011"/>
+  <testcase name="queryForList with reified type parameters and argTypes()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.327"/>
+  <testcase name="query with ResultSetExtractor-like function()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.013"/>
+  <testcase name="queryForList with reified type parameters()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.007"/>
+  <testcase name="query with nullable ResultSetExtractor-like function()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.008"/>
+  <testcase name="queryForObject with reified type parameters and argTypes()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.007"/>
+  <testcase name="queryForObject with reified type parameters and args()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.006"/>
+  <testcase name="query with RowMapper-like function()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.067"/>
+  <testcase name="queryForList with reified type parameters and args()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.007"/>
+  <testcase name="query with RowCallbackHandler-like function()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

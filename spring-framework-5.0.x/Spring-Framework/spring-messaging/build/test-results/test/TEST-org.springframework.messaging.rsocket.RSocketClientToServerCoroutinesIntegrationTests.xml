@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.rsocket.RSocketClientToServerCoroutinesIntegrationTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:23:07" hostname="PandaroiddeiMac.local" time="0.823">
+  <properties/>
+  <testcase name="unitReturnValueFromExceptionHandler()" classname="org.springframework.messaging.rsocket.RSocketClientToServerCoroutinesIntegrationTests" time="0.152"/>
+  <testcase name="echoStreamAsync()" classname="org.springframework.messaging.rsocket.RSocketClientToServerCoroutinesIntegrationTests" time="0.135"/>
+  <testcase name="handleWithThrownException()" classname="org.springframework.messaging.rsocket.RSocketClientToServerCoroutinesIntegrationTests" time="0.034"/>
+  <testcase name="echoAsync()" classname="org.springframework.messaging.rsocket.RSocketClientToServerCoroutinesIntegrationTests" time="0.052"/>
+  <testcase name="echoChannel()" classname="org.springframework.messaging.rsocket.RSocketClientToServerCoroutinesIntegrationTests" time="0.182"/>
+  <testcase name="fireAndForgetAsync()" classname="org.springframework.messaging.rsocket.RSocketClientToServerCoroutinesIntegrationTests" time="0.073"/>
+  <testcase name="fireAndForget()" classname="org.springframework.messaging.rsocket.RSocketClientToServerCoroutinesIntegrationTests" time="0.062"/>
+  <testcase name="echoStream()" classname="org.springframework.messaging.rsocket.RSocketClientToServerCoroutinesIntegrationTests" time="0.103"/>
+  <testcase name="unitReturnValue()" classname="org.springframework.messaging.rsocket.RSocketClientToServerCoroutinesIntegrationTests" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[java.lang.IllegalArgumentException: Missing 'rsocketResponse'
+	at org.springframework.util.Assert.notNull(Assert.java:198)
+	at org.springframework.messaging.rsocket.annotation.support.RSocketPayloadReturnValueHandler.handleEncodedContent(RSocketPayloadReturnValueHandler.java:65)
+	at org.springframework.messaging.handler.invocation.reactive.AbstractEncoderMethodReturnValueHandler.lambda$handleReturnValue$0(AbstractEncoderMethodReturnValueHandler.java:124)
+	at org.springframework.messaging.handler.invocation.reactive.ChannelSendOperator$WriteBarrier.onNext(ChannelSendOperator.java:194)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+	at reactor.core.publisher.MonoCreate$DefaultMonoSink.success(MonoCreate.java:156)
+	at kotlinx.coroutines.reactor.MonoCoroutine.onCompleted(Mono.kt:66)
+	at kotlinx.coroutines.AbstractCoroutine.onCompletionInternal(AbstractCoroutine.kt:104)
+	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:294)
+	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:853)
+	at kotlinx.coroutines.JobSupport.makeCompletingOnce$kotlinx_coroutines_core(JobSupport.kt:825)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:111)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:175)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:137)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:108)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:307)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:317)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeUndispatched(CancellableContinuationImpl.kt:399)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedResumeTask.run(EventLoop.common.kt:485)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:272)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:68)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.IllegalArgumentException: Missing 'rsocketResponse'
+	at org.springframework.util.Assert.notNull(Assert.java:198)
+	at org.springframework.messaging.rsocket.annotation.support.RSocketPayloadReturnValueHandler.handleEncodedContent(RSocketPayloadReturnValueHandler.java:65)
+	at org.springframework.messaging.handler.invocation.reactive.AbstractEncoderMethodReturnValueHandler.lambda$handleReturnValue$0(AbstractEncoderMethodReturnValueHandler.java:124)
+	at org.springframework.messaging.handler.invocation.reactive.ChannelSendOperator$WriteBarrier.onNext(ChannelSendOperator.java:194)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+	at reactor.core.publisher.MonoCreate$DefaultMonoSink.success(MonoCreate.java:156)
+	at kotlinx.coroutines.reactor.MonoCoroutine.onCompleted(Mono.kt:66)
+	at kotlinx.coroutines.AbstractCoroutine.onCompletionInternal(AbstractCoroutine.kt:104)
+	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:294)
+	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:853)
+	at kotlinx.coroutines.JobSupport.makeCompletingOnce$kotlinx_coroutines_core(JobSupport.kt:825)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:111)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:175)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:137)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:108)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:307)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:317)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeUndispatched(CancellableContinuationImpl.kt:399)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedResumeTask.run(EventLoop.common.kt:485)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:272)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:68)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.IllegalArgumentException: Missing 'rsocketResponse'
+	at org.springframework.util.Assert.notNull(Assert.java:198)
+	at org.springframework.messaging.rsocket.annotation.support.RSocketPayloadReturnValueHandler.handleEncodedContent(RSocketPayloadReturnValueHandler.java:65)
+	at org.springframework.messaging.handler.invocation.reactive.AbstractEncoderMethodReturnValueHandler.lambda$handleReturnValue$0(AbstractEncoderMethodReturnValueHandler.java:124)
+	at org.springframework.messaging.handler.invocation.reactive.ChannelSendOperator$WriteBarrier.onNext(ChannelSendOperator.java:194)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:73)
+	at reactor.core.publisher.MonoCreate$DefaultMonoSink.success(MonoCreate.java:156)
+	at kotlinx.coroutines.reactor.MonoCoroutine.onCompleted(Mono.kt:66)
+	at kotlinx.coroutines.AbstractCoroutine.onCompletionInternal(AbstractCoroutine.kt:104)
+	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:294)
+	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:853)
+	at kotlinx.coroutines.JobSupport.makeCompletingOnce$kotlinx_coroutines_core(JobSupport.kt:825)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:111)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:175)
+	at kotlinx.coroutines.DispatchedTaskKt.resumeUnconfined(DispatchedTask.kt:137)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:108)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:307)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:317)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeUndispatched(CancellableContinuationImpl.kt:399)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedResumeTask.run(EventLoop.common.kt:485)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:272)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:68)
+	at java.lang.Thread.run(Thread.java:748)
+java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException
+]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.handler.invocation.MethodMessageHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-15T14:20:06" hostname="PandaroiddeiMac.local" time="8.592">
+  <properties/>
+  <testcase name="handleException()" classname="org.springframework.messaging.handler.invocation.MethodMessageHandlerTests" time="8.517"/>
+  <testcase name="duplicateMapping()" classname="org.springframework.messaging.handler.invocation.MethodMessageHandlerTests" time="0.045"/>
+  <testcase name="patternMatch()" classname="org.springframework.messaging.handler.invocation.MethodMessageHandlerTests" time="0.005"/>
+  <testcase name="registeredMappings()" classname="org.springframework.messaging.handler.invocation.MethodMessageHandlerTests" time="0.013"/>
+  <testcase name="bestMatch()" classname="org.springframework.messaging.handler.invocation.MethodMessageHandlerTests" time="0.004"/>
+  <testcase name="argumentResolution()" classname="org.springframework.messaging.handler.invocation.MethodMessageHandlerTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

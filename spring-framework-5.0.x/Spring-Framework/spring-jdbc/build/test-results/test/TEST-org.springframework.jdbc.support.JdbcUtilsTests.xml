@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.support.JdbcUtilsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:44:43" hostname="PandaroiddeiMac.local" time="0.003">
+  <properties/>
+  <testcase name="commonDatabaseName()" classname="org.springframework.jdbc.support.JdbcUtilsTests" time="0.001"/>
+  <testcase name="resolveTypeName()" classname="org.springframework.jdbc.support.JdbcUtilsTests" time="0.0"/>
+  <testcase name="convertUnderscoreNameToPropertyName()" classname="org.springframework.jdbc.support.JdbcUtilsTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
