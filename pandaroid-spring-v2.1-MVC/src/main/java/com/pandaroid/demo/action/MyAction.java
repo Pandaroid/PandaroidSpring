@@ -6,6 +6,7 @@ import com.pandaroid.springframework.annotation.PandaroidAutowired;
 import com.pandaroid.springframework.annotation.PandaroidController;
 import com.pandaroid.springframework.annotation.PandaroidRequestMapping;
 import com.pandaroid.springframework.annotation.PandaroidRequestParam;
+import com.pandaroid.springframework.web.servlet.PandaroidModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -20,41 +21,42 @@ public class MyAction {
     IQueryService queryService;
 
     @PandaroidRequestMapping("/query.json")
-    public void query(HttpServletRequest request, HttpServletResponse response,
-                      @PandaroidRequestParam("name") String name){
+    public PandaroidModelAndView query(HttpServletRequest request, HttpServletResponse response,
+                                       @PandaroidRequestParam("name") String name){
         String result = queryService.query(name);
-        out(response,result);
+        return out(response,result);
     }
 
     @PandaroidRequestMapping("/add*.json")
-    public void add(HttpServletRequest request,HttpServletResponse response,
+    public PandaroidModelAndView add(HttpServletRequest request,HttpServletResponse response,
                     @PandaroidRequestParam("name") String name,@PandaroidRequestParam("addr") String addr){
         String result = modifyService.add(name,addr);
-        out(response,result);
+        return out(response,result);
     }
 
     @PandaroidRequestMapping("/remove.json")
-    public void remove(HttpServletRequest request,HttpServletResponse response,
+    public PandaroidModelAndView remove(HttpServletRequest request,HttpServletResponse response,
                        @PandaroidRequestParam("id") Integer id){
         String result = modifyService.remove(id);
-        out(response,result);
+        return out(response,result);
     }
 
     @PandaroidRequestMapping("/edit.json")
-    public void edit(HttpServletRequest request,HttpServletResponse response,
+    public PandaroidModelAndView edit(HttpServletRequest request,HttpServletResponse response,
                      @PandaroidRequestParam("id") Integer id,
                      @PandaroidRequestParam("name") String name){
         String result = modifyService.edit(id,name);
-        out(response,result);
+        return out(response,result);
     }
 
 
-    private void out(HttpServletResponse resp, String str){
+    private PandaroidModelAndView out(HttpServletResponse resp, String str){
         try {
             resp.getWriter().write(str);
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return null;
     }
 
 }
