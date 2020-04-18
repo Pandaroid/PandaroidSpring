@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorInitTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:44:01" hostname="PandaroiddeiMac.local" time="0.032">
-  <properties/>
-  <testcase name="testIgnoreAdvisorThatIsCurrentlyInCreation()" classname="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorInitTests" time="0.032"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

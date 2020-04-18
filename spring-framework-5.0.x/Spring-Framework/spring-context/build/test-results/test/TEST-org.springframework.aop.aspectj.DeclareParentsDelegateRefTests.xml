@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.aspectj.DeclareParentsDelegateRefTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:44:04" hostname="PandaroiddeiMac.local" time="0.027">
-  <properties/>
-  <testcase name="testIntroductionWasMade()" classname="org.springframework.aop.aspectj.DeclareParentsDelegateRefTests" time="0.019"/>
-  <testcase name="testIntroductionDelegation()" classname="org.springframework.aop.aspectj.DeclareParentsDelegateRefTests" time="0.008"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

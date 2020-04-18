@@ -2,81 +2,898 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb208804-8915-4794-91d0-057566396a10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.4/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/.gradle/noVersion/buildSrc.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/java/main/org/springframework/build/api/ApiDiffPlugin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/java/main/org/springframework/build/compile/CompilerConventionsPlugin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build/classes/java/main/org/springframework/build/optional/OptionalDependenciesPlugin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build/pluginDescriptors/org.springframework.build.api-diff.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build/pluginDescriptors/org.springframework.build.compile.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build/pluginDescriptors/org.springframework.build.optional-dependencies.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build/pluginUnderTestMetadata/plugin-under-test-metadata.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build/reports/task-properties/report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build/resources/main/META-INF/gradle-plugins/org.springframework.build.api-diff.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build/resources/main/META-INF/gradle-plugins/org.springframework.build.compile.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build/resources/main/META-INF/gradle-plugins/org.springframework.build.optional-dependencies.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oxm/build/classes/jaxb/org/springframework/oxm/jaxb/test/FlightType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oxm/build/classes/jaxb/org/springframework/oxm/jaxb/test/Flights.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oxm/build/classes/jaxb/org/springframework/oxm/jaxb/test/ObjectFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oxm/build/classes/jaxb/org/springframework/oxm/jaxb/test/package-info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/Command line suite/Command line test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/Command line suite/Command line test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithAfterEachTestMethodModeTestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithCleanMethodsAndDefaultModeTestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$ClassLevelDirtiesContextWithDirtyMethodsTestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$CleanTestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$InheritedClassLevelDirtiesContextWithAfterEachTestMethodModeTestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$InheritedClassLevelDirtiesContextWithCleanMethodsAndAfterClassModeTestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$InheritedClassLevelDirtiesContextWithCleanMethodsAndDefaultModeTestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/junitreports/TEST-org.springframework.test.context.cache.ClassLevelDirtiesContextTestNGTests$InheritedClassLevelDirtiesContextWithDirtyMethodsTestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/Command line test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/Command line suite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test/test-output/testng.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-web/src/testFixtures/java/org/springframework/web/testfixture/method/ResolvableMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-web/src/testFixtures/java/org/springframework/web/testfixture/method/ResolvableMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/resource/wrappedInternalText2044185568044907391.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/resource/wrappedInternalText6194046276850856246.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/resource/wrappedInternalText9175819488397518467.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/kotlin/main/META-INF/spring-beans.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/kotlin/main/org/springframework/beans/factory/BeanFactoryExtensionsKt$getBeanProvider$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/kotlin/main/org/springframework/beans/factory/BeanFactoryExtensionsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/kotlin/main/org/springframework/beans/factory/ListableBeanFactoryExtensionsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.atinject.tck.auto.Convertible$PrivateTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.AfterAdviceBindingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.AfterReturningAdviceBindingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.AfterThrowingAdviceBindingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.AroundAdviceBindingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.AroundAdviceCircularTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.AspectAndAdvicePrecedenceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.AspectJExpressionPointcutAdvisorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.BeanNamePointcutAtAspectTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.BeanNamePointcutTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.BeforeAdviceBindingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.DeclarationOrderIndependenceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.DeclareParentsDelegateRefTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.DeclareParentsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.ImplicitJPArgumentMatchingAtAspectJTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.ImplicitJPArgumentMatchingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.OverloadedAdviceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.ProceedTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.PropertyDependentAspectTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.SharedPointcutWithArgsMismatchTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.SubtypeSensitiveMatchingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.TargetPointcutSelectionTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsAtAspectJTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.autoproxy.AnnotationBindingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.autoproxy.AnnotationPointcutTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.autoproxy.AspectImplementingInterfaceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorAndLazyInitTargetSourceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.autoproxy.AtAspectJAfterThrowingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.autoproxy.AtAspectJAnnotationBindingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.autoproxy.spr3064.SPR3064Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.generic.AfterReturningGenericTypeMatchingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.generic.GenericBridgeMethodMatchingClassProxyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.generic.GenericBridgeMethodMatchingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.aspectj.generic.GenericParameterMatchingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.config.AopNamespaceHandlerAdviceTypeTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.config.AopNamespaceHandlerArgNamesTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.config.AopNamespaceHandlerReturningTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.config.AopNamespaceHandlerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.config.AopNamespaceHandlerThrowingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.config.MethodLocatingFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.config.PrototypeProxyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.framework.CglibProxyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.framework.JdkDynamicProxyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.framework.ObjenesisProxyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.framework.ProxyFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.framework.adapter.AdvisorAdapterRegistrationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.framework.autoproxy.AutoProxyCreatorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorInitTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.scope.ScopedProxyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.aop.target.CommonsPool2TargetSourceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.beans.factory.annotation.BridgeMethodAutowiringTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.beans.factory.support.QualifierAnnotationAutowireContextTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.beans.factory.xml.LookupMethodWrappedByCglibProxyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.beans.factory.xml.QualifierAnnotationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.beans.factory.xml.SimplePropertyNamespaceHandlerWithExpressionLanguageTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.beans.factory.xml.XmlBeanFactoryTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.beans.factory.xml.support.CustomNamespaceHandlerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.CacheReproTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.NoOpCacheManagerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.annotation.AnnotationCacheOperationSourceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.concurrent.ConcurrentMapCacheManagerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.concurrent.ConcurrentMapCacheTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.config.AnnotationDrivenCacheConfigTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.config.AnnotationNamespaceDrivenTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.config.CacheAdviceNamespaceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.config.CacheAdviceParserTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.config.CustomInterceptorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.config.EnableCachingIntegrationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.config.EnableCachingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.config.ExpressionCachingIntegrationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.interceptor.CacheErrorHandlerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.interceptor.CacheProxyFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.interceptor.CachePutEvaluationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.interceptor.CacheResolverCustomizationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.interceptor.CacheSyncFailureTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.interceptor.ExpressionEvaluatorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.cache.interceptor.SimpleKeyGeneratorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.AggressiveFactoryBeanInstantiationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.AnnotationBeanNameGeneratorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.AnnotationConfigApplicationContextExtensionsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.AnnotationConfigApplicationContextTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.AnnotationProcessorPerformanceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.AnnotationScopeMetadataResolverTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.AsmCircularImportDetectionTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.AutoProxyLazyInitTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.BeanMethodMetadataTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.BeanMethodPolymorphismTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ClassPathFactoryBeanDefinitionScannerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ComponentScanAnnotationIntegrationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ComponentScanAnnotationRecursionTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ComponentScanAnnotationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ComponentScanParserScopedProxyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ComponentScanParserTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ComponentScanParserWithUserDefinedStrategiesTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ConfigurationClassAndBFPPTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ConfigurationClassPostConstructAndAutowiringTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ConfigurationClassPostProcessorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ConfigurationClassWithConditionTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ConfigurationWithFactoryBeanAndAutowiringTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ConfigurationWithFactoryBeanAndParametersTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ConfigurationWithFactoryBeanBeanEarlyDeductionTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.DeferredImportSelectorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.DestroyMethodInferenceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.DoubleScanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.EnableAspectJAutoProxyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.EnableLoadTimeWeavingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ImportAwareTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ImportBeanDefinitionRegistrarTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ImportSelectorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ImportVersusDirectRegistrationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.InvalidConfigurationClassDefinitionTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.KotlinConfigurationClassTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.LazyAutowiredAnnotationBeanPostProcessorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.NestedConfigurationClassTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ParserStrategyUtilsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.PrimitiveBeanLookupAndAutowiringTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.PropertySourceAnnotationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.ReflectionUtilsIntegrationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.RoleAndDescriptionAnnotationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.SimpleConfigTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.SimpleScanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.Spr11202Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.Spr11310Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.Spr12278Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.Spr12636Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.Spr15042Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.Spr15275Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.Spr16022Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.Spr16179Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.Spr16217Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.Spr3775InitDestroyLifecycleTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.Spr6602Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.Spr8954Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.AutowiredConfigurationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.BeanAnnotationAttributePropagationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.BeanMethodQualificationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.ConfigurationBeanNameTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.ConfigurationClassAspectIntegrationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.ConfigurationMetaAnnotationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.DuplicateConfigurationClassPostProcessorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.DuplicatePostProcessingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.ImportAnnotationDetectionTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.ImportResourceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.ImportTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.ImportWithConditionTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.ImportedConfigurationClassEnhancementTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.PackagePrivateBeanMethodInheritanceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.ScopingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.Spr10668Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.Spr10744Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.Spr12526Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.Spr7167Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.spr8955.Spr8955Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.configuration.spr9031.Spr9031Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.jsr330.SpringAtInjectTckTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.spr10546.Spr10546Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.spr12233.Spr12233Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.spr12334.Spr12334Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.spr16756.Spr16756Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.spr8761.Spr8761Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.annotation.spr8808.Spr8808Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.config.ContextNamespaceHandlerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.conversionservice.ConversionServiceContextConfigTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.event.AnnotationDrivenEventListenerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.event.ApplicationContextEventTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.event.ApplicationListenerMethodAdapterTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.event.EventPublicationInterceptorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.event.GenericApplicationListenerAdapterTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.event.LifecycleEventTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.event.PayloadApplicationEventTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.expression.AnnotatedElementKeyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.expression.ApplicationContextExpressionTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.expression.CachedExpressionEvaluatorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.expression.EnvironmentAccessorIntegrationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.expression.FactoryBeanAccessTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.expression.MapAccessorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.expression.MethodBasedEvaluationContextTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.groovy.GroovyApplicationContextDynamicBeanPropertyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.groovy.GroovyApplicationContextTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.groovy.GroovyBeanDefinitionReaderTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.i18n.LocaleContextHolderTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.index.CandidateComponentsIndexLoaderTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.index.CandidateComponentsIndexTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.ApplicationContextLifecycleTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.BeanDefinitionDslTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.BeanFactoryPostProcessorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.ClassPathXmlApplicationContextTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.ClassPathXmlApplicationContextTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.ConversionServiceFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.DefaultLifecycleProcessorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.EnvironmentIntegrationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.EnvironmentSecurityManagerIntegrationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.GenericApplicationContextExtensionsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.GenericApplicationContextTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.GenericXmlApplicationContextTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.LiveBeansViewTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.PropertyResourceConfigurerIntegrationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.PropertySourcesPlaceholderConfigurerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.ResourceBundleMessageSourceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.SerializableBeanFactoryMemoryLeakTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.SimpleThreadScopeTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.Spr7283Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.Spr7816Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.StaticApplicationContextMulticasterTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.StaticApplicationContextTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.context.support.StaticMessageSourceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.ejb.config.JeeNamespaceHandlerEventTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.ejb.config.JeeNamespaceHandlerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.datetime.DateFormatterTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.datetime.DateFormattingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.datetime.joda.DateTimeFormatterFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.datetime.joda.DateTimeFormatterFactoryTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.datetime.joda.JodaTimeFormattingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.datetime.standard.DateTimeFormatterFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.datetime.standard.DateTimeFormattingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.datetime.standard.InstantFormatterTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.number.CurrencyStyleFormatterTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.number.NumberFormattingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.number.NumberStyleFormatterTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.number.PercentStyleFormatterTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.number.money.MoneyFormattingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.support.FormattingConversionServiceFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.format.support.FormattingConversionServiceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.instrument.classloading.InstrumentableClassLoaderTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.instrument.classloading.ReflectiveLoadTimeWeaverTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.instrument.classloading.ResourceOverridingShadowingClassLoaderTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.access.MBeanClientInterceptorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.access.RemoteMBeanClientInterceptorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.CustomEditorConfigurerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.LazyInitMBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.MBeanExporterOperationsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.MBeanExporterTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.NotificationListenerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.NotificationPublisherTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.PropertyPlaceholderConfigurerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.annotation.AnnotationLazyInitMBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.annotation.AnnotationMetadataAssemblerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.annotation.JmxUtilsAnnotationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.assembler.InterfaceBasedMBeanInfoAssemblerCustomTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.assembler.InterfaceBasedMBeanInfoAssemblerMappedTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.assembler.InterfaceBasedMBeanInfoAssemblerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerMappedTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerMappedTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.assembler.ReflectiveAssemblerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.naming.IdentityNamingStrategyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.naming.KeyNamingStrategyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.naming.PropertiesFileNamingStrategyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.naming.PropertiesNamingStrategyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.export.notification.ModelMBeanNotificationPublisherTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.support.ConnectorServerFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.support.JmxUtilsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jmx.support.MBeanServerFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jndi.JndiLocatorDelegateTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jndi.JndiObjectFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jndi.JndiPropertySourceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jndi.JndiTemplateEditorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.jndi.JndiTemplateTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.remoting.rmi.RmiSupportTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.remoting.support.RemoteInvocationUtilsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.annotation.AnnotationAsyncExecutionInterceptorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.annotation.AsyncExecutionTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.annotation.AsyncResultTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.annotation.EnableAsyncTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.annotation.EnableSchedulingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.concurrent.DecoratedThreadPoolTaskExecutorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.concurrent.ThreadPoolExecutorFactoryBeanTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.concurrent.ThreadPoolTaskExecutorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.config.AnnotationDrivenBeanDefinitionParserTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.config.ExecutorBeanDefinitionParserTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.config.LazyScheduledTasksBeanDefinitionParserTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.config.ScheduledTaskRegistrarTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.config.SchedulerBeanDefinitionParserTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.support.CronSequenceGeneratorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.support.CronTriggerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scheduling.support.PeriodicTriggerTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scripting.bsh.BshScriptEvaluatorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scripting.bsh.BshScriptFactoryTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scripting.config.ScriptingDefaultsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scripting.groovy.GroovyAspectIntegrationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scripting.groovy.GroovyAspectTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scripting.groovy.GroovyClassLoadingTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scripting.groovy.GroovyScriptEvaluatorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scripting.groovy.GroovyScriptFactoryTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scripting.support.RefreshableScriptTargetSourceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scripting.support.ResourceScriptSourceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scripting.support.ScriptFactoryPostProcessorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scripting.support.StandardScriptFactoryTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.scripting.support.StaticScriptSourceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.ui.ModelExtensionsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.ui.ModelMapExtensionsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.ui.ModelMapTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.validation.DataBinderFieldAccessTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.validation.DataBinderTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.validation.DefaultMessageCodesResolverTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.validation.ValidationUtilsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.validation.beanvalidation.MethodValidationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.validation.beanvalidation.SpringValidatorAdapterTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/classes/org.springframework.validation.beanvalidation.ValidatorFactoryTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.atinject.tck.auto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.aop.aspectj.autoproxy.benchmark.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.aop.aspectj.autoproxy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.aop.aspectj.autoproxy.spr3064.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.aop.aspectj.generic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.aop.aspectj.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.aop.config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.aop.framework.adapter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.aop.framework.autoproxy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.aop.framework.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.aop.scope.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.aop.target.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.beans.factory.annotation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.beans.factory.support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.beans.factory.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.beans.factory.xml.support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.cache.annotation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.cache.concurrent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.cache.config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.cache.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.cache.interceptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.annotation.configuration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.annotation.configuration.spr8955.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.annotation.configuration.spr9031.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.annotation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.annotation.jsr330.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.annotation.spr10546.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.annotation.spr12233.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.annotation.spr12334.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.annotation.spr16756.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.annotation.spr8761.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.annotation.spr8808.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.conversionservice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.expression.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.groovy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.i18n.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.support.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.context.support.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.ejb.access.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.ejb.config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.format.datetime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.format.datetime.joda.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.format.datetime.standard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.format.number.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.format.number.money.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.format.support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.instrument.classloading.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.jmx.access.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.jmx.export.annotation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.jmx.export.assembler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.jmx.export.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.jmx.export.naming.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.jmx.export.notification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.jmx.support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.jndi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.remoting.rmi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.remoting.support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.scheduling.annotation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.scheduling.concurrent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.scheduling.config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.scheduling.support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.scripting.bsh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.scripting.config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.scripting.groovy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.scripting.support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.ui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.validation.beanvalidation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/reports/tests/test/packages/org.springframework.validation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.atinject.tck.auto.Convertible$PrivateTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.AfterAdviceBindingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.AfterReturningAdviceBindingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.AfterThrowingAdviceBindingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.AroundAdviceBindingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.AroundAdviceCircularTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.AspectAndAdvicePrecedenceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.AspectJExpressionPointcutAdvisorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.BeanNamePointcutAtAspectTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.BeanNamePointcutTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.BeforeAdviceBindingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.DeclarationOrderIndependenceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.DeclareParentsDelegateRefTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.DeclareParentsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.ImplicitJPArgumentMatchingAtAspectJTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.ImplicitJPArgumentMatchingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.OverloadedAdviceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.ProceedTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.PropertyDependentAspectTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.SharedPointcutWithArgsMismatchTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.SubtypeSensitiveMatchingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.TargetPointcutSelectionTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsAtAspectJTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.autoproxy.AnnotationBindingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.autoproxy.AnnotationPointcutTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.autoproxy.AspectImplementingInterfaceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorAndLazyInitTargetSourceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.autoproxy.AtAspectJAfterThrowingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.autoproxy.AtAspectJAnnotationBindingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.autoproxy.benchmark.BenchmarkTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.autoproxy.spr3064.SPR3064Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.generic.AfterReturningGenericTypeMatchingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.generic.GenericBridgeMethodMatchingClassProxyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.generic.GenericBridgeMethodMatchingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.aspectj.generic.GenericParameterMatchingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.config.AopNamespaceHandlerAdviceTypeTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.config.AopNamespaceHandlerArgNamesTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.config.AopNamespaceHandlerReturningTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.config.AopNamespaceHandlerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.config.AopNamespaceHandlerThrowingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.config.MethodLocatingFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.config.PrototypeProxyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.framework.CglibProxyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.framework.JdkDynamicProxyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.framework.ObjenesisProxyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.framework.ProxyFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.framework.adapter.AdvisorAdapterRegistrationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.framework.autoproxy.AutoProxyCreatorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorInitTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreatorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.scope.ScopedProxyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.aop.target.CommonsPool2TargetSourceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.beans.factory.annotation.BridgeMethodAutowiringTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.beans.factory.support.QualifierAnnotationAutowireContextTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.beans.factory.xml.LookupMethodWrappedByCglibProxyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.beans.factory.xml.QualifierAnnotationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.beans.factory.xml.SimplePropertyNamespaceHandlerWithExpressionLanguageTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.beans.factory.xml.XmlBeanFactoryTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.beans.factory.xml.support.CustomNamespaceHandlerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.CacheReproTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.NoOpCacheManagerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.annotation.AnnotationCacheOperationSourceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.concurrent.ConcurrentMapCacheManagerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.concurrent.ConcurrentMapCacheTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.config.AnnotationDrivenCacheConfigTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.config.AnnotationNamespaceDrivenTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.config.CacheAdviceNamespaceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.config.CacheAdviceParserTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.config.CustomInterceptorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.config.EnableCachingIntegrationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.config.EnableCachingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.config.ExpressionCachingIntegrationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.interceptor.CacheErrorHandlerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.interceptor.CacheProxyFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.interceptor.CachePutEvaluationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.interceptor.CacheResolverCustomizationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.interceptor.CacheSyncFailureTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.interceptor.ExpressionEvaluatorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.cache.interceptor.SimpleKeyGeneratorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.AggressiveFactoryBeanInstantiationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.AnnotationBeanNameGeneratorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.AnnotationConfigApplicationContextExtensionsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.AnnotationConfigApplicationContextTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.AnnotationProcessorPerformanceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.AnnotationScopeMetadataResolverTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.AsmCircularImportDetectionTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.AutoProxyLazyInitTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.BeanMethodMetadataTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.BeanMethodPolymorphismTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ClassPathFactoryBeanDefinitionScannerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ClassPathScanningCandidateComponentProviderTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.CommonAnnotationBeanPostProcessorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ComponentScanAnnotationIntegrationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ComponentScanAnnotationRecursionTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ComponentScanAnnotationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ComponentScanParserScopedProxyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ComponentScanParserTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ComponentScanParserWithUserDefinedStrategiesTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ConfigurationClassAndBFPPTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ConfigurationClassPostConstructAndAutowiringTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ConfigurationClassPostProcessorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ConfigurationClassWithConditionTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ConfigurationWithFactoryBeanAndAutowiringTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ConfigurationWithFactoryBeanAndParametersTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ConfigurationWithFactoryBeanBeanEarlyDeductionTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.DeferredImportSelectorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.DestroyMethodInferenceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.DoubleScanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.EnableAspectJAutoProxyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.EnableLoadTimeWeavingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ImportAwareTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ImportBeanDefinitionRegistrarTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ImportSelectorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ImportVersusDirectRegistrationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.InvalidConfigurationClassDefinitionTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.KotlinConfigurationClassTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.LazyAutowiredAnnotationBeanPostProcessorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.NestedConfigurationClassTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ParserStrategyUtilsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.PrimitiveBeanLookupAndAutowiringTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.PropertySourceAnnotationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.ReflectionUtilsIntegrationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.RoleAndDescriptionAnnotationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.SimpleConfigTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.SimpleScanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.Spr11202Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.Spr11310Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.Spr12278Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.Spr12636Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.Spr15042Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.Spr15275Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.Spr16022Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.Spr16179Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.Spr16217Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.Spr3775InitDestroyLifecycleTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.Spr6602Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.Spr8954Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.AutowiredConfigurationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.BeanAnnotationAttributePropagationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.BeanMethodQualificationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.ConfigurationBeanNameTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.ConfigurationClassAspectIntegrationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.ConfigurationMetaAnnotationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.DuplicateConfigurationClassPostProcessorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.DuplicatePostProcessingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.ImportAnnotationDetectionTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.ImportResourceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.ImportTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.ImportWithConditionTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.ImportedConfigurationClassEnhancementTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.PackagePrivateBeanMethodInheritanceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.ScopingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.Spr10668Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.Spr10744Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.Spr12526Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.Spr7167Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.spr8955.Spr8955Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.configuration.spr9031.Spr9031Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.jsr330.SpringAtInjectTckTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.spr10546.Spr10546Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.spr12233.Spr12233Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.spr12334.Spr12334Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.spr16756.Spr16756Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.spr8761.Spr8761Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.annotation.spr8808.Spr8808Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.config.ContextNamespaceHandlerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.conversionservice.ConversionServiceContextConfigTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.event.AnnotationDrivenEventListenerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.event.ApplicationContextEventTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.event.ApplicationListenerMethodAdapterTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.event.EventPublicationInterceptorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.event.GenericApplicationListenerAdapterTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.event.LifecycleEventTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.event.PayloadApplicationEventTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.expression.AnnotatedElementKeyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.expression.ApplicationContextExpressionTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.expression.CachedExpressionEvaluatorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.expression.EnvironmentAccessorIntegrationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.expression.FactoryBeanAccessTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.expression.MapAccessorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.expression.MethodBasedEvaluationContextTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.groovy.GroovyApplicationContextDynamicBeanPropertyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.groovy.GroovyApplicationContextTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.groovy.GroovyBeanDefinitionReaderTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.i18n.LocaleContextHolderTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.index.CandidateComponentsIndexLoaderTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.index.CandidateComponentsIndexTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.ApplicationContextLifecycleTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.BeanDefinitionDslTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.BeanFactoryPostProcessorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.ClassPathXmlApplicationContextTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.ClassPathXmlApplicationContextTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.ConversionServiceFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.DefaultLifecycleProcessorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.EnvironmentIntegrationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.EnvironmentSecurityManagerIntegrationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.GenericApplicationContextExtensionsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.GenericApplicationContextTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.GenericXmlApplicationContextTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.LiveBeansViewTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.PropertyResourceConfigurerIntegrationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.PropertySourcesPlaceholderConfigurerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.ResourceBundleMessageSourceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.SerializableBeanFactoryMemoryLeakTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.SimpleThreadScopeTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.Spr7283Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.Spr7816Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.StaticApplicationContextMulticasterTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.StaticApplicationContextTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.context.support.StaticMessageSourceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.ejb.access.LocalSlsbInvokerInterceptorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.ejb.config.JeeNamespaceHandlerEventTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.ejb.config.JeeNamespaceHandlerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.datetime.DateFormatterTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.datetime.DateFormattingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.datetime.joda.DateTimeFormatterFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.datetime.joda.DateTimeFormatterFactoryTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.datetime.joda.JodaTimeFormattingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.datetime.standard.DateTimeFormatterFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.datetime.standard.DateTimeFormattingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.datetime.standard.InstantFormatterTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.number.CurrencyStyleFormatterTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.number.NumberFormattingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.number.NumberStyleFormatterTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.number.PercentStyleFormatterTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.number.money.MoneyFormattingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.support.FormattingConversionServiceFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.format.support.FormattingConversionServiceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.instrument.classloading.InstrumentableClassLoaderTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.instrument.classloading.ReflectiveLoadTimeWeaverTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.instrument.classloading.ResourceOverridingShadowingClassLoaderTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.access.MBeanClientInterceptorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.access.RemoteMBeanClientInterceptorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.CustomEditorConfigurerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.LazyInitMBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.MBeanExporterOperationsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.MBeanExporterTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.NotificationListenerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.NotificationPublisherTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.PropertyPlaceholderConfigurerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.annotation.AnnotationLazyInitMBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.annotation.AnnotationMetadataAssemblerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.annotation.JmxUtilsAnnotationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.assembler.InterfaceBasedMBeanInfoAssemblerCustomTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.assembler.InterfaceBasedMBeanInfoAssemblerMappedTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.assembler.InterfaceBasedMBeanInfoAssemblerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerMappedTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerMappedTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssemblerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.assembler.ReflectiveAssemblerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.naming.IdentityNamingStrategyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.naming.KeyNamingStrategyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.naming.PropertiesFileNamingStrategyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.naming.PropertiesNamingStrategyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.export.notification.ModelMBeanNotificationPublisherTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.support.ConnectorServerFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.support.JmxUtilsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jmx.support.MBeanServerFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jndi.JndiLocatorDelegateTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jndi.JndiObjectFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jndi.JndiPropertySourceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jndi.JndiTemplateEditorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.jndi.JndiTemplateTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.remoting.rmi.RmiSupportTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.remoting.support.RemoteInvocationUtilsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.annotation.AnnotationAsyncExecutionInterceptorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.annotation.AsyncExecutionTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.annotation.AsyncResultTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.annotation.EnableAsyncTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.annotation.EnableSchedulingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.concurrent.DecoratedThreadPoolTaskExecutorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.concurrent.ThreadPoolExecutorFactoryBeanTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.concurrent.ThreadPoolTaskExecutorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.config.AnnotationDrivenBeanDefinitionParserTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.config.ExecutorBeanDefinitionParserTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.config.LazyScheduledTasksBeanDefinitionParserTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.config.ScheduledTaskRegistrarTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.config.ScheduledTasksBeanDefinitionParserTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.config.SchedulerBeanDefinitionParserTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.support.CronSequenceGeneratorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.support.CronTriggerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scheduling.support.PeriodicTriggerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scripting.bsh.BshScriptEvaluatorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scripting.bsh.BshScriptFactoryTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scripting.config.ScriptingDefaultsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scripting.groovy.GroovyAspectIntegrationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scripting.groovy.GroovyAspectTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scripting.groovy.GroovyClassLoadingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scripting.groovy.GroovyScriptEvaluatorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scripting.groovy.GroovyScriptFactoryTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scripting.support.RefreshableScriptTargetSourceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scripting.support.ResourceScriptSourceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scripting.support.ScriptFactoryPostProcessorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scripting.support.StandardScriptFactoryTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.scripting.support.StaticScriptSourceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.ui.ModelExtensionsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.ui.ModelMapExtensionsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.ui.ModelMapTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.validation.DataBinderFieldAccessTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.validation.DataBinderTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.validation.DefaultMessageCodesResolverTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.validation.ValidationUtilsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.validation.beanvalidation.BeanValidationPostProcessorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.validation.beanvalidation.MethodValidationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.validation.beanvalidation.SpringValidatorAdapterTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/TEST-org.springframework.validation.beanvalidation.ValidatorFactoryTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/inline-functions.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/libs/spring-core-5.2.6.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/libs/spring-core-5.2.6.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/libs/kotlin-coroutines-5.2.6.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/libs/kotlin-coroutines-5.2.6.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-expression/build/reports/checkstyle/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-expression/build/reports/checkstyle/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-expression/build/reports/checkstyle/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-expression/build/reports/checkstyle/main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +947,35 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ClassPathXmlApplicationContextTests.testSingleConfigLocation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;org.springframework.context.support.ClassPathXmlApplicationContextTests.testSingleConfigLocation&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":spring-context:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ClassPathXmlApplicationContextTests.testSingleConfigLocation" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -143,6 +989,7 @@
       <workItem from="1586944805664" duration="4622000" />
       <workItem from="1586951902045" duration="2320000" />
       <workItem from="1586957398890" duration="1961000" />
+      <workItem from="1587000161146" duration="3577000" />
     </task>
     <servers />
   </component>
@@ -153,6 +1000,38 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1878" height="370" key="GridCell.Tab.0.bottom" timestamp="1587017066071">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066071" />
+    <state width="1878" height="370" key="GridCell.Tab.0.center" timestamp="1587017066070">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066070" />
+    <state width="1878" height="370" key="GridCell.Tab.0.left" timestamp="1587017066070">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066070" />
+    <state width="1878" height="370" key="GridCell.Tab.0.right" timestamp="1587017066071">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066071" />
+    <state width="1878" height="370" key="GridCell.Tab.1.bottom" timestamp="1587017066073">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066073" />
+    <state width="1878" height="370" key="GridCell.Tab.1.center" timestamp="1587017066072">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066072" />
+    <state width="1878" height="370" key="GridCell.Tab.1.left" timestamp="1587017066071">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066071" />
+    <state width="1878" height="370" key="GridCell.Tab.1.right" timestamp="1587017066072">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066072" />
     <state x="548" y="282" key="IDE.errors.dialog" timestamp="1586945048667">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -161,13 +1040,34 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586957438899" />
-    <state x="667" y="280" width="628" height="520" key="find.popup" timestamp="1586948258346">
+    <state x="667" y="280" width="966" height="520" key="find.popup" timestamp="1587006087164">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="667" y="280" width="628" height="520" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586948258346" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1586948174726">
+    <state x="667" y="280" width="966" height="520" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587006087164" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1587005651158">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586948174726" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587005651158" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-context/src/test/java/org/springframework/context/support/ClassPathXmlApplicationContextTests.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/ClassPathXmlApplicationContext.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/ClassPathXmlApplicationContext.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

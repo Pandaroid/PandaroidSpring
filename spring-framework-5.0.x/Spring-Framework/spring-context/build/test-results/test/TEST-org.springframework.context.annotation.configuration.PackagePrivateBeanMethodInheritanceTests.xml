@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.configuration.PackagePrivateBeanMethodInheritanceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:43:10" hostname="PandaroiddeiMac.local" time="0.02">
-  <properties/>
-  <testcase name="workaround()" classname="org.springframework.context.annotation.configuration.PackagePrivateBeanMethodInheritanceTests" time="0.012"/>
-  <testcase name="repro()" classname="org.springframework.context.annotation.configuration.PackagePrivateBeanMethodInheritanceTests" time="0.008"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.Spr11310Tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:43:24" hostname="PandaroiddeiMac.local" time="0.014">
-  <properties/>
-  <testcase name="orderedArray()" classname="org.springframework.context.annotation.Spr11310Tests" time="0.007"/>
-  <testcase name="orderedList()" classname="org.springframework.context.annotation.Spr11310Tests" time="0.006"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

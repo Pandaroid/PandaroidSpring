@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.RoleAndDescriptionAnnotationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:43:19" hostname="PandaroiddeiMac.local" time="0.017">
-  <properties/>
-  <testcase name="viaComponentScanning()" classname="org.springframework.context.annotation.RoleAndDescriptionAnnotationTests" time="0.008"/>
-  <testcase name="onBeanMethod()" classname="org.springframework.context.annotation.RoleAndDescriptionAnnotationTests" time="0.006"/>
-  <testcase name="onComponentClass()" classname="org.springframework.context.annotation.RoleAndDescriptionAnnotationTests" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

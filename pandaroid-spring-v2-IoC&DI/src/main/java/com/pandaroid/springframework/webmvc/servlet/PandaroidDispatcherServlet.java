@@ -77,7 +77,7 @@ public class PandaroidDispatcherServlet extends HttpServlet {
         // 匹配到的 beanMethod invoke
         // 这里还需要对 Parameters 的注解 PandaroidRequestParam 进行处理
         // 获取 Parameters beanMethod.getParameters() ，然后获取带注解的参数，根据注解进行参数填充
-        Map<String, String[]> reqParameterMap = req.getParameterMap();
+        // Map<String, String[]> reqParameterMap = req.getParameterMap();
         Parameter[] beanMethodParameters = beanMethod.getParameters();
         // 首先组织 Parameters
         ArrayList<Object> beanMethodInvokeParameters = new ArrayList<>(beanMethodParameters.length);
@@ -113,10 +113,11 @@ public class PandaroidDispatcherServlet extends HttpServlet {
             // 有 PandaroidRequestParam 注解，取出 value 作为请求参数名（即 reqParameterMap 的 key），从 reqParameterMap 中获取请求参数值
             String reqParamName = beanMethodParameter.getAnnotation(PandaroidRequestParam.class).value();
             // 取出请求 reqParamName 对应的 reqParamValues
-            String[] reqParamValues = reqParameterMap.get(reqParamName);
+            // String[] reqParamValues = reqParameterMap.get(reqParamName);
             // 将 reqParamValue 作为 args Object[] 数组的下一个值
             // 这里暂时只处理单个参数，不处理 Array 类型参数
-            String reqParamStrValue = reqParamValues[0];
+            // String reqParamStrValue = reqParamValues[0];
+            String reqParamStrValue = req.getParameter(reqParamName);
             Object reqParamValue = reqParamStrValue;
             System.out.println("[PandaroidDispatcherServlet doDispatch] beanMethodParameter.getType(): " + beanMethodParameter.getType());
             System.out.println("[PandaroidDispatcherServlet doDispatch] beanMethodParameter.getType().equals(Integer.class): " + beanMethodParameter.getType().equals(Integer.class));

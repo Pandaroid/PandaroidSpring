@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.support.ClassPathXmlApplicationContextTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:43:24" hostname="PandaroiddeiMac.local" time="1.894">
+<testsuite name="org.springframework.context.support.ClassPathXmlApplicationContextTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-16T03:29:04" hostname="PandaroiddeiMac.local" time="4647.015">
   <properties/>
-  <testcase name="testSingleConfigLocationWithClass()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.014"/>
-  <testcase name="testAliasWithPlaceholder()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.481"/>
-  <testcase name="testContextWithInvalidValueType()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.013"/>
-  <testcase name="testResourceAndInputStream()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.017"/>
-  <testcase name="testContextWithInvalidLazyClass()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.01"/>
-  <testcase name="testMessageSourceAware()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.153"/>
-  <testcase name="testContextWithClassNameThatContainsPlaceholder()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.008"/>
-  <testcase name="testGenericApplicationContextWithXmlBeanDefinitionsAndClassLoaderNull()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.123"/>
-  <testcase name="testAliasThatOverridesParent()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.009"/>
-  <testcase name="testChildWithProxy()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.115"/>
-  <testcase name="testSingleConfigLocation()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.002"/>
-  <testcase name="testResourceArrayPropertyEditor()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.1"/>
-  <testcase name="testGenericApplicationContextWithXmlBeanDefinitionsAndSpecifiedId()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.101"/>
-  <testcase name="testFactoryBeanAndApplicationListener()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.106"/>
-  <testcase name="testMultipleConfigLocationsWithClass()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.1"/>
-  <testcase name="testMultipleConfigLocations()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.305"/>
-  <testcase name="testAliasForParentContext()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.006"/>
-  <testcase name="testGenericApplicationContextWithXmlBeanDefinitions()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.105"/>
-  <testcase name="testAliasThatOverridesEarlierBean()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.004"/>
-  <testcase name="testConfigLocationPattern()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="0.119"/>
-  <system-out><![CDATA[21:43:25.352 [Test worker] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'someMessageSource' defined in class path resource [org/springframework/context/support/invalidValueType.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.lang.String' to required type 'boolean' for property 'useCodeAsDefaultMessage'; nested exception is java.lang.IllegalArgumentException: Invalid boolean value [xxx]
-]]></system-out>
+  <testcase name="testSingleConfigLocation()" classname="org.springframework.context.support.ClassPathXmlApplicationContextTests" time="4647.015"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

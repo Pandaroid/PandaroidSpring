@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scripting.support.StandardScriptFactoryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:43:33" hostname="PandaroiddeiMac.local" time="0.696">
-  <properties/>
-  <testcase name="testRefreshableJsr223FromTagWithInterface()" classname="org.springframework.scripting.support.StandardScriptFactoryTests" time="0.621"/>
-  <testcase name="testJsr223FromTagWithInterface()" classname="org.springframework.scripting.support.StandardScriptFactoryTests" time="0.044"/>
-  <testcase name="testInlineJsr223FromTagWithInterface()" classname="org.springframework.scripting.support.StandardScriptFactoryTests" time="0.031"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

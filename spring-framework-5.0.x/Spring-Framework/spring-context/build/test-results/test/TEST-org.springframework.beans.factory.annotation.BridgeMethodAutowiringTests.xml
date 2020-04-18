@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.annotation.BridgeMethodAutowiringTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-15T13:44:05" hostname="PandaroiddeiMac.local" time="0.011">
-  <properties/>
-  <testcase name="SPR8434()" classname="org.springframework.beans.factory.annotation.BridgeMethodAutowiringTests" time="0.011"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
