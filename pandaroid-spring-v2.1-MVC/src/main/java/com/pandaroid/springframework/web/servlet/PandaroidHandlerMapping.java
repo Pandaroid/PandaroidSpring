@@ -1,6 +1,7 @@
 package com.pandaroid.springframework.web.servlet;
 
 import java.lang.reflect.Method;
+import java.util.Objects;
 import java.util.regex.Pattern;
 
 /**
@@ -50,4 +51,22 @@ public class PandaroidHandlerMapping {
         this.controller = controller;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        PandaroidHandlerMapping that = (PandaroidHandlerMapping) o;
+        return pattern.equals(that.pattern) &&
+                method.equals(that.method) &&
+                controller.equals(that.controller);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(pattern, method, controller);
+    }
 }

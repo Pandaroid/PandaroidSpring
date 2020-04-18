@@ -2,7 +2,6 @@ package com.pandaroid.springframework.web.servlet;
 
 import com.pandaroid.springframework.annotation.PandaroidController;
 import com.pandaroid.springframework.annotation.PandaroidRequestMapping;
-import com.pandaroid.springframework.annotation.PandaroidRequestParam;
 import com.pandaroid.springframework.context.PandaroidApplicationContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,9 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.lang.reflect.Parameter;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -62,81 +59,61 @@ public class PandaroidDispatcherServlet extends HttpServlet {
      * @throws IOException
      */
     private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        // 先获取到 req 对应的 HandlerMapping
+        // 1. 先获取到 req 对应的 HandlerMapping
         PandaroidHandlerMapping handlerMapping = doGetHandlerMapping(req);
         // 如果没有配置，那么 404
         if(null == handlerMapping) {
-            resp.getWriter().write("404 Not Found!!!");
+            // 先统一封装处理返回结果的 processDispatchResult ：根据 ModelAndView 来处理
+            processDispatchResult(req, resp, new PandaroidModelAndView("404"));
             return ;
         }
-        Method beanMethod = handlerMapping.getMethod();
-        // 匹配到的 beanMethod invoke
-        // 这里还需要对 Parameters 的注解 PandaroidRequestParam 进行处理
-        // 获取 Parameters beanMethod.getParameters() ，然后获取带注解的参数，根据注解进行参数填充
-        Map<String, String[]> reqParameterMap = req.getParameterMap();
-        Parameter[] beanMethodParameters = beanMethod.getParameters();
-        // 首先组织 Parameters
-        ArrayList<Object> beanMethodInvokeParameters = new ArrayList<>(beanMethodParameters.length);
-        // Object[] beanMethodInvokeParameters = new Object[]{req, resp};
-        // 迭代 beanMethodParameters ，看是否注解 PandaroidRequestParam
-        for (Parameter beanMethodParameter : beanMethodParameters) {
-            // 如果是 HttpServletRequest ，则直接设入 req 值
-            if(beanMethodParameter.getType().equals(HttpServletRequest.class)) {
-                beanMethodInvokeParameters.add(req);
-                continue;
-            }
-            // 如果是 HttpServletResponse ，则直接设入 resp 值
-            if(beanMethodParameter.getType().equals(HttpServletResponse.class)) {
-                beanMethodInvokeParameters.add(resp);
-                continue;
-            }
-            // 没有 PandaroidRequestParam 注解，直接取参数的名字
-            // 没有开启 -parameters ，默认获取到的 reqParamName 为 arg0 、arg1 、arg2 ... 这种形式
-            // 正常情况下使用 JVM 不会默认保留参数名字，因为这个可能导致 class 文件过大或其他问题
-            // 所以最好还是通过注解绑定 requestParam
-            /*String reqParamName = beanMethodParameter.getName();
-            // 有 PandaroidRequestParam 注解，取出 value 作为请求参数名（即 reqParameterMap 的 key），从 reqParameterMap 中获取请求参数值
-            if(beanMethodParameter.isAnnotationPresent(PandaroidRequestParam.class)) {
-                String reqParamCustomeName = beanMethodParameter.getAnnotation(PandaroidRequestParam.class).value();
-                if(null != reqParamCustomeName && !("".equals(reqParamCustomeName.trim()))) {
-                    reqParamName = reqParamCustomeName;
-                }
-            }*/
-            // 没有 PandaroidRequestParam 注解，直接跳过不处理
-            if(!beanMethodParameter.isAnnotationPresent(PandaroidRequestParam.class)) {
-                continue;
-            }
-            // 有 PandaroidRequestParam 注解，取出 value 作为请求参数名（即 reqParameterMap 的 key），从 reqParameterMap 中获取请求参数值
-            String reqParamName = beanMethodParameter.getAnnotation(PandaroidRequestParam.class).value();
-            // 取出请求 reqParamName 对应的 reqParamValues
-            String[] reqParamValues = reqParameterMap.get(reqParamName);
-            // 将 reqParamValue 作为 args Object[] 数组的下一个值
-            // 这里暂时只处理单个参数，不处理 Array 类型参数
-            String reqParamStrValue = reqParamValues[0];
-            Object reqParamValue = reqParamStrValue;
-            System.out.println("[PandaroidDispatcherServlet doDispatch] beanMethodParameter.getType(): " + beanMethodParameter.getType());
-            System.out.println("[PandaroidDispatcherServlet doDispatch] beanMethodParameter.getType().equals(Integer.class): " + beanMethodParameter.getType().equals(Integer.class));
-            // 简单的对类型进行转化，处理用到的 Integer 类型
-            if(beanMethodParameter.getType().equals(Integer.class)) {
-                reqParamValue = Integer.valueOf(reqParamStrValue);
-            }
-            // 存入参数数组
-            beanMethodInvokeParameters.add(reqParamValue);
+        // 增加 HandlerAdapter ，与 HandlerMapping 一一对应？具体做法：
+        // 2. 根据一个 HandlerMapping 去获得一个 HandlerAdapter
+        // HandlerAdapter 动态解析 HandlerMapping 的参数？
+        // 适配器模式：用于亡羊补牢。没有提前设计好，所以使用适配器
+        // 这里 HandlerAdapter 解析形参和返回结果
+        PandaroidHandlerAdapter handlerAdapter = doGetHandlerAdapter(handlerMapping);
+        // 3. 解析某一个方法的形参和返回值之后，统一封装为 ModelAndView 对象
+        if(null == handlerAdapter) {
+            processDispatchResult(req, resp, new PandaroidModelAndView("500"));
+            return ;
         }
-        // 暴力访问调用 beanMethod.invoke()
-        beanMethod.setAccessible(true);
-        // 这里获取 beanName ，通过当前 beanMethod 找到它被声明的 Class ，然后获取到 SimpleName（与初始化 IoC 的时候 PandaroidController 的 key 一致）
-        // String beanName = applicationContext.toLowerFirstCase(beanMethod.getDeclaringClass().getSimpleName());
-        Object[] beanMethodInvokeParametersObjects = beanMethodInvokeParameters.toArray();
-        // System.out.println("[PandaroidDispatcherServlet doDispatch] beanName: " + beanName);
-        // System.out.println("[PandaroidDispatcherServlet doDispatch] beanMethodInvokeParametersObjects: " + Arrays.toString(beanMethodInvokeParametersObjects));
-        try {
-            // beanMethod 中通过 resp 返回结果
-            beanMethod.invoke(handlerMapping.getController(), beanMethodInvokeParametersObjects);
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
+        PandaroidModelAndView modelAndView = handlerAdapter.handler(req, resp, handlerMapping);
+        // 暂时先统一处理 ModelAndView ，把 ModelAndView 通过 processDispatchResult 处理成 ViewResolver ，再通过 ViewResolver 渲染具体的页面、字符串等
+        processDispatchResult(req, resp, modelAndView);
+    }
+
+    private final Map<PandaroidHandlerMapping, PandaroidHandlerAdapter> handlerMappings2AdaptersMap = new HashMap<>();
+    private PandaroidHandlerAdapter doGetHandlerAdapter(PandaroidHandlerMapping handlerMapping) {
+        if(null == handlerMapping) {
+            return null;
+        }
+        return handlerMappings2AdaptersMap.get(handlerMapping);
+    }
+
+    /**
+     * 结果可能是页面、对象、字符串、json 、空等等
+     * 如果 modelAndView 为空，则直接通过 resp 进行输出即可
+     * 如果不为空，则渲染相应的 Template 页面
+     * @param req
+     * @param resp
+     * @param modelAndView
+     */
+    private void processDispatchResult(HttpServletRequest req, HttpServletResponse resp, PandaroidModelAndView modelAndView) {
+        if(null == modelAndView) {
+            return ;
+        }
+        switch (modelAndView.getViewName()) {
+            case "404":
+                try {
+                    resp.getWriter().write("404 Not Found!!!");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                break;
+            case "500":
+                break;
+            default:
         }
     }
 
@@ -186,27 +163,65 @@ public class PandaroidDispatcherServlet extends HttpServlet {
         // 4. 依赖注入 DI
         System.out.println("[PandaroidDispatcherServlet init] 4. 依赖注入 DI");
         doDiAutowired();*/
+        // 完成 IoC 、DI 与之前非委派（逻辑都揉在本 DispatcherServlet 里）MVC 的对接
         // 5. 初始化 MVC HandlerMappting
+        // 模仿 Spring 的 DispatcherServlet 初始化 MVC 九大组件，下面的 initHandlerMappings() 也包含在其中
         System.out.println("[PandaroidDispatcherServlet init] 5. 初始化 MVC HandlerMapping");
-        doInitHandlerMapping();
+        initStrategies(applicationContext);
+        // initHandlerMappings();
         System.out.println("[PandaroidDispatcherServlet init] init 完毕。Started Pandaroid Spring");
+    }
+
+    /**
+     * 九大组件的初始化是有顺序的
+     * @param applicationContext
+     */
+    private void initStrategies(PandaroidApplicationContext applicationContext) {
+        // 多文件上传组件
+        // initMultipartResolver(applicationContext);
+        // 初始化本地语言环境：根据客户端 locale 切换不同语言的展示
+        // initLocaleResolver(applicationContext);
+        // 初始化主题模板处理器
+        // initThemeResolver(applicationContext);
+        // 初始化 HandlerMapping
+        initHandlerMappings(applicationContext);
+        // 初始化 handler 适配器：解析 HandlerMapping 参数和返回 ModelAndView
+        initHandlerAdapters(applicationContext);
+        // 初始化异常拦截器
+        // initHandlerExceptionResolvers(applicationContext);
+        // 初始化视图预处理器
+        // initRequestToViewNameTranslator(applicationContext);
+        // 初始化视图转换器
+        initViewResolvers(applicationContext);
+        // FlashMap 管理器
+        // initFlashMapManager(applicationContext);
+    }
+
+    private void initViewResolvers(PandaroidApplicationContext applicationContext) {
+
+    }
+
+    private void initHandlerAdapters(PandaroidApplicationContext applicationContext) {
+        for (PandaroidHandlerMapping handlerMapping : handlerMappings) {
+            handlerMappings2AdaptersMap.put(handlerMapping, new PandaroidHandlerAdapter());
+        }
     }
 
     /**
      * 实际 Spring 是以 ArrayList 保存 handlerMapping
      * 原因：涉及到正则匹配 url ，用 Map 就没有优势了，还是用 ArrayList 更合适
      * 我们也可以看到其他如 Golang 、Node.js 的 Web 框架中，对于 router 也有类似的涉及：按顺序正则匹配第一个的
+     * // private Map<String, Method> handlerMapping = new HashMap<String, Method>();
      */
-    // private Map<String, Method> handlerMapping = new HashMap<String, Method>();
-    private List<PandaroidHandlerMapping> handlerMappings = new ArrayList<>();
-    private void doInitHandlerMapping() {
+    private final List<PandaroidHandlerMapping> handlerMappings = new ArrayList<>();
+    private void initHandlerMappings(PandaroidApplicationContext applicationContext) {
         // applicationContext.getBeanDefinitionCount() 获得 IoC 容器中已经初始化的 BeanDefinition 的个数
-        if(applicationContext.getBeanDefinitionCount() == 0) {
+        if(this.applicationContext.getBeanDefinitionCount() == 0) {
             return ;
         }
         // 迭代 IoC 容器中的 Bean ，处理 PandaroidController 注解的 Action 其中的 PandaroidRequestMapping 注解
-        for (String beanDefinitionName : applicationContext.getBeanDefinitionNames()) {
-            Object beanInstance = applicationContext.getBean(beanDefinitionName);
+        for (String beanDefinitionName : this.applicationContext.getBeanDefinitionNames()) {
+            Object beanInstance = this.applicationContext.getBean(beanDefinitionName);
             Class<?> iocBeanClazz = beanInstance.getClass();
             // 如果当前 Bean 不是 PandaroidController ，则不用处理
             if(!iocBeanClazz.isAnnotationPresent(PandaroidController.class)) {
@@ -223,7 +238,7 @@ public class PandaroidDispatcherServlet extends HttpServlet {
             // 这里使用 getMethods ，只获取 public 的方法来进行处理
             Method[] beanMethods = iocBeanClazz.getMethods();
             // 没有 beanMethods ，则相当于没有定义具体的 handler ，则没有 handlerMapping
-            if(null == beanMethods || beanMethods.length == 0) {
+            if(beanMethods.length == 0) {
                 continue;
             }
             // 有 beanMethods ，迭代处理带 PandaroidRequestMapping 的项
@@ -235,7 +250,7 @@ public class PandaroidDispatcherServlet extends HttpServlet {
                 // 注解了 PandaroidRequestMapping 的方法，取 value 看 url ，跟前面的 beanClazzUrl 拼接完整的 url
                 String beanMethodUrl = beanMethod.getAnnotation(PandaroidRequestMapping.class).value();
                 // 如果 beanMethodUrl 为空，则没有具体的 url 对应处理，跳过（或者抛出异常？）
-                if(null == beanMethodUrl || "".equals(beanMethodUrl.trim())) {
+                if("".equals(beanMethodUrl.trim())) {
                     continue;
                 }
                 // beanMethodUrl 不为空，则进行完整 url 拼接
@@ -244,14 +259,14 @@ public class PandaroidDispatcherServlet extends HttpServlet {
                 handlerMappingUrlRegex = handlerMappingUrlRegex.replaceAll("/+", "/");
                 // 以 handlerMappingUrl 为 key ，以 beanMethod 为 value ，存入 HandlerMapping
                 // 处理的时候，根据请求 url 取出对应的 beanMethod ，进行 invoke
-                // handlerMapping.put(handlerMappingUrl, beanMethod);
+                // 原来的处理：handlerMapping.put(handlerMappingUrl, beanMethod);
                 Pattern handlerMappingUrlRegexPattern = Pattern.compile(handlerMappingUrlRegex);
                 handlerMappings.add(new PandaroidHandlerMapping(handlerMappingUrlRegexPattern, beanInstance, beanMethod));
                 // 打印
-                System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMappings.add handlerMappingUrlRegex: " + handlerMappingUrlRegex);
-                System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMappings.add handlerMappingUrlRegexPattern: " + handlerMappingUrlRegexPattern);
-                System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMappings.add beanInstance: " + beanInstance);
-                System.out.println("[PandaroidDispatcherServlet doInitHandlerMapping] handlerMappings.add beanMethod: " + beanMethod);
+                System.out.println("[PandaroidDispatcherServlet initHandlerMappings] handlerMappings.add handlerMappingUrlRegex: " + handlerMappingUrlRegex);
+                System.out.println("[PandaroidDispatcherServlet initHandlerMappings] handlerMappings.add handlerMappingUrlRegexPattern: " + handlerMappingUrlRegexPattern);
+                System.out.println("[PandaroidDispatcherServlet initHandlerMappings] handlerMappings.add beanInstance: " + beanInstance);
+                System.out.println("[PandaroidDispatcherServlet initHandlerMappings] handlerMappings.add beanMethod: " + beanMethod);
             }
         }
     }
