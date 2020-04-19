@@ -8,6 +8,7 @@
         </compilerSettings>
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/../../../spring-expression/build/classes/kotlin/testFixtures" />
+          <option name="classpath" value="$MODULE_DIR$/../../../spring-expression/build/libs/spring-expression-5.2.6.BUILD-SNAPSHOT.jar:/Users/pandaroid/Dev/GitRepos/MyGitHub/PandaroidSpring/spring-framework-5.2.6/Spring-Framework-gitee/spring-core/build/libs/spring-core-5.2.6.BUILD-SNAPSHOT.jar:/Users/pandaroid/Dev/GitRepos/MyGitHub/PandaroidSpring/spring-framework-5.2.6/Spring-Framework-gitee/spring-core/build/libs/spring-cglib-repack-3.3.0.jar:/Users/pandaroid/Dev/GitRepos/MyGitHub/PandaroidSpring/spring-framework-5.2.6/Spring-Framework-gitee/spring-core/build/libs/spring-objenesis-repack-3.1.jar:/Users/pandaroid/Dev/GitRepos/MyGitHub/PandaroidSpring/spring-framework-5.2.6/Spring-Framework-gitee/spring-jcl/build/libs/spring-jcl-5.2.6.BUILD-SNAPSHOT.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="spring-expression_testFixtures" />

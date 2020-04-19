@@ -8,6 +8,7 @@
         </compilerSettings>
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/testFixtures" />
+          <option name="classpath" value="$MODULE_DIR$/../../build/libs/spring-5.2.6.BUILD-SNAPSHOT.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="spring_testFixtures" />
