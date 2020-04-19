@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb208804-8915-4794-91d0-057566396a10" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1aZYuRixmZFcU3sMWGO0do9NCP2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ClassPathXmlApplicationContextTests.testSingleConfigLocation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;org.springframework.context.support.ClassPathXmlApplicationContextTests.testSingleConfigLocation&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":spring-context:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ClassPathXmlApplicationContextTests.testSingleConfigLocation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb208804-8915-4794-91d0-057566396a10" name="Default Changelist" comment="" />
+      <created>1586944804175</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586944804175</updated>
+      <workItem from="1586944805664" duration="4622000" />
+      <workItem from="1586951902045" duration="2320000" />
+      <workItem from="1586957398890" duration="1961000" />
+      <workItem from="1587000161146" duration="3577000" />
+      <workItem from="1587193361833" duration="1622000" />
+      <workItem from="1587266682836" duration="87000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="370" key="GridCell.Tab.0.bottom" timestamp="1587017066071">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066071" />
+    <state width="1878" height="370" key="GridCell.Tab.0.center" timestamp="1587017066070">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066070" />
+    <state width="1878" height="370" key="GridCell.Tab.0.left" timestamp="1587017066070">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066070" />
+    <state width="1878" height="370" key="GridCell.Tab.0.right" timestamp="1587017066071">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066071" />
+    <state width="1878" height="370" key="GridCell.Tab.1.bottom" timestamp="1587017066073">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066073" />
+    <state width="1878" height="370" key="GridCell.Tab.1.center" timestamp="1587017066072">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066072" />
+    <state width="1878" height="370" key="GridCell.Tab.1.left" timestamp="1587017066071">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066071" />
+    <state width="1878" height="370" key="GridCell.Tab.1.right" timestamp="1587017066072">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="370" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587017066072" />
+    <state x="548" y="282" key="IDE.errors.dialog" timestamp="1586945048667">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="548" y="282" key="IDE.errors.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586945048667" />
+    <state x="448" y="121" key="SettingsEditor" timestamp="1586957438899">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586957438899" />
+    <state x="667" y="280" width="966" height="520" key="find.popup" timestamp="1587006087164">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="667" y="280" width="966" height="520" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587006087164" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1587205404261">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587205404261" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-context/src/test/java/org/springframework/context/support/ClassPathXmlApplicationContextTests.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/ClassPathXmlApplicationContext.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/ClassPathXmlApplicationContext.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
